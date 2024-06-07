@@ -1,0 +1,7 @@
+# Blender 3.6.1 MTL File: 'Objects.blend'
+# www.blender.org
+newmtl Barrel_Side
+map_Kd minecraft:block/barrel_side
+
+newmtl Barrel_Top
+map_Kd minecraft:block/barrel_top

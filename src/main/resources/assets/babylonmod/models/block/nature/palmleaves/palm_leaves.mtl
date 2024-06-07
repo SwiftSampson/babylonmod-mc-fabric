@@ -1,0 +1,5 @@
+# Blender MTL File: 'palm leaves.blend'
+# Material Count: 1
+
+newmtl Palm_Frond
+map_Kd babylonmod:block/palm_frond

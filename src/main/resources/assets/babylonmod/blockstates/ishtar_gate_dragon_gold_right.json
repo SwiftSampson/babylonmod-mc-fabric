@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "variant=1": {
+      "model": "babylonmod:block/ishtargate/ishtar_gate_dragon_gold_right1",
+      "y": 360
+    },
+    "variant=2": {
+      "model": "babylonmod:block/ishtargate/ishtar_gate_dragon_gold_right2",
+      "y": 180
+    },
+    "variant=3": {
+      "model": "babylonmod:block/ishtargate/ishtar_gate_dragon_gold_right3",
+      "y": 270
+    },
+    "variant=4": {
+      "model": "babylonmod:block/ishtargate/ishtar_gate_dragon_gold_right4",
+      "y": 90
+    }
+  }
+}

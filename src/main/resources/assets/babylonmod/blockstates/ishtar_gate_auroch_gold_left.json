@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "variant=1": {
+      "model": "babylonmod:block/ishtargate/ishtar_gate_auroch_gold_left1",
+      "y": 360
+    },
+    "variant=2": {
+      "model": "babylonmod:block/ishtargate/ishtar_gate_auroch_gold_left2",
+      "y": 180
+    },
+    "variant=3": {
+      "model": "babylonmod:block/ishtargate/ishtar_gate_auroch_gold_left3",
+      "y": 270
+    },
+    "variant=4": {
+      "model": "babylonmod:block/ishtargate/ishtar_gate_auroch_gold_left4",
+      "y": 90
+    }
+  }
+}

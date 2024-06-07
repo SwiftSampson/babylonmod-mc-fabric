@@ -1,0 +1,8 @@
+# Blender 3.6.1 MTL File: 'Bridge Back.blend'
+# www.blender.org
+
+newmtl Sandstone_Pattern
+map_Kd babylonmod:block/sandstone_muddy_top
+
+newmtl Sandstone_Pattern.001
+map_Kd babylonmod:block/bricks_floor

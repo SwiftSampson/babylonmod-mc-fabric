@@ -1,0 +1,24 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade1"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade1", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade1", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade1", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade2"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade2", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade2", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade2", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade3"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade3", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade3", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_bottom_fade3", "y": 270 }
+    ]
+  }
+}
+ 

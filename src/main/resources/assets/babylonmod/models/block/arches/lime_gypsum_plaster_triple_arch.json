@@ -1,0 +1,9 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "model": "babylonmod:models/block/arches/lime_gypsum_plaster_triple_arch.obj",
+  "textures": {
+    "particle": "babylonmod:block/lime_gypsum_plaster"
+  }
+}

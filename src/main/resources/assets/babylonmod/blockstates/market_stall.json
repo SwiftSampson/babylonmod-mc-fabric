@@ -1,0 +1,72 @@
+{
+  "variants": {
+    "is_center=true": {
+      "model": "babylonmod:block/market/market_stall_center"
+    },
+    "facing=east,shape=outer_left,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,shape=outer_right,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_corner",
+      "y": 270
+    },
+    "facing=east,shape=straight,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_side",
+      "y": 270
+    },
+    "facing=north,shape=outer_left,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=north,shape=outer_right,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=north,shape=straight,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_side",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,shape=outer_left,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_corner",
+      "uvlock": true
+    },
+    "facing=south,shape=outer_right,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_corner",
+      "uvlock": true
+    },
+    "facing=south,shape=straight,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_side",
+      "uvlock": true
+    },
+    "shape=inner_left,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_side",
+      "uvlock": true,
+      "y": 90
+    },
+    "shape=inner_right,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_side",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,shape=outer_left,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,shape=outer_right,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,shape=straight,is_center=false": {
+      "model": "babylonmod:block/market/market_stall_side",
+      "uvlock": true,
+      "y": 90
+    }
+  }
+}

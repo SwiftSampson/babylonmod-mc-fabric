@@ -1,0 +1,11 @@
+# Blender MTL File: 'Objects.blend'
+# Material Count: 3
+
+newmtl Barrel_Fill
+map_Kd minecraft:block/dirt
+
+newmtl Barrel_Side
+map_Kd minecraft:block/barrel_side
+
+newmtl Barrel_Top
+map_Kd minecraft:block/barrel_top

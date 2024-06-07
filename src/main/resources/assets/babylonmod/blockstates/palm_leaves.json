@@ -1,0 +1,365 @@
+{
+  "__comment": "Palana_babylon - 2023",
+  "variants": {
+    "facing=east,size=small": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_1",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_2",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_3",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_4",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_5",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_6",
+        "y": 180
+      }
+    ],
+    "facing=west,size=small": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_1",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_2",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_3",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_4",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_5",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_6",
+        "y": 360
+      }
+    ],
+    "facing=south,size=small": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_1",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_2",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_3",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_4",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_5",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_6",
+        "y": 270
+      }
+    ],
+    "facing=north,size=small": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_1",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_2",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_3",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_4",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_5",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_small_6",
+        "y": 90
+      }
+    ],
+    "facing=east,size=large": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_1",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_2",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_3",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_4",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_5",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_6",
+        "y": 180
+      }
+    ],
+    "facing=west,size=large": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_1",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_2",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_3",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_4",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_5",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_6",
+        "y": 360
+      }
+    ],
+    "facing=south,size=large": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_1",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_2",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_3",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_4",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_5",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_6",
+        "y": 270
+      }
+    ],
+    "facing=north,size=large": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_1",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_2",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_3",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_4",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_5",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_large_6",
+        "y": 90
+      }
+    ],
+    "facing=east,size=medium": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_1",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_2",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_3",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_4",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_5",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_6",
+        "y": 180
+      }
+    ],
+    "facing=west,size=medium": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_1",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_2",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_3",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_4",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_5",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_6",
+        "y": 360
+      }
+    ],
+    "facing=south,size=medium": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_1",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_2",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_3",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_4",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_5",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_6",
+        "y": 270
+      }
+    ],
+    "facing=north,size=medium": [
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_1",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_2",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_3",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_4",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_5",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/nature/palmleaves/palm_leaves_6",
+        "y": 90
+      }
+    ]
+  }
+}

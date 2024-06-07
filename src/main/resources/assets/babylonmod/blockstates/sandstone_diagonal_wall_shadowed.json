@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/sandstone_diagonal_wall_shadowed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "babylonmod:block/sandstone_diagonal_wall_shadowed",
+      "y": 0
+    },
+    "facing=north": {
+      "model": "babylonmod:block/sandstone_diagonal_wall_shadowed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "babylonmod:block/sandstone_diagonal_wall_shadowed",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "variants": {
+    "facing=east": [
+      {
+        "model": "babylonmod:block/walls/chiseled_sandstone_stepped_block_bottom",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/chiseled_sandstone_stepped_block_bottom1",
+        "y": 360
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "babylonmod:block/walls/chiseled_sandstone_stepped_block_bottom",
+        "y": 180,
+        "weight": 4
+      },
+      {
+        "model": "babylonmod:block/walls/chiseled_sandstone_stepped_block_bottom1",
+        "y": 180
+      }
+    ],
+    "facing=north": [
+      {
+        "model": "babylonmod:block/walls/chiseled_sandstone_stepped_block_bottom",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/chiseled_sandstone_stepped_block_bottom1",
+        "y": 270
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "babylonmod:block/walls/chiseled_sandstone_stepped_block_bottom",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/chiseled_sandstone_stepped_block_bottom1",
+        "y": 90
+      }
+    ]
+  }
+}

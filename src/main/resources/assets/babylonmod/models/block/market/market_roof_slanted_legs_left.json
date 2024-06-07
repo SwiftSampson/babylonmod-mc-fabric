@@ -1,0 +1,11 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "ambientocclusion": true,
+  "render_type": "translucent",
+  "model": "babylonmod:models/block/market/market_roof_slanted_legs_left.obj",
+  "textures": {
+    "particle": "minecraft:block/white_wool"
+  }
+}

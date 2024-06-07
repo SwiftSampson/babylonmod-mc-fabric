@@ -1,0 +1,23 @@
+{
+  "credit": "Made with Blockbench",
+  "ambientocclusion": false,
+  "render_type": "translucent",
+  "textures": {
+    "0": "babylonmod:block/lapis_brick_match_sandstone",
+    "particle": "babylonmod:block/lapis_brick_match_sandstone"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 3],
+      "to": [8, 16, 13],
+      "faces": {
+        "north": { "uv": [0, 0, 8, 16], "texture": "#0" },
+        "east": { "uv": [0, 0, 10, 16], "texture": "#0" },
+        "south": { "uv": [0, 0, 8, 16], "texture": "#0" },
+        "west": { "uv": [0, 0, 10, 16], "texture": "#0" },
+        "up": { "uv": [0, 0, 8, 10], "texture": "#0" },
+        "down": { "uv": [0, 0, 8, 10], "texture": "#0" }
+      }
+    }
+  ]
+}

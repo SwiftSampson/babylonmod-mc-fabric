@@ -1,0 +1,12 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "ambientocclusion": true,
+  "render_type": "translucent",
+  "parent": "minecraft:block/cube_all",
+  "model": "babylonmod:models/block/items/market_tray_filled_dates.obj",
+  "textures": {
+    "particle": "minecraft:block/oak_planks"
+  }
+}

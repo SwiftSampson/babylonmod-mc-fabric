@@ -1,0 +1,5 @@
+# Blender 3.6.1 MTL File: 'Three Arch.blend'
+# www.blender.org
+
+newmtl Lapis_Main
+map_Kd babylonmod:block/lapis_main

@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"1": "babylonmod:block/sandstone_top_dark"
+	},
+	"elements": [
+		{
+			"from": [-2, 0, 0],
+			"to": [6, 4, 16],
+			"faces": {
+				"north": {"uv": [7.5, 8, 16, 12.5], "texture": "#1"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#1"},
+				"south": {"uv": [4.5, 12, 11.5, 16], "texture": "#1"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 12.5], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 11.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-2, 4, 2],
+			"to": [6, 8, 14],
+			"faces": {
+				"north": {"uv": [7.5, 8, 16, 12.5], "texture": "#1"},
+				"east": {"uv": [13.5, 8, 2.5, 12], "texture": "#1"},
+				"south": {"uv": [3.5, 4, 12, 8.5], "texture": "#1"},
+				"west": {"uv": [2.5, 8, 13.5, 12], "texture": "#1"},
+				"up": {"uv": [16, 0, 8, 12.5], "texture": "#1"},
+				"down": {"uv": [0, 4, 16, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [-2, 8, 4],
+			"to": [6, 12, 12],
+			"faces": {
+				"north": {"uv": [8, 8, 16, 12.5], "texture": "#1"},
+				"east": {"uv": [12, 4, 3.5, 8], "texture": "#1"},
+				"south": {"uv": [8.5, 0, 0, 4.5], "texture": "#1"},
+				"west": {"uv": [3.5, 4, 12, 8], "texture": "#1"},
+				"up": {"uv": [0, 0, 7, 12.5], "texture": "#1"},
+				"down": {"uv": [0, 5, 16, 13], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [-2, 12, 6],
+			"to": [6, 16, 10],
+			"faces": {
+				"north": {"uv": [3.5, 4, 12, 8.5], "texture": "#1"},
+				"east": {"uv": [0, 0, 8.5, 4.5], "texture": "#1"},
+				"south": {"uv": [7.5, 8, 16, 12.5], "texture": "#1"},
+				"west": {"uv": [0, 0, 8.5, 4.5], "texture": "#1"},
+				"up": {"uv": [8.5, 0, 0, 4.5], "texture": "#1"},
+				"down": {"uv": [0, 5, 16, 9], "texture": "#missing"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

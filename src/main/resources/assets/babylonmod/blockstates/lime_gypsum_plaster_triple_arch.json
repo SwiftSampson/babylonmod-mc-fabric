@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "facing=east,half=bottom": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch",
+      "y": 360
+    },
+    "facing=west,half=bottom": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch",
+      "y": 180
+    },
+    "facing=north,half=bottom": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch",
+      "y": 270
+    },
+    "facing=south,half=bottom": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch",
+      "y": 90
+    },
+    "facing=east,half=top": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch_top"
+    },
+    "facing=south,half=top": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch_top",
+      "y": 90
+    },
+    "facing=west,half=top": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch_top",
+      "y": 180
+    },
+    "facing=north,half=top": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch_top",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Blender 3.6.1 MTL File: 'Objects.blend'
+# www.blender.org
+
+newmtl Sack
+map_Kd babylonmod:block/sack
+
+newmtl Wheat
+map_Kd babylonmod:block/barley_fill

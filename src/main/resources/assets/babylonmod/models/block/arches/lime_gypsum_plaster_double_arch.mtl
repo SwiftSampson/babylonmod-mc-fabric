@@ -1,0 +1,5 @@
+# Blender 3.6.1 MTL File: 'Three Arch.blend'
+# www.blender.org
+
+newmtl Material.001
+map_Kd babylonmod:block/lime_gypsum_plaster

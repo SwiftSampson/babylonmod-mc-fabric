@@ -1,0 +1,190 @@
+{
+  "variants": {
+    "facing=east,type=bottom,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_bottom",
+      "y": 180
+    },
+    "facing=east,type=top,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 180
+    },
+    "facing=west,type=bottom,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_bottom"
+    },
+    "facing=west,type=top,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_top"
+    },
+    "facing=north,type=bottom,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_bottom",
+      "y": 90
+    },
+    "facing=north,type=top,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 90
+    },
+    "facing=south,type=bottom,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_bottom",
+      "y": 270
+    },
+    "facing=south,type=top,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 270
+    },
+    "facing=north,type=double,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 90
+    },
+    "facing=south,type=double,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 270
+    },
+    "facing=east,type=double,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 180
+    },
+    "facing=west,type=double,is_above_fence=false": {
+      "model": "babylonmod:block/market/market_roof_slanted_top"
+    },
+
+    "facing=north,is_above_fence=true,location=middle,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=middle,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=middle,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=middle,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_top"
+    },
+
+    "facing=north,is_above_fence=true,location=middle,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_bottom",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=middle,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_bottom",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=middle,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_bottom",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=middle,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_bottom"
+    },
+
+    "facing=north,is_above_fence=true,location=middle,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=middle,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=middle,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_top",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=middle,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_top"
+    },
+
+    "facing=north,is_above_fence=true,location=left,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=left,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=left,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=left,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left"
+    },
+
+    "facing=north,is_above_fence=true,location=left,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=left,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=left,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=left,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left"
+    },
+    "facing=north,is_above_fence=true,location=left,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left_bottom",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=left,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left_bottom",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=left,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left_bottom",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=left,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_left_bottom"
+    },
+    "facing=north,is_above_fence=true,location=right,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=right,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=right,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=right,type=double": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right"
+    },
+
+    "facing=north,is_above_fence=true,location=right,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=right,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=right,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=right,type=top": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right"
+    },
+    "facing=north,is_above_fence=true,location=right,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right_bottom",
+      "y": 90
+    },
+    "facing=south,is_above_fence=true,location=right,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right_bottom",
+      "y": 270
+    },
+    "facing=east,is_above_fence=true,location=right,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right_bottom",
+      "y": 180
+    },
+    "facing=west,is_above_fence=true,location=right,type=bottom": {
+      "model": "babylonmod:block/market/market_roof_slanted_legs_right_bottom"
+    }
+  }
+}

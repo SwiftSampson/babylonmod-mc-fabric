@@ -1,0 +1,12 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "ambientocclusion": true,
+  "backfaceculling": true,
+  "render_type": "translucent",
+  "model": "babylonmod:models/block/nature/cypress_pot_small.obj",
+  "textures": {
+    "particle": "minecraft:block/oak_leaves"
+  }
+}

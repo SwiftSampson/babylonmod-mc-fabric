@@ -1,0 +1,19 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/nature/grass_two", "weight": 60 },
+      { "model": "babylonmod:block/nature/grass_two", "weight": 60, "y": 90 },
+      { "model": "babylonmod:block/nature/grass_two", "weight": 60, "y": 180 },
+      { "model": "babylonmod:block/nature/grass_two", "weight": 60, "y": 270 },
+      { "model": "babylonmod:block/nature/grass_two1", "weight": 30 },
+      { "model": "babylonmod:block/nature/grass_two1", "weight": 30, "y": 90 },
+      { "model": "babylonmod:block/nature/grass_two1", "weight": 30, "y": 180 },
+      { "model": "babylonmod:block/nature/grass_two1", "weight": 30, "y": 270 },
+      { "model": "babylonmod:block/nature/grass_two2", "weight": 10 },
+      { "model": "babylonmod:block/nature/grass_two2", "weight": 10, "y": 90 },
+      { "model": "babylonmod:block/nature/grass_two2", "weight": 10, "y": 180 },
+      { "model": "babylonmod:block/nature/grass_two2", "weight": 10, "y": 270 }
+    ]
+  }
+}

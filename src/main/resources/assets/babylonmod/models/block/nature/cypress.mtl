@@ -1,0 +1,11 @@
+# Blender MTL File: 'trees.blend'
+# Material Count: 3
+
+newmtl Cypress_Leaves.001
+map_Kd babylonmod:block/cypress_1
+
+newmtl Cypress_Leaves.002
+map_Kd babylonmod:block/cypress_2
+
+newmtl Wood
+map_Kd minecraft:block/oak_log

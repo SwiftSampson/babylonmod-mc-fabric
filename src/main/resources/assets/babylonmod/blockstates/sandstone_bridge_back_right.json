@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/bridges/sandstone_bridge_back_right",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "babylonmod:block/bridges/sandstone_bridge_back_right",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "babylonmod:block/bridges/sandstone_bridge_back_right",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "babylonmod:block/bridges/sandstone_bridge_back_right"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Blender 3.6.1 MTL File: 'Objects.blend'
+# www.blender.org
+
+newmtl Darkness
+map_Kd babylonmod:block/darkness
+
+newmtl Teracotta
+map_Kd babylonmod:block/teracotta

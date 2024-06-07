@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "facing=east,half=bottom": {
+      "model": "babylonmod:block/arches/lapis_triple_arch",
+      "y": 360,
+      "uvlock": true
+    },
+    "facing=west,half=bottom": {
+      "model": "babylonmod:block/arches/lapis_triple_arch",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=bottom": {
+      "model": "babylonmod:block/arches/lapis_triple_arch",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south,half=bottom": {
+      "model": "babylonmod:block/arches/lapis_triple_arch",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top": {
+      "model": "babylonmod:block/arches/lapis_triple_arch_top"
+    },
+    "facing=south,half=top": {
+      "model": "babylonmod:block/arches/lapis_triple_arch_top",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=top": {
+      "model": "babylonmod:block/arches/lapis_triple_arch_top",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=top": {
+      "model": "babylonmod:block/arches/lapis_triple_arch_top",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

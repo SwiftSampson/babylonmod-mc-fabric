@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=east": [{
+      "model": "babylonmod:block/sandstone_extended_full_block",
+      "y": 360
+    }],
+    
+    "facing=west": [{
+      "model": "babylonmod:block/sandstone_extended_full_block",
+      "y": 180
+    }],
+    
+    "facing=north": [{
+      "model": "babylonmod:block/sandstone_extended_full_block",
+      "y": 270
+    }],
+    
+    "facing=south": [{
+      "model": "babylonmod:block/sandstone_extended_full_block",
+      "y": 90
+    }]
+  }
+}

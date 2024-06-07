@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/items/barley_sack",
+      "y": 360,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "babylonmod:block/items/barley_sack",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north": {
+      "model": "babylonmod:block/items/barley_sack",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "babylonmod:block/items/barley_sack",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

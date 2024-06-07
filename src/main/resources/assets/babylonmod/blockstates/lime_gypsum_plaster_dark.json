@@ -1,0 +1,23 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark1"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark1", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark1", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark1", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark2"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark2", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark2", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark2", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark3"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark3", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark3", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_dark3", "y": 270 }
+    ]
+  }
+}

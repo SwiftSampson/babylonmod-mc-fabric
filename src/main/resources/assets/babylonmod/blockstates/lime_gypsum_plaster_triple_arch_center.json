@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch_top_center",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch_top_center",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch_top_center"
+    },
+    "facing=south": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_triple_arch_top_center",
+      "y": 180
+    }
+  }
+}

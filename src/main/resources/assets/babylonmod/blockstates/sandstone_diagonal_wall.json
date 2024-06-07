@@ -1,0 +1,132 @@
+{
+  "variants": {
+    "facing=east": [
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall1",
+        "y": 180,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall2",
+        "y": 180,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall3",
+        "y": 180,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall4",
+        "y": 180,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall5",
+        "y": 180,
+        "weight": 10
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall",
+        "y": 0,
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall1",
+        "y": 0,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall2",
+        "y": 0,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall3",
+        "y": 0,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall4",
+        "y": 0,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall5",
+        "y": 0,
+        "weight": 10
+      }
+    ],
+    "facing=north": [
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall1",
+        "y": 90,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall2",
+        "y": 90,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall3",
+        "y": 90,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall4",
+        "y": 90,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall5",
+        "y": 90,
+        "weight": 10
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall1",
+        "y": 270,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall2",
+        "y": 270,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall3",
+        "y": 270,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall4",
+        "y": 270,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_diagonal_wall5",
+        "y": 270,
+        "weight": 10
+      }
+    ]
+  }
+}

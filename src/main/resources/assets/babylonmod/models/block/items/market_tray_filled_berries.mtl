@@ -1,0 +1,8 @@
+# Blender MTL File: 'Objects.blend'
+# Material Count: 2
+
+newmtl Fillling_Texture
+map_Kd babylonmod:block/produce_berries
+
+newmtl Oak
+map_Kd minecraft:block/birch_planks

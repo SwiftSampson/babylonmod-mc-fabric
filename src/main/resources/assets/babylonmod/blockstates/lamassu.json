@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/decoration/lamassu",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "babylonmod:block/decoration/lamassu",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "babylonmod:block/decoration/lamassu",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "babylonmod:block/decoration/lamassu"
+    }
+  }
+}

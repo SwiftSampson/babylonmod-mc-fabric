@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/walls/narrow_sandstone_peak",
+      "y": 360
+    },
+    "facing=west": {
+      "model": "babylonmod:block/walls/narrow_sandstone_peak",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "babylonmod:block/walls/narrow_sandstone_peak",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "babylonmod:block/walls/narrow_sandstone_peak",
+      "y": 90
+    }
+  }
+}

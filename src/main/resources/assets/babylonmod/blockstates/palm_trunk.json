@@ -1,0 +1,14 @@
+{
+  "__comment": "Palana_babylon - 2023",
+  "variants": {
+    "size=medium": {
+      "model": "babylonmod:block/nature/palm_trunk"
+    },
+    "size=small": {
+      "model": "babylonmod:block/nature/palm_trunk_small"
+    },
+    "size": {
+      "model": "babylonmod:block/nature/palm_trunk"
+    }
+  }
+}

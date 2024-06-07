@@ -1,0 +1,84 @@
+{
+  "variants": {
+    "facing=east,variant=0": {
+      "model": "babylonmod:block/processional_way/blue_left1",
+      "y": 270
+    },
+    "facing=east,variant=1": {
+      "model": "babylonmod:block/processional_way/blue_left2",
+      "y": 270
+    },
+    "facing=east,variant=2": {
+      "model": "babylonmod:block/processional_way/blue_left3",
+      "y": 270
+    },
+    "facing=east,variant=3": {
+      "model": "babylonmod:block/processional_way/blue_left4",
+      "y": 270
+    },
+    "facing=east,variant=4": {
+      "model": "babylonmod:block/processional_way/blue_left5",
+      "y": 270
+    },
+    "facing=west,variant=0": {
+      "model": "babylonmod:block/processional_way/blue_left1",
+      "y": 90
+    },
+    "facing=west,variant=1": {
+      "model": "babylonmod:block/processional_way/blue_left2",
+      "y": 90
+    },
+    "facing=west,variant=2": {
+      "model": "babylonmod:block/processional_way/blue_left3",
+      "y": 90
+    },
+    "facing=west,variant=3": {
+      "model": "babylonmod:block/processional_way/blue_left4",
+      "y": 90
+    },
+    "facing=west,variant=4": {
+      "model": "babylonmod:block/processional_way/blue_left5",
+      "y": 90
+    },
+    "facing=north,variant=0": {
+      "model": "babylonmod:block/processional_way/blue_left1",
+      "y": 180
+    },
+    "facing=north,variant=1": {
+      "model": "babylonmod:block/processional_way/blue_left2",
+      "y": 180
+    },
+    "facing=north,variant=2": {
+      "model": "babylonmod:block/processional_way/blue_left3",
+      "y": 180
+    },
+    "facing=north,variant=3": {
+      "model": "babylonmod:block/processional_way/blue_left4",
+      "y": 180
+    },
+    "facing=north,variant=4": {
+      "model": "babylonmod:block/processional_way/blue_left5",
+      "y": 180
+    },
+    "facing=south,variant=0": {
+      "model": "babylonmod:block/processional_way/blue_left1",
+      "y": 360
+    },
+    "facing=south,variant=1": {
+      "model": "babylonmod:block/processional_way/blue_left2",
+      "y": 360
+    },
+    "facing=south,variant=2": {
+      "model": "babylonmod:block/processional_way/blue_left3",
+      "y": 360
+    },
+    "facing=south,variant=3": {
+      "model": "babylonmod:block/processional_way/blue_left4",
+      "y": 360
+    },
+    "facing=south,variant=4": {
+      "model": "babylonmod:block/processional_way/blue_left5",
+      "y": 360
+    }
+  }
+}

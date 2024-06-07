@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/items/market_tray_filled_dates",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "babylonmod:block/items/market_tray_filled_dates",
+      "y": 0
+    },
+    "facing=north": {
+      "model": "babylonmod:block/items/market_tray_filled_dates",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "babylonmod:block/items/market_tray_filled_dates",
+      "y": 270
+    }
+  }
+}

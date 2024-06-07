@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/arches/lapis_triple_arch_top_center",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "babylonmod:block/arches/lapis_triple_arch_top_center",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north": {
+      "model": "babylonmod:block/arches/lapis_triple_arch_top_center"
+    },
+    "facing=south": {
+      "model": "babylonmod:block/arches/lapis_triple_arch_top_center",
+      "y": 180,
+      "uvlock": true
+    }
+  }
+}

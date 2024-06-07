@@ -1,0 +1,83 @@
+{
+  "variants": {
+    "facing=east,shape=inner_left": {
+      "model": "babylonmod:block/market/market_table_end"
+    },
+    "facing=east,shape=inner_right": {
+      "model": "babylonmod:block/market/market_table_end"
+    },
+    "facing=east,shape=outer_left": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 180
+    },
+    "facing=east,shape=outer_right": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 180
+    },
+    "facing=east,shape=straight": {
+      "model": "babylonmod:block/market/market_table_center",
+      "y": 270
+    },
+
+    "facing=north,shape=inner_left": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 270
+    },
+    "facing=north,shape=inner_right": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 270
+    },
+    "facing=north,shape=outer_left": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 90
+    },
+    "facing=north,shape=outer_right": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 90
+    },
+    "facing=north,shape=straight": {
+      "model": "babylonmod:block/market/market_table_center",
+      "y": 180
+    },
+
+    "facing=south,shape=inner_left": {
+      "model": "babylonmod:block/market/market_table_end"
+    },
+    "facing=south,shape=inner_right": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 90
+    },
+    "facing=south,shape=outer_left": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 270
+    },
+    "facing=south,shape=outer_right": {
+      "model": "babylonmod:block/market/market_table_end",
+      "y": 270
+    },
+    "facing=south,shape=straight": {
+      "model": "babylonmod:block/market/market_table_center"
+    },
+
+    "facing=west,shape=inner_left": {
+      "model": "babylonmod:block/market/market_table_end",
+
+      "y": 180
+    },
+    "facing=west,shape=inner_right": {
+      "model": "babylonmod:block/market/market_table_end",
+
+      "y": 180
+    },
+    "facing=west,shape=outer_left": {
+      "model": "babylonmod:block/market/market_table_end"
+    },
+    "facing=west,shape=outer_right": {
+      "model": "babylonmod:block/market/market_table_end"
+    },
+    "facing=west,shape=straight": {
+      "model": "babylonmod:block/market/market_table_center",
+      "y": 90
+    }
+  }
+}

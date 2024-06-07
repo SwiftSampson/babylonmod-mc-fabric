@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/walls/extended_corner",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "babylonmod:block/walls/extended_corner",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "babylonmod:block/walls/extended_corner",
+      "y": 360
+    },
+    "facing=south": {
+      "model": "babylonmod:block/walls/extended_corner",
+      "y": 180
+    }
+  }
+}

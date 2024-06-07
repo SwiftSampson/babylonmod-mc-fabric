@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/arches/sandstone_single_arch_stepped",
+      "y": 360
+    },
+    "facing=west": {
+      "model": "babylonmod:block/arches/sandstone_single_arch_stepped",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "babylonmod:block/arches/sandstone_single_arch_stepped",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "babylonmod:block/arches/sandstone_single_arch_stepped",
+      "y": 90
+    }
+  }
+}

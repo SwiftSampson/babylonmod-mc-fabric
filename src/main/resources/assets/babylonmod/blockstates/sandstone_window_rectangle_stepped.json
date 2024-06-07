@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "facing=east,half=bottom": {
+      "model": "babylonmod:block/walls/sandstone_window_rectangle_stepped",
+      "y": 270
+    },
+    "facing=east,half=top": {
+      "model": "babylonmod:block/walls/sandstone_window_rectangle_stepped",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=north,half=bottom": {
+      "model": "babylonmod:block/walls/sandstone_window_rectangle_stepped",
+      "uvlock": true,
+      "y": 180
+    },
+
+    "facing=north,half=top": {
+      "model": "babylonmod:block/walls/sandstone_window_rectangle_stepped",
+      "uvlock": true,
+      "x": 180,
+      "y": 0
+    },
+    "facing=south,half=bottom": {
+      "model": "babylonmod:block/walls/sandstone_window_rectangle_stepped",
+      "uvlock": true,
+      "y": 0
+    },
+    "facing=south,half=top": {
+      "model": "babylonmod:block/walls/sandstone_window_rectangle_stepped",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=bottom": {
+      "model": "babylonmod:block/walls/sandstone_window_rectangle_stepped",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,half=top": {
+      "model": "babylonmod:block/walls/sandstone_window_rectangle_stepped",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    }
+  }
+}

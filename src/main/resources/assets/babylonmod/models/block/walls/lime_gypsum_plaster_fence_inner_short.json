@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"6": "babylonmod:block/lime_gypsum_plaster_top_dark"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [8, 4, 16],
+			"faces": {
+				"north": {"uv": [8, 12, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#missing"},
+				"south": {"uv": [0, 12, 8, 16], "texture": "#6"},
+				"west": {"uv": [4, 12, 11.5, 16], "texture": "#6"},
+				"up": {"uv": [0, 4, 7, 12.5], "texture": "#6"},
+				"down": {"uv": [0, 4, 7, 12.5], "rotation": 90, "texture": "#6"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [3.5, 8, 12, 12], "texture": "#6"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#6"},
+				"south": {"uv": [8, 12, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 12, 8, 16], "texture": "#6"},
+				"up": {"uv": [0, 4, 16, 12.5], "rotation": 90, "texture": "#6"},
+				"down": {"uv": [0, 4, 16, 12.5], "rotation": 90, "texture": "#6"}
+			}
+		}
+	]
+}

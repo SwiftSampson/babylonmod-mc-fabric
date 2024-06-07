@@ -1,0 +1,127 @@
+{
+  "variants": {
+    "facing=east": [
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow1",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow2",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow3",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow4",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow5",
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow6",
+        "y": 360
+      }
+    ],
+
+    "facing=west": [
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow1",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow2",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow3",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow4",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow5",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow6",
+        "y": 180
+      }
+    ],
+
+    "facing=north": [
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow1",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow2",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow3",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow4",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow5",
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow6",
+        "y": 270
+      }
+    ],
+
+    "facing=south": [
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow1",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow2",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow3",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow4",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow5",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/sandstone_stepped_bottom_corner_shadow6",
+        "y": 90
+      }
+    ]
+  }
+}

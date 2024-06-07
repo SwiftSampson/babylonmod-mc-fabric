@@ -1,0 +1,155 @@
+{
+  "variants": {
+    "facing=east": [
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner",
+        "weight": 30,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner1",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner2",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner3",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner4",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner5",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner6",
+        "weight": 15,
+        "y": 360
+      }
+    ],
+
+    "facing=west": [
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner",
+        "weight": 30,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner1",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner2",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner3",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner4",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner5",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner6",
+        "weight": 15,
+        "y": 180
+      }
+    ],
+
+    "facing=north": [
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner",
+        "weight": 30,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner1",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner2",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner3",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner4",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner5",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner6",
+        "weight": 15,
+        "y": 270
+      }
+    ],
+
+    "facing=south": [
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner",
+        "weight": 30,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner1",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner2",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner3",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner4",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner5",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block_corner6",
+        "weight": 15,
+        "y": 90
+      }
+    ]
+  }
+}

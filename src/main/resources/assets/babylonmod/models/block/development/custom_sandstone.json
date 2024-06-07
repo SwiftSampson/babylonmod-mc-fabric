@@ -1,0 +1,11 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "ambientocclusion": false,
+  "render_type": "translucent",
+  "model": "babylonmod:models/block/custom_sandstone.obj",
+  "textures": {
+    "particle": "minecraft:block/sandstone"
+  }
+}

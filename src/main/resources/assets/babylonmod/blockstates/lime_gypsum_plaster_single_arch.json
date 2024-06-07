@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_single_arch",
+      "y": 360
+    },
+    "facing=west": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_single_arch",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_single_arch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "babylonmod:block/arches/lime_gypsum_plaster_single_arch",
+      "y": 90
+    }
+  }
+}

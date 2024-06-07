@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=east": [
+      {
+        "model": "babylonmod:block/walls/sandstone_cover",
+        "y": 360,
+        "weight": 30
+      }],
+    "facing=west": [
+      {
+        "model": "babylonmod:block/walls/sandstone_cover",
+        "y": 180,
+        "weight": 30
+      }],
+    "facing=north": [
+      {
+        "model": "babylonmod:block/walls/sandstone_cover",
+        "y": 270,
+        "weight": 30
+      }],
+    "facing=south": [
+      {
+        "model": "babylonmod:block/walls/sandstone_cover",
+        "y": 90,
+        "weight": 30
+      }]
+  }
+}

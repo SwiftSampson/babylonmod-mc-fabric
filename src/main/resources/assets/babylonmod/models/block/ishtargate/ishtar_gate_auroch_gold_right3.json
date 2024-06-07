@@ -1,0 +1,7 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "babylonmod:block/ishtar_gate/ishtar_gate_auroch_gold_right3"
+  }
+}

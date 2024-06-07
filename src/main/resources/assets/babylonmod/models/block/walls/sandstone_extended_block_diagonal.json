@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"ambientocclusion": false,
+	"render_type": "translucent",
+	"textures": {
+		"0": "babylonmod:block/sandstone_mid_dark",
+		"1": "babylonmod:block/sandstone_stretched_mid_dark",
+		"2": "babylonmod:block/bricks_floor_stretched",
+		"3": "babylonmod:block/bricks_floor",
+		"particle": "babylonmod:block/sandstone"
+	},
+	"elements": [
+		{
+			"from": [2.65, 0, -9.82457],
+			"to": [13.95, 15.999, 17.77543],
+			"rotation": {"angle": 45, "axis": "y", "origin": [11.9395, 5, 3.47543]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 12.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [13.95, 0, -8.82457],
+			"to": [21.95, 4, 15.77543],
+			"rotation": {"angle": 45, "axis": "y", "origin": [11.9395, 5, 3.47543]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 4], "texture": "#3"},
+				"east": {"uv": [1.77778, 0, 16, 4.35556], "texture": "#2"},
+				"south": {"uv": [0, 0, 8, 4], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 8.35556], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#3"}
+			}
+		}
+	]
+}

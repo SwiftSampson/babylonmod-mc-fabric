@@ -1,0 +1,7 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "babylonmod:block/small_blue_rug_bottom"
+  }
+}

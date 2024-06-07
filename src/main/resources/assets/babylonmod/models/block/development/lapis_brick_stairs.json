@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "babylonmod:block/lapis_brick",
+    "side": "babylonmod:block/lapis_brick",
+    "top": "babylonmod:block/lapis_brick",
+    "particle": "babylonmod:block/lapis_brick"
+  }
+}

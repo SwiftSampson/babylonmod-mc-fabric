@@ -1,0 +1,111 @@
+{
+  "credit": "Made with Blockbench",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "babylonmod:block/palm_base",
+    "frond": "babylonmod:block/palm_frond"
+  },
+  "render_type": "translucent",
+  "elements": [
+    {
+      "from": [-16, -8, 8],
+      "to": [32, 32, 8],
+      "shade": false,
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "faces": {
+        "north": {
+          "uv": [0, 4, 16, 16],
+          "rotation": 90,
+          "texture": "#frond",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [0, 4, 16, 16],
+          "rotation": 270,
+          "texture": "#frond",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [8, -8, -16],
+      "to": [8, 32, 32],
+      "shade": false,
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "faces": {
+        "east": {
+          "uv": [0, 4, 16, 16],
+          "rotation": 270,
+          "texture": "#frond",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [0, 4, 16, 16],
+          "rotation": 270,
+          "texture": "#frond",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [-16, -8, 8],
+      "to": [32, 32, 8],
+      "shade": false,
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "faces": {
+        "north": {
+          "uv": [0, 4, 16, 16],
+          "rotation": 90,
+          "texture": "#frond",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [0, 4, 16, 16],
+          "rotation": 270,
+          "texture": "#frond",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [8, -8, -16],
+      "to": [8, 32, 32],
+      "shade": false,
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "faces": {
+        "east": {
+          "uv": [0, 4, 16, 16],
+          "rotation": 270,
+          "texture": "#frond",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [0, 4, 16, 16],
+          "rotation": 270,
+          "texture": "#frond",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

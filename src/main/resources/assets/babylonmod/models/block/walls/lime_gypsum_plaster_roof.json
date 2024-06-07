@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+
+
+"parent": "minecraft:block/cube_bottom_top",
+"textures": {
+	"bottom": "babylonmod:block/mud_roof",
+	"top": "babylonmod:block/mud_roof",
+	"side": "babylonmod:block/lime_gypsum_plaster_top_fade"
+}
+}

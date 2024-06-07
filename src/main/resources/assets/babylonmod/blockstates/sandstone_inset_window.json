@@ -1,0 +1,20 @@
+{
+  "__comment": "Palana_babylon - 2023",
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/walls/sandstone_inset_window",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "babylonmod:block/walls/sandstone_inset_window",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "babylonmod:block/walls/sandstone_inset_window"
+    },
+    "facing=south": {
+      "model": "babylonmod:block/walls/sandstone_inset_window",
+      "y": 180
+    }
+  }
+}

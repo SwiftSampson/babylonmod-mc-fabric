@@ -1,0 +1,152 @@
+{
+  "variants": {
+    "facing=east": [
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block",
+        "weight": 30,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block1",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block2",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block3",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block4",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block5",
+        "weight": 15,
+        "y": 360
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block6",
+        "weight": 15,
+        "y": 360
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block",
+        "weight": 30,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block1",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block2",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block3",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block4",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block5",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block6",
+        "weight": 15,
+        "y": 180
+      }
+    ],
+    "facing=north": [
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block",
+        "weight": 30,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block1",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block2",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block3",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block4",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block5",
+        "weight": 15,
+        "y": 270
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block6",
+        "weight": 15,
+        "y": 270
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block",
+        "weight": 30,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block1",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block2",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block3",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block4",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block5",
+        "weight": 15,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/lapis_extended_block6",
+        "weight": 15,
+        "y": 90
+      }
+    ]
+  }
+}

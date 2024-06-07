@@ -1,0 +1,9 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "model": "babylonmod:models/block/arches/lapis_double_arch.obj",
+  "textures": {
+    "particle": "babylonmod:block/lapis_main"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/nature/sandy_stones"},
+      { "model": "babylonmod:block/nature/sandy_stones", "y": 90 },
+      { "model": "babylonmod:block/nature/sandy_stones", "y": 180 },
+      { "model": "babylonmod:block/nature/sandy_stones", "y": 270 },
+      { "model": "babylonmod:block/nature/sandy_stones1"},
+      { "model": "babylonmod:block/nature/sandy_stones1", "y": 90 },
+      { "model": "babylonmod:block/nature/sandy_stones1", "y": 180 },
+      { "model": "babylonmod:block/nature/sandy_stones1", "y": 270 },
+      { "model": "babylonmod:block/nature/sandy_stones2"},
+      { "model": "babylonmod:block/nature/sandy_stones2", "y": 90 },
+      { "model": "babylonmod:block/nature/sandy_stones2", "y": 180 },
+      { "model": "babylonmod:block/nature/sandy_stones2", "y": 270 },
+      { "model": "babylonmod:block/nature/sandy_stones3"},
+      { "model": "babylonmod:block/nature/sandy_stones3", "y": 90 },
+      { "model": "babylonmod:block/nature/sandy_stones3", "y": 180 },
+      { "model": "babylonmod:block/nature/sandy_stones3", "y": 270 },
+      { "model": "babylonmod:block/nature/sandy_stones4"},
+      { "model": "babylonmod:block/nature/sandy_stones4", "y": 90 },
+      { "model": "babylonmod:block/nature/sandy_stones4", "y": 180 },
+      { "model": "babylonmod:block/nature/sandy_stones4", "y": 270 },
+      { "model": "babylonmod:block/nature/sandy_stones5"},
+      { "model": "babylonmod:block/nature/sandy_stones5", "y": 90 },
+      { "model": "babylonmod:block/nature/sandy_stones5", "y": 180 },
+      { "model": "babylonmod:block/nature/sandy_stones5", "y": 270 }
+    ]
+  }
+}

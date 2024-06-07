@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/ishtargate/lapis_gate_border_left",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "babylonmod:block/ishtargate/lapis_gate_border_left",
+      "uvlock": true
+    },
+    "facing=north": {
+      "model": "babylonmod:block/ishtargate/lapis_gate_border_left",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "babylonmod:block/ishtargate/lapis_gate_border_left",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

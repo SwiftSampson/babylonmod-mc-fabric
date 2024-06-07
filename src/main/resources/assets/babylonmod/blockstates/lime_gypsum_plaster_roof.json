@@ -1,0 +1,23 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof1"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof1", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof1", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof1", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof2"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof2", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof2", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof2", "y": 270 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof3"},
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof3", "y": 90 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof3", "y": 180 },
+      { "model": "babylonmod:block/walls/lime_gypsum_plaster_roof3", "y": 270 }
+    ]
+  }
+}
