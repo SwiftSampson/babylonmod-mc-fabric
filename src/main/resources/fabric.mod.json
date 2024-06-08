@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "babylonmod",
+  "version": "${version}",
+  "name": "Babylon Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": ["Palana"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/mccourse/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.palana.babylonmod.BabylonMod"],
+    "client": ["com.palana.babylonmod.BabylonModClient"]
+  },
+  "mixins": ["babylonmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

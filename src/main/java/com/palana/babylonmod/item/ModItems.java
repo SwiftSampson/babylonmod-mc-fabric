@@ -1,24 +1,32 @@
 package com.palana.babylonmod.item;
 
 import com.palana.babylonmod.BabylonMod;
-import net.minecraft.world.item.Item;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
+// import net.minecraft.registry.Registries;
+// import net.minecraft.util.Identifier;
+// import net.minecraft.registry.Registry;
+// import net.minecraft.item.*;
 
 public class ModItems {
-        public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
-                        BabylonMod.MOD_ID);
+    // private static Item registerItem(String name, Item item) {
+    // return Registry.register(Registries.ITEM, new Identifier(BabylonMod.MOD_ID,
+    // name), item);
+    // }
 
-        // public static final RegistryObject<Item> ALEXANDRITE =
-        // ITEMS.register("alexandrite",
-        // () -> new Item(new Item.Properties()));
-        // public static final RegistryObject<Item> RAW_ALEXANDRITE =
-        // ITEMS.register("raw_alexandrite",
-        // () -> new Item(new Item.Properties()));
+    private static void itemGroupIngredients(FabricItemGroupEntries entries) {
+        // entries.add(PINK_GARNET);
+        // entries.add(RAW_PINK_GARNET);
 
-        public static void register(IEventBus eventBus) {
-                ITEMS.register(eventBus);
-        }
+        // entries.add(ModBlocks.PINK_GARNET_BLOCK);
+        // entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+    }
+
+    public static void registerModItems() {
+        BabylonMod.LOGGER.info("Registering Mod Items for " + BabylonMod.MOD_ID);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::itemGroupIngredients);
+    }
 }
