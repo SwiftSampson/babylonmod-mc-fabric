@@ -4,6 +4,7 @@
   "flip_v": true,
   "ambientocclusion": true,
   "render_type": "translucent",
+  "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/market/market_roof_slanted_legs_right.obj",
   "textures": {
     "particle": "minecraft:block/white_wool"

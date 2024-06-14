@@ -1,82 +1,81 @@
 package com.palana.babylonmod.block.custom;
 
-import net.minecraft.world.level.block.StairBlock;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.Half;
-import net.minecraft.world.level.block.state.properties.StairsShape;
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluids;
-import net.minecraft.core.BlockPos;
-import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.core.Direction;
+import net.minecraft.block.*;
+import net.minecraft.block.enums.BlockHalf;
+import net.minecraft.block.enums.StairShape;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
+import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.state.property.EnumProperty;
+import net.minecraft.state.property.Properties;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.world.BlockView;
+import net.minecraft.world.WorldAccess;
 
 import java.util.function.Supplier;
 
 import org.jetbrains.annotations.Nullable;
 
-public class ModConnectedBlock extends StairBlock {
+public class ModConnectedBlock extends StairsBlock {
 
     private Supplier<BlockState> stateSupplier;
     private Object baseState;
     private Block base;
     private static final int[] SHAPE_BY_STATE = new int[] { 12, 5, 3, 10, 14, 13, 7, 11, 13, 7, 11, 14, 8, 4, 1, 2, 4,
             1, 2, 8 };
-    public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-    public static final EnumProperty<Half> HALF = BlockStateProperties.HALF;
-    public static final EnumProperty<StairsShape> SHAPE = BlockStateProperties.STAIRS_SHAPE;
-    public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    public static final BooleanProperty IS_CENTER = BooleanProperty.create("is_center");
+    public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
+    public static final EnumProperty<BlockHalf> HALF = Properties.BLOCK_HALF;
+    public static final EnumProperty<StairShape> SHAPE = Properties.STAIR_SHAPE;
+    public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
+    public static final BooleanProperty IS_CENTER = BooleanProperty.of("is_center");
 
-    public ModConnectedBlock(java.util.function.Supplier<BlockState> state, BlockBehaviour.Properties properties) {
+    public ModConnectedBlock(BlockState baseBlockState, AbstractBlock.Settings settings) {
 
-        super(state, properties);
-        this.registerDefaultState(
-                this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(HALF, Half.BOTTOM)
-                        .setValue(SHAPE, StairsShape.STRAIGHT).setValue(WATERLOGGED, Boolean.valueOf(false))
-                        .setValue(IS_CENTER, false));
+        super(baseBlockState, settings);
+        this.setDefaultState(
+                (BlockState) ((BlockState) ((BlockState) ((BlockState) ((BlockState) this.stateManager
+                        .getDefaultState())
+                        .with(FACING, Direction.NORTH))
+                        .with(HALF, BlockHalf.BOTTOM))
+                        .with(SHAPE, StairShape.STRAIGHT))
+                        .with(WATERLOGGED, Boolean.valueOf(false))
+                        .with(IS_CENTER, false));
         this.base = Blocks.AIR; // These are unused, fields are redirected
-        this.baseState = Blocks.AIR.defaultBlockState();
-        this.stateSupplier = state;
+        this.baseState = Blocks.AIR.getDefaultState();
+
+        // this.stateSupplier = baseBlockState;
 
     }
 
     @Override
-    public BlockState getStateForPlacement(BlockPlaceContext pContext) {
-        Direction direction = pContext.getClickedFace();
-        BlockPos blockpos = pContext.getClickedPos();
-        FluidState fluidstate = pContext.getLevel().getFluidState(blockpos);
-        BlockState blockstate = this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection()).setValue(
+    public BlockState getPlacementState(ItemPlacementContext ctx) {
+        Direction direction = ctx.getSide();
+        BlockPos blockpos = ctx.getBlockPos();
+        FluidState fluidState = ctx.getWorld().getFluidState(blockpos);
+        BlockState blockstate = this.getDefaultState().with(FACING, ctx.getHorizontalPlayerFacing()).with(
                 HALF,
                 direction != Direction.DOWN && (direction == Direction.UP
-                        || !(pContext.getClickLocation().y - (double) blockpos.getY() > 0.5D)) ? Half.BOTTOM : Half.TOP)
-                .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER));
-        var asdas = getStairsShape(blockstate, pContext.getLevel(), blockpos);
+                        || !(ctx.getHitPos().y - (double) blockpos.getY() > 0.5D)) ? BlockHalf.BOTTOM : BlockHalf.TOP)
+                .with(WATERLOGGED, fluidState.getFluid() == Fluids.WATER);
+        var asdas = getStairsShape(blockstate, ctx.getWorld(), blockpos);
 
-        var isInternalBlock = checkIfInternalBlock(blockstate, blockpos, pContext);
+        var isInternalBlock = checkIfInternalBlock(blockstate, blockpos, ctx);
 
-        return blockstate.setValue(SHAPE, asdas).setValue(IS_CENTER, isInternalBlock);
+        return blockstate.with(SHAPE, asdas).with(IS_CENTER, isInternalBlock);
     }
 
-    private static Boolean checkIfInternalBlock(BlockState blockstate, BlockPos blockpos, BlockPlaceContext pContext) {
+    private static Boolean checkIfInternalBlock(BlockState blockstate, BlockPos blockpos, ItemPlacementContext ctx) {
 
-        var currentBlockName = blockstate.getBlock().getDescriptionId();
-        var northBlockName = pContext.getLevel().getBlockState(blockpos.north(1)).getBlock().getDescriptionId();
-        var southBlockName = pContext.getLevel().getBlockState(blockpos.south(1)).getBlock().getDescriptionId();
-        var eastBlockName = pContext.getLevel().getBlockState(blockpos.east(1)).getBlock().getDescriptionId();
-        var westBlockName = pContext.getLevel().getBlockState(blockpos.west(1)).getBlock().getDescriptionId();
+        var currentBlockName = blockstate.getBlock().getTranslationKey();
+        var northBlockName = ctx.getWorld().getBlockState(blockpos.north(1)).getBlock().getTranslationKey();
+        var southBlockName = ctx.getWorld().getBlockState(blockpos.south(1)).getBlock().getTranslationKey();
+        var eastBlockName = ctx.getWorld().getBlockState(blockpos.east(1)).getBlock().getTranslationKey();
+        var westBlockName = ctx.getWorld().getBlockState(blockpos.west(1)).getBlock().getTranslationKey();
         // System.out.println("getStairsShape" + asdasd);
 
         int surroundingMatchingBlocksCount = 0;
@@ -103,17 +102,18 @@ public class ModConnectedBlock extends StairBlock {
     }
 
     @Override
-    public BlockState updateShape(BlockState pState, Direction pFacing, BlockState pFacingState, LevelAccessor pLevel,
+    public BlockState getStateForNeighborUpdate(BlockState pState, Direction pFacing, BlockState pFacingState,
+            WorldAccess world,
             BlockPos pCurrentPos, BlockPos pFacingPos) {
-        if (pState.getValue(WATERLOGGED)) {
-            pLevel.scheduleTick(pCurrentPos, Fluids.WATER, Fluids.WATER.getTickDelay(pLevel));
+        if (pState.get(WATERLOGGED)) {
+            world.scheduleFluidTick(pCurrentPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
         }
 
-        var currentBlockName = pState.getBlock().getDescriptionId();
-        var northBlockName = pLevel.getBlockState(pCurrentPos.north(1)).getBlock().getDescriptionId();
-        var southBlockName = pLevel.getBlockState(pCurrentPos.south(1)).getBlock().getDescriptionId();
-        var eastBlockName = pLevel.getBlockState(pCurrentPos.east(1)).getBlock().getDescriptionId();
-        var westBlockName = pLevel.getBlockState(pCurrentPos.west(1)).getBlock().getDescriptionId();
+        var currentBlockName = pState.getBlock().getTranslationKey();
+        var northBlockName = world.getBlockState(pCurrentPos.north(1)).getBlock().getTranslationKey();
+        var southBlockName = world.getBlockState(pCurrentPos.south(1)).getBlock().getTranslationKey();
+        var eastBlockName = world.getBlockState(pCurrentPos.east(1)).getBlock().getTranslationKey();
+        var westBlockName = world.getBlockState(pCurrentPos.west(1)).getBlock().getTranslationKey();
         // System.out.println("getStairsShape" + asdasd);
         boolean asdasd = false;
         int surroundingMatchingBlocksCount = 0;
@@ -136,55 +136,55 @@ public class ModConnectedBlock extends StairBlock {
         }
 
         return pFacing.getAxis().isHorizontal()
-                ? pState.setValue(SHAPE, getStairsShape(pState, pLevel, pCurrentPos)).setValue(IS_CENTER, asdasd)
-                : super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
+                ? pState.with(SHAPE, getStairsShape(pState, world, pCurrentPos)).with(IS_CENTER, asdasd)
+                : super.getStateForNeighborUpdate(pState, pFacing, pFacingState, world, pCurrentPos, pFacingPos);
     }
 
-    private static StairsShape getStairsShape(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
+    private static StairShape getStairsShape(BlockState pState, BlockView pWorld, BlockPos pPos) {
 
-        Direction direction = pState.getValue(FACING);
-        BlockState blockstate = pLevel.getBlockState(pPos.relative(direction));
+        Direction direction = pState.get(FACING);
+        BlockState blockstate = pWorld.getBlockState(pPos.offset(direction));
 
-        if (isStairs(blockstate) && pState.getValue(HALF) == blockstate.getValue(HALF)) {
-            Direction direction1 = blockstate.getValue(FACING);
-            if (direction1.getAxis() != pState.getValue(FACING).getAxis()
-                    && canTakeShape(pState, pLevel, pPos, direction1.getOpposite())) {
+        if (isStairs(blockstate) && pState.get(HALF) == blockstate.get(HALF)) {
+            Direction direction1 = blockstate.get(FACING);
+            if (direction1.getAxis() != pState.get(FACING).getAxis()
+                    && isDifferentOrientation(pState, pWorld, pPos, direction1.getOpposite())) {
 
-                if (direction1 == direction.getCounterClockWise()) {
-                    return StairsShape.OUTER_LEFT;
+                if (direction1 == direction.rotateYCounterclockwise()) {
+                    return StairShape.OUTER_LEFT;
                 }
 
-                return StairsShape.OUTER_RIGHT;
+                return StairShape.OUTER_RIGHT;
             }
         }
 
-        BlockState blockstate1 = pLevel.getBlockState(pPos.relative(direction.getOpposite()));
-        if (isStairs(blockstate1) && pState.getValue(HALF) == blockstate1.getValue(HALF)) {
-            Direction direction2 = blockstate1.getValue(FACING);
-            if (direction2.getAxis() != pState.getValue(FACING).getAxis()
-                    && canTakeShape(pState, pLevel, pPos, direction2)) {
-                if (direction2 == direction.getCounterClockWise()) {
-                    return StairsShape.INNER_LEFT;
+        BlockState blockstate1 = pWorld.getBlockState(pPos.offset(direction.getOpposite()));
+        if (isStairs(blockstate1) && pState.get(HALF) == blockstate1.get(HALF)) {
+            Direction direction2 = blockstate1.get(FACING);
+            if (direction2.getAxis() != pState.get(FACING).getAxis()
+                    && isDifferentOrientation(pState, pWorld, pPos, direction2)) {
+                if (direction2 == direction.rotateYCounterclockwise()) {
+                    return StairShape.INNER_LEFT;
                 }
 
-                return StairsShape.INNER_RIGHT;
+                return StairShape.INNER_RIGHT;
             }
         }
 
-        return StairsShape.STRAIGHT;
+        return StairShape.STRAIGHT;
     }
 
-    private static boolean canTakeShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, Direction pFace) {
-        BlockState blockstate = pLevel.getBlockState(pPos.relative(pFace));
-        return !isStairs(blockstate) || blockstate.getValue(FACING) != pState.getValue(FACING)
-                || blockstate.getValue(HALF) != pState.getValue(HALF);
+    private static boolean isDifferentOrientation(BlockState state, BlockView world, BlockPos pos, Direction dir) {
+        BlockState blockstate = world.getBlockState(pos.offset(dir));
+        return !isStairs(blockstate) || blockstate.get(FACING) != state.get(FACING)
+                || blockstate.get(HALF) != state.get(HALF);
     }
 
     @Override
-    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
+    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
 
-        var asdas = (pState.getValue(HALF) == Half.TOP ? TOP_SHAPES : BOTTOM_SHAPES)[SHAPE_BY_STATE[this
-                .getShapeIndex(pState)]];
+        var asdas = (state.get(HALF) == BlockHalf.TOP ? TOP_SHAPES : BOTTOM_SHAPES)[SHAPE_BY_STATE[this
+                .getShapeIndex(state)]];
 
         return asdas;
     }
@@ -192,12 +192,12 @@ public class ModConnectedBlock extends StairBlock {
     @Nullable
     public int getShapeIndex(BlockState pState) {
 
-        return pState.getValue(SHAPE).ordinal() * 4 + pState.getValue(FACING).get2DDataValue();
+        return pState.get(SHAPE).ordinal() * 4 + pState.get(FACING).getHorizontal();
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-        pBuilder.add(FACING, HALF, SHAPE, WATERLOGGED, IS_CENTER);
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
+        builder.add(FACING, HALF, SHAPE, WATERLOGGED, IS_CENTER);
     }
 
 }

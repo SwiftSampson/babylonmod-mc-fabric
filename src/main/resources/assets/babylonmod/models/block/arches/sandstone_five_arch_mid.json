@@ -2,6 +2,7 @@
   "__comment": "Add the following line on the same level as a 'model' declaration.",
   "loader": "forge:obj",
   "flip_v": true,
+  "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/arches/sandstone_five_arch_mid.obj",
   "textures": {
     "particle": "minecraft:block/sandstone"

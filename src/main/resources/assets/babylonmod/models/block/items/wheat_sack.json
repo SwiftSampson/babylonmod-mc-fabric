@@ -4,7 +4,7 @@
   "flip_v": true,
   "ambientocclusion": true,
   "render_type": "translucent",
-  "parent": "minecraft:block/cube_all",
+  "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/items/wheat_sack.obj",
   "textures": {
     "particle": "minecraft:block/wheat_fill"

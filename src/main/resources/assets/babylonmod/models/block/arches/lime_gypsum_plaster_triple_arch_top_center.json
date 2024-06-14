@@ -4,6 +4,7 @@
   "flip_v": true,
   "ambientocclusion": true,
   "render_type": "translucent",
+  "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/arches/lime_gypsum_plaster_triple_arch_top_center.obj",
   "textures": {
     "particle": "babylonmod:block/lime_gypsum_plaster"

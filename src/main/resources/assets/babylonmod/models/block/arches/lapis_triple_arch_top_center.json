@@ -4,6 +4,7 @@
   "flip_v": true,
   "ambientocclusion": false,
   "render_type": "translucent",
+  "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/arches/lapis_triple_arch_top_center.obj",
   "textures": {
     "particle": "babylonmod:block/lapis_brick"

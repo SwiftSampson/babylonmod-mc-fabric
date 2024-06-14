@@ -1,8 +1,8 @@
 package com.palana.babylonmod.block.custom.types;
 
-import net.minecraft.util.StringRepresentable;
+import net.minecraft.util.StringIdentifiable;
 
-public enum SizeType implements StringRepresentable {
+public enum SizeType implements StringIdentifiable {
     SMALL("small"),
     MEDIUM("medium"),
     LARGE("large"),
@@ -14,7 +14,7 @@ public enum SizeType implements StringRepresentable {
         this.name = pName;
     }
 
-    public String toString() {
+    public String asString() {
         return this.name;
     }
 

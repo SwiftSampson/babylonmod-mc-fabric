@@ -1,8 +1,8 @@
 package com.palana.babylonmod.block.custom.types;
 
-import net.minecraft.util.StringRepresentable;
+import net.minecraft.util.StringIdentifiable;
 
-public enum SandType implements StringRepresentable {
+public enum SandType implements StringIdentifiable {
     SAND("sand"),
     MYCELIUM("mycelium"),
     RED_SAND("red_sand"),
@@ -16,7 +16,7 @@ public enum SandType implements StringRepresentable {
         this.name = pName;
     }
 
-    public String toString() {
+    public String asString() {
         return this.name;
     }
 

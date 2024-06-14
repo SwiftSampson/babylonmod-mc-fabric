@@ -1,51 +1,43 @@
 package com.palana.babylonmod.block.custom;
 
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.core.Direction;
 import org.jetbrains.annotations.Nullable;
+import net.minecraft.block.*;
+import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.state.property.EnumProperty;
+import net.minecraft.state.property.Properties;
+import net.minecraft.util.math.Direction;
 
 import com.palana.babylonmod.block.custom.types.SizeType;
 
 public class DirectionalPalmLeaves extends Block {
-    public static DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-    // public static BooleanProperty IS_CORNER = BlockStateProperties.CRACKED;
-    public static EnumProperty<SizeType> SIZE = EnumProperty.create("size", SizeType.class);
+    public static DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
-    public DirectionalPalmLeaves(Properties pProperties) {
+    public static EnumProperty<SizeType> SIZE = EnumProperty.of("size", SizeType.class);
 
-        super(pProperties);
-        System.out.println("HELLOE!");
-        System.out.println(pProperties);
-
+    public DirectionalPalmLeaves(Settings settings) {
+        super(settings);
     }
 
     @Nullable
     @Override
-    public BlockState getStateForPlacement(BlockPlaceContext placeContext) {
-        System.out.println("HELLOE THIS IS THE LEAVES BLCOK!");
-        return this.defaultBlockState().setValue(FACING, placeContext.getHorizontalDirection()).setValue(SIZE,
+    public BlockState getPlacementState(ItemPlacementContext ctx) {
+        return this.getDefaultState().with(FACING, ctx.getHorizontalPlayerFacing()).with(SIZE,
                 SizeType.MEDIUM);
     }
 
     public BlockState getRandomBlockState() {
-        System.out.println("HELLOE Is corner:" + this.defaultBlockState());
-
-        return this.defaultBlockState().setValue(FACING, Direction.EAST).setValue(SIZE,
+        return this.getDefaultState().with(FACING, Direction.EAST).with(SIZE,
                 SizeType.MEDIUM);
     }
 
     public static BlockState rotate(BlockState pState, Direction direction) {
-        return pState.setValue(FACING, direction);
+        return pState.with(FACING, direction);
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING, SIZE);
     }
 

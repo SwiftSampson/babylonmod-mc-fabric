@@ -1,19 +1,19 @@
 package com.palana.babylonmod.block.custom;
 
-import net.minecraft.core.BlockPos;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SaplingBlock;
-import net.minecraft.world.level.block.grower.AbstractTreeGrower;
-import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.SaplingBlock;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.BlockView;
+import net.minecraft.world.WorldAccess;
 
 public class ModSaplingBlock extends SaplingBlock {
-    public ModSaplingBlock(AbstractTreeGrower pTreeGrower, Properties pProperties) {
-        super(pTreeGrower, pProperties);
+    public ModSaplingBlock(AbstractTreeGrower pTreeGrower, AbstractBlock.Settings settings) {
+        super(pTreeGrower, settings);
     }
 
     @Override
-    protected boolean mayPlaceOn(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
+    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
         return true;
     }
 }

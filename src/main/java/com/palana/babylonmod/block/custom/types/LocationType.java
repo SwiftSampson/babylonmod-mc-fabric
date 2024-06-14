@@ -1,8 +1,8 @@
 package com.palana.babylonmod.block.custom.types;
 
-import net.minecraft.util.StringRepresentable;
+import net.minecraft.util.StringIdentifiable;
 
-public enum LocationType implements StringRepresentable {
+public enum LocationType implements StringIdentifiable {
     MIDDLE("middle"),
     LEFT("left"),
     RIGHT("right");
@@ -13,11 +13,7 @@ public enum LocationType implements StringRepresentable {
         this.name = pName;
     }
 
-    public String toString() {
-        return this.name;
-    }
-
-    public String getSerializedName() {
+    public String asString() {
         return this.name;
     }
 }

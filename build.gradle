@@ -17,6 +17,10 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 	maven { url "https://maven.shedaniel.me" }
+	 maven {
+        name = "FelNull Maven"
+        url = "https://maven.felnull.dev"
+    }
 }
 
 loom {
@@ -59,6 +63,10 @@ dependencies {
 	include modApi('teamreborn:energy:3.0.0') {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
+	modApi "dev.felnull:special-model-loader:1.1.0"
+    
+    //Required if you want this mod to be embedded by jar-in-jar
+    include "dev.felnull:special-model-loader:1.1.0"
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.

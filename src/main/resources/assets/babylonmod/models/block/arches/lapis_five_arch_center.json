@@ -4,6 +4,7 @@
   "ambientocclusion": true,
   "flip_v": true,
   "render_type": "translucent",
+  "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/arches/lapis_five_arch_center.obj",
   "textures": {
     "particle": "minecraft:block/lapis_brick_match_sandstone"

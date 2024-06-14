@@ -1,40 +1,30 @@
 package com.palana.babylonmod.block.custom;
 
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.IntegerProperty;
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.core.Direction;
-import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DirectionalBlock;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.block.*;
+import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.EnumProperty;
+
 import org.jetbrains.annotations.Nullable;
 
 import com.palana.babylonmod.block.custom.types.SizeType;
 
-public class ModScalableBlock extends DirectionalBlock {
-    public static EnumProperty<SizeType> SIZE = EnumProperty.create("size", SizeType.class);
+public class ModScalableBlock extends HorizontalFacingBlock {
+    public static EnumProperty<SizeType> SIZE = EnumProperty.of("size", SizeType.class);
 
-    public ModScalableBlock(Properties pProperties) {
-
-        super(pProperties);
-
+    public ModScalableBlock(Settings settings) {
+        super(settings);
     }
 
     @Nullable
     @Override
-    public BlockState getStateForPlacement(BlockPlaceContext placeContext) {
-        return this.defaultBlockState().setValue(SIZE, SizeType.MEDIUM);
+    public BlockState getPlacementState(ItemPlacementContext ctx) {
+        return this.getDefaultState().with(SIZE, SizeType.MEDIUM);
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(SIZE);
     }
-
-    
 
 }

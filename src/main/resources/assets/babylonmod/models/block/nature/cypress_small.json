@@ -5,6 +5,7 @@
   "ambientocclusion": true,
   "backfaceculling": true,
   "render_type": "translucent",
+  "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/nature/cypress_small.obj",
   "textures": {
     "particle": "minecraft:block/oak_leaves"

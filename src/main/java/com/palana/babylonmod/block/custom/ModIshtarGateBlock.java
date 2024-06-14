@@ -1,84 +1,75 @@
 package com.palana.babylonmod.block.custom;
 
-import net.minecraft.world.level.block.state.properties.IntegerProperty;
-import net.minecraft.core.BlockPos;
-import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.core.Direction;
 import org.jetbrains.annotations.Nullable;
 
+import net.minecraft.block.*;
+import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.IntProperty;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.world.World;
+
 public class ModIshtarGateBlock extends Block {
-        public static final IntegerProperty VARIANT = IntegerProperty.create("variant", 0, 6);
-        public String asdasdasd = "";
-        // public static EnumProperty<IshtarGateType> GATE_TYPE =
-        // EnumProperty.create("ishtar_gate_type",
-        // IshtarGateType.class);
+        public static final IntProperty VARIANT = IntProperty.of("variant", 0, 6);
 
-        public ModIshtarGateBlock(Properties pProperties) {
-
-                super(pProperties);
-
+        public ModIshtarGateBlock(Settings settings) {
+                super(settings);
         }
 
         @Nullable
         @Override
-        public BlockState getStateForPlacement(BlockPlaceContext placeContext) {
+        public BlockState getPlacementState(ItemPlacementContext ctx) {
 
-                Direction facing = placeContext.getHorizontalDirection();
+                Direction facing = ctx.getHorizontalPlayerFacing();
 
-                BlockState rightBlock;
                 BlockState leftBlock;
-                String blockName = this.defaultBlockState().getBlock().getDescriptionId();
+                String blockName = this.getDefaultState().getBlock().getTranslationKey();
 
-                BlockGetter blockgetter = placeContext.getLevel();
-                BlockPos blockpos = placeContext.getClickedPos();
-                BlockState belowBlock = blockgetter.getBlockState(blockpos.below());
+                World blockgetter = ctx.getWorld();
+                BlockPos blockpos = ctx.getBlockPos();
+                BlockState belowBlock = blockgetter.getBlockState(blockpos.down());
 
                 if (facing == Direction.NORTH) {
-                        rightBlock = blockgetter.getBlockState(blockpos.east());
+
                         leftBlock = blockgetter.getBlockState(blockpos.west());
                 } else if (facing == Direction.SOUTH) {
-                        rightBlock = blockgetter.getBlockState(blockpos.west());
+
                         leftBlock = blockgetter.getBlockState(blockpos.east());
                 } else if (facing == Direction.EAST) {
-                        rightBlock = blockgetter.getBlockState(blockpos.south());
+
                         leftBlock = blockgetter.getBlockState(blockpos.north());
                 } else {
-                        rightBlock = blockgetter.getBlockState(blockpos.north());
+
                         leftBlock = blockgetter.getBlockState(blockpos.south());
                 }
 
-                if (belowBlock.getBlock().getDescriptionId()
+                if (belowBlock.getBlock().getTranslationKey()
                                 .equals(blockName)) {
-                        if (belowBlock.getValue(VARIANT) == 3) {
-                                return this.defaultBlockState().setValue(VARIANT, 1);
-                        } else if (belowBlock.getValue(VARIANT) == 4) {
-                                return this.defaultBlockState().setValue(VARIANT, 2);
-                        } else if (belowBlock.getValue(VARIANT) == 1) {
-                                return this.defaultBlockState().setValue(VARIANT, 3);
+                        if (belowBlock.get(VARIANT) == 3) {
+                                return this.getDefaultState().with(VARIANT, 1);
+                        } else if (belowBlock.get(VARIANT) == 4) {
+                                return this.getDefaultState().with(VARIANT, 2);
+                        } else if (belowBlock.get(VARIANT) == 1) {
+                                return this.getDefaultState().with(VARIANT, 3);
                         } else {
-                                return this.defaultBlockState().setValue(VARIANT, 4);
+                                return this.getDefaultState().with(VARIANT, 4);
                         }
-                } else if (leftBlock.getBlock().getDescriptionId()
+                } else if (leftBlock.getBlock().getTranslationKey()
                                 .equals(blockName)) {
-                        if (leftBlock.getValue(VARIANT) == 3) {
-                                return this.defaultBlockState().setValue(VARIANT, 4);
+                        if (leftBlock.get(VARIANT) == 3) {
+                                return this.getDefaultState().with(VARIANT, 4);
                         } else {
-                                return this.defaultBlockState().setValue(VARIANT, 3);
+                                return this.getDefaultState().with(VARIANT, 3);
                         }
 
                 } else {
-                        return this.defaultBlockState().setValue(VARIANT, 3);
-
+                        return this.getDefaultState().with(VARIANT, 3);
                 }
-
         }
 
         @Override
-        protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+        protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
                 builder.add(VARIANT);
         }
 

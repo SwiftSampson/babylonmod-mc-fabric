@@ -4,6 +4,7 @@
   "flip_v": true,
   "ambientocclusion": false,
   "render_type": "translucent",
+  "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/bridges/sandstone_bridge_front_right_muddy_top.obj",
   "textures": {
     "particle": "minecraft:block/sandstone_muddy_top"

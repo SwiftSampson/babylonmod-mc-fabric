@@ -1,86 +1,77 @@
 package com.palana.babylonmod.block.custom;
 
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.SlabType;
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluids;
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
-import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DirectionalBlock;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
-import net.minecraft.world.level.block.SimpleWaterloggedBlock;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
-
 import org.jetbrains.annotations.Nullable;
 
 import com.palana.babylonmod.block.custom.types.LocationType;
 
+import net.minecraft.block.*;
+import net.minecraft.block.enums.SlabType;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
+import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.state.property.EnumProperty;
+import net.minecraft.state.property.Properties;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.world.WorldAccess;
+
 public class ModDirectionalSlabBlock extends SlabBlock {
-    public static DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-    public static final EnumProperty<SlabType> TYPE = BlockStateProperties.SLAB_TYPE;
-    public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-    protected static final VoxelShape BOTTOM_AABB = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 8.0D, 16.0D);
-    protected static final VoxelShape TOP_AABB = Block.box(0.0D, 8.0D, 0.0D, 16.0D, 16.0D, 16.0D);
-    public static final BooleanProperty IS_ABOVE_FENCE = BooleanProperty.create("is_above_fence");
-    protected static final EnumProperty<LocationType> LOCATION = EnumProperty.create("location", LocationType.class);
+    public static DirectionProperty FACING = Properties.FACING;
+    public static final EnumProperty<SlabType> TYPE = Properties.SLAB_TYPE;
+    public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
+    protected static final VoxelShape BOTTOM_AABB = Block.createCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 8.0D, 16.0D);
+    protected static final VoxelShape TOP_AABB = Block.createCuboidShape(0.0D, 8.0D, 0.0D, 16.0D, 16.0D, 16.0D);
+    public static final BooleanProperty IS_ABOVE_FENCE = BooleanProperty.of("is_above_fence");
+    protected static final EnumProperty<LocationType> LOCATION = EnumProperty.of("location", LocationType.class);
 
-    public ModDirectionalSlabBlock(Properties pProperties) {
+    public ModDirectionalSlabBlock(Settings settings) {
 
-        super(pProperties);
-        this.registerDefaultState(this.getStateDefinition().any());
+        super(settings);
+        // this.registerDefaultState(this.getStateDefinition().any());
     }
 
     @Nullable
     @Override
-    public BlockState getStateForPlacement(BlockPlaceContext placeContext) {
-        // System.out.println("HELLOE THIS IS THE DIRECTIONAL BLCOK!" +
-        // placeContext.getHorizontalDirection());
-        // return this.defaultBlockState().setValue(FACING,
-        // placeContext.getHorizontalDirection()).setValue(TYPE,
-        // SlabType.BOTTOM).setValue(WATERLOGGED, Boolean.valueOf(false));
+    public BlockState getPlacementState(ItemPlacementContext ctx) {
 
-        BlockPos blockpos = placeContext.getClickedPos();
-        BlockState blockstate = placeContext.getLevel().getBlockState(blockpos);
-        // blockstate.setValue(IS_ABOVE_FENCE, false).setValue(LOCATION,
+        BlockPos blockpos = ctx.getBlockPos();
+        BlockState blockstate = ctx.getWorld().getBlockState(blockpos);
+        // blockstate.with(IS_ABOVE_FENCE, false).with(LOCATION,
         // LocationType.MIDDLE);
-        if (blockstate.is(this)) {
-            return blockstate.setValue(TYPE, SlabType.DOUBLE).setValue(WATERLOGGED, Boolean.valueOf(false))
-                    .setValue(IS_ABOVE_FENCE, false)
-                    .setValue(LOCATION, LocationType.MIDDLE);
+        if (blockstate.isOf(this)) {
+            return blockstate.with(TYPE, SlabType.DOUBLE).with(WATERLOGGED, Boolean.valueOf(false))
+                    .with(IS_ABOVE_FENCE, false)
+                    .with(LOCATION, LocationType.MIDDLE);
         } else {
-            FluidState fluidstate = placeContext.getLevel().getFluidState(blockpos);
-            BlockState blockstate1 = this.defaultBlockState()
-                    .setValue(TYPE, SlabType.BOTTOM)
-                    .setValue(WATERLOGGED, Boolean.valueOf(fluidstate.getType() == Fluids.WATER))
-                    .setValue(FACING, placeContext.getHorizontalDirection())
-                    .setValue(IS_ABOVE_FENCE, false)
-                    .setValue(LOCATION, LocationType.MIDDLE);
-            Direction direction = placeContext.getClickedFace();
+            FluidState fluidstate = ctx.getWorld().getFluidState(ctx.getBlockPos());
+            BlockState blockstate1 = this.getDefaultState()
+                    .with(TYPE, SlabType.BOTTOM)
+                    .with(WATERLOGGED, Boolean.valueOf(fluidstate.getFluid() == Fluids.WATER))
+                    .with(FACING, ctx.getHorizontalPlayerFacing())
+                    .with(IS_ABOVE_FENCE, false)
+                    .with(LOCATION, LocationType.MIDDLE);
+            Direction direction = ctx.getHorizontalPlayerFacing();
             return direction != Direction.DOWN && (direction == Direction.UP
-                    || !(placeContext.getClickLocation().y - (double) blockpos.getY() > 0.5D))
+                    || !(ctx.getHitPos().y - (double) blockpos.getY() > 0.5D))
                             ? blockstate1
-                            : blockstate1.setValue(TYPE, SlabType.TOP);
+                            : blockstate1.with(TYPE, SlabType.TOP);
         }
     }
 
     @Override
-    public BlockState updateShape(BlockState pState, Direction pFacing, BlockState pFacingState, LevelAccessor pLevel,
+    public BlockState getStateForNeighborUpdate(BlockState pState, Direction pFacing, BlockState pFacingState,
+            WorldAccess pWorld,
             BlockPos pCurrentPos, BlockPos pFacingPos) {
 
-        var belowBlockName = pLevel.getBlockState(pCurrentPos.below(1)).getBlock().getDescriptionId();
+        var belowBlockName = pWorld.getBlockState(pCurrentPos.down(1)).getBlock().getTranslationKey();
 
         boolean isAboveFence = false;
         LocationType location = LocationType.MIDDLE;
-        Direction blockFacing = pState.getValue(FACING);
+        Direction blockFacing = pState.get(FACING);
 
         if (belowBlockName.equals("block.babylonmod.offset_fence_post")) {
             isAboveFence = true;
@@ -90,57 +81,55 @@ public class ModDirectionalSlabBlock extends SlabBlock {
             // location = LocationType.MIDDLE;
             // }
 
-            Direction clockwiseDirection = blockFacing.getClockWise();
+            Direction clockwiseDirection = blockFacing.rotateYClockwise();
             Direction oppositeClockwiseDirection = clockwiseDirection.getOpposite();
 
-            var clockwiseBlock = pLevel.getBlockState(pCurrentPos.relative(clockwiseDirection)).getBlock()
-                    .getDescriptionId();
-            var oppositeClockwiseBlock = pLevel.getBlockState(pCurrentPos.relative(oppositeClockwiseDirection))
+            var clockwiseBlock = pWorld.getBlockState(pCurrentPos.offset(clockwiseDirection)).getBlock()
+                    .getTranslationKey();
+            var oppositeClockwiseBlock = pWorld.getBlockState(pCurrentPos.offset(oppositeClockwiseDirection))
                     .getBlock()
-                    .getDescriptionId();
+                    .getTranslationKey();
 
-            // System.out.println("SLAB LOGS clockwiseblock " + clockwiseDirection +
-            // clockwiseBlock);
             if (clockwiseBlock.equals("block.babylonmod.market_roof_slanted")
                     && oppositeClockwiseBlock.equals("block.babylonmod.market_roof_slanted")) {
 
                 System.out.println("SLAB LOGS MIDDLE BLOCK");
                 location = LocationType.MIDDLE;
                 System.out.println(
-                        "SLAB BLOCKS. direction: " + pState.getValue(FACING) + ", isAboveFence: " + isAboveFence
-                                + ", location: " + location + ", blockType: " + pState.getValue(TYPE));
+                        "SLAB BLOCKS. direction: " + pState.get(FACING) + ", isAboveFence: " + isAboveFence
+                                + ", location: " + location + ", blockType: " + pState.get(TYPE));
 
-                return pState.setValue(IS_ABOVE_FENCE, isAboveFence).setValue(LOCATION, LocationType.MIDDLE);
+                return pState.with(IS_ABOVE_FENCE, isAboveFence).with(LOCATION, LocationType.MIDDLE);
             } else if (clockwiseBlock.equals("block.babylonmod.market_roof_slanted")) {
                 System.out.println("SLAB LOGS LEFT BLOCK");
                 location = LocationType.LEFT;
                 System.out.println(
-                        "SLAB BLOCKS. direction: " + pState.getValue(FACING) + ", isAboveFence: " + isAboveFence
-                                + ", location: " + location + ", blockType: " + pState.getValue(TYPE));
+                        "SLAB BLOCKS. direction: " + pState.get(FACING) + ", isAboveFence: " + isAboveFence
+                                + ", location: " + location + ", blockType: " + pState.get(TYPE));
 
-                return pState.setValue(IS_ABOVE_FENCE, isAboveFence).setValue(LOCATION, LocationType.LEFT);
+                return pState.with(IS_ABOVE_FENCE, isAboveFence).with(LOCATION, LocationType.LEFT);
             } else if (oppositeClockwiseBlock.equals("block.babylonmod.market_roof_slanted")) {
                 System.out.println("SLAB LOGS RIGHT BLOCK");
                 location = LocationType.RIGHT;
                 System.out.println(
-                        "SLAB BLOCKS. direction: " + pState.getValue(FACING) + ", isAboveFence: " + isAboveFence
-                                + ", location: " + location + ", blockType: " + pState.getValue(TYPE));
+                        "SLAB BLOCKS. direction: " + pState.get(FACING) + ", isAboveFence: " + isAboveFence
+                                + ", location: " + location + ", blockType: " + pState.get(TYPE));
 
-                return pState.setValue(IS_ABOVE_FENCE, isAboveFence).setValue(LOCATION, LocationType.RIGHT);
+                return pState.with(IS_ABOVE_FENCE, isAboveFence).with(LOCATION, LocationType.RIGHT);
 
             }
 
         }
         System.out.println(
-                "SLAB BLOCKS. direction: " + pState.getValue(FACING) + ", isAboveFence: " + isAboveFence
-                        + ", location: " + location + ", blockType: " + pState.getValue(TYPE));
+                "SLAB BLOCKS. direction: " + pState.get(FACING) + ", isAboveFence: " + isAboveFence
+                        + ", location: " + location + ", blockType: " + pState.get(TYPE));
 
-        return pState.setValue(IS_ABOVE_FENCE, isAboveFence);
+        return pState.with(IS_ABOVE_FENCE, isAboveFence);
 
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING, TYPE, WATERLOGGED, IS_ABOVE_FENCE, LOCATION);
     }
 
