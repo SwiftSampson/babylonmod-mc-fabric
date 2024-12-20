@@ -14,7 +14,8 @@
   "environment": "*",
   "entrypoints": {
     "main": ["com.palana.babylonmod.BabylonMod"],
-    "client": ["com.palana.babylonmod.BabylonModClient"]
+    "client": ["com.palana.babylonmod.BabylonModClient"],
+    "fabric-datagen": ["com.palana.babylonmod.BabylonModDataGenerator"]
   },
   "mixins": ["babylonmod.mixins.json"],
   "depends": {

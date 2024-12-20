@@ -11,8 +11,11 @@ import com.palana.babylonmod.block.custom.ModIshtarGateBlock;
 import com.palana.babylonmod.block.custom.ModPassableStairBlock;
 import com.palana.babylonmod.block.custom.ModProcessionalBlock;
 import com.palana.babylonmod.block.custom.ModRugBlock;
+import com.palana.babylonmod.block.custom.ModSaplingBlock;
 import com.palana.babylonmod.block.custom.ModScalableBlock;
 import com.palana.babylonmod.block.custom.types.SizeType;
+import com.palana.babylonmod.world.tree.ChestnutSaplingGenerator;
+import com.palana.babylonmod.world.tree.PalmSaplingGenerator;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -22,6 +25,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.block.*;
+import net.minecraft.block.sapling.SaplingGenerator;
+
+// Block transparency: https://fabricmc.net/wiki/tutorial:blockappearance
 
 public class ModBlocks {
 
@@ -66,167 +72,167 @@ public class ModBlocks {
         // Straight tower shit
         public static Block SANDSTONE_PEAK = registerBlock("sandstone_peak",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block LAPIS_PEAK = registerBlock("lapis_peak",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_PEAK_CORNER = registerBlock("lapis_peak_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_STEPPED_PEAK = registerBlock("lapis_stepped_peak",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_STEPPED_PEAK_CORNER = registerBlock("lapis_stepped_peak_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_PEAK = registerBlock("sandstone_stepped_peak",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_PEAK_CORNER = registerBlock(
                         "sandstone_stepped_peak_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_INSET_WINDOW = registerBlock("sandstone_inset_window",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_SINGLE_ARCH = registerBlock("sandstone_single_arch",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block LIME_GYPSUM_PLASTER_SINGLE_ARCH = registerBlock(
                         "lime_gypsum_plaster_single_arch",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_SINGLE_ARCH_STEPPED = registerBlock(
                         "sandstone_single_arch_stepped",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_DOUBLE_ARCH = registerBlock("sandstone_double_arch",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block LIME_GYPSUM_PLASTER_DOUBLE_ARCH = registerBlock(
                         "lime_gypsum_plaster_double_arch",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block NARROW_SANDSTONE_PEAK = registerBlock("narrow_sandstone_peak",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_TRIPLE_ARCH = registerBlock("sandstone_triple_arch",
                         new ModPassableStairBlock(Blocks.SANDSTONE_STAIRS.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS).nonOpaque()));
 
         public static Block SANDSTONE_TRIPLE_ARCH_CENTER = registerBlock(
                         "sandstone_triple_arch_center",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block LIME_GYPSUM_PLASTER_TRIPLE_ARCH = registerBlock(
                         "lime_gypsum_plaster_triple_arch",
                         new ModPassableStairBlock(Blocks.SANDSTONE_STAIRS.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS).nonOpaque()));
 
         public static Block LIME_GYPSUM_PLASTER_TRIPLE_ARCH_CENTER = registerBlock(
                         "lime_gypsum_plaster_triple_arch_center",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_FIVE_ARCH_CENTER = registerBlock(
                         "sandstone_five_arch_center",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block SANDSTONE_FIVE_ARCH_TOP = registerBlock(
                         "sandstone_five_arch_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block SANDSTONE_FIVE_ARCH_MID = registerBlock(
                         "sandstone_five_arch_mid",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block SANDSTONE_FIVE_ARCH_BOTTOM = registerBlock(
                         "sandstone_five_arch_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block LAPIS_FIVE_ARCH_CENTER = registerBlock(
                         "lapis_five_arch_center",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_FIVE_ARCH_TOP = registerBlock(
                         "lapis_five_arch_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_FIVE_ARCH_MID = registerBlock(
                         "lapis_five_arch_mid",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_FIVE_ARCH_BOTTOM = registerBlock(
                         "lapis_five_arch_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block NARROW_SANDSTONE_SINGLE_ARCH = registerBlock(
                         "narrow_sandstone_single_arch",
                         new ModPassableStairBlock(Blocks.SANDSTONE.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block NARROW_SANDSTONE_SINGLE_ARCH_TALL = registerBlock(
                         "narrow_sandstone_single_arch_tall",
                         new ModPassableStairBlock(Blocks.SANDSTONE.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block LAPIS_INSET_WINDOW = registerBlock("lapis_inset_window",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block LAPIS_SINGLE_ARCH = registerBlock("lapis_single_arch",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block LAPIS_DOUBLE_ARCH = registerBlock("lapis_double_arch",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_TRIPLE_ARCH = registerBlock("lapis_triple_arch",
                         new ModPassableStairBlock(Blocks.SANDSTONE_STAIRS.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS).nonOpaque()));
 
         public static Block LAPIS_TRIPLE_ARCH_CENTER = registerBlock(
                         "lapis_triple_arch_center",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB).nonOpaque()));
 
         public static Block NARROW_LAPIS_SINGLE_ARCH = registerBlock(
                         "narrow_lapis_single_arch",
                         new ModPassableStairBlock(Blocks.SANDSTONE.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block NARROW_LAPIS_SINGLE_ARCH_TALL = registerBlock(
                         "narrow_lapis_single_arch_tall",
                         new ModPassableStairBlock(Blocks.SANDSTONE.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE).nonOpaque()));
 
         public static Block SANDSTONE_PEAK_CORNER = registerBlock("sandstone_peak_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_COVER = registerBlock(
                         "sandstone_cover",
@@ -236,57 +242,57 @@ public class ModBlocks {
         public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM_TOP = registerBlock(
                         "sandstone_stepped_block_bottom_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM = registerBlock(
                         "sandstone_stepped_block_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM_SHADOW = registerBlock(
                         "sandstone_stepped_block_bottom_shadow",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block CHISELED_SANDSTONE_STEPPED_BLOCK_BOTTOM = registerBlock(
                         "chiseled_sandstone_stepped_block_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_WINDOW_STEPPED_BLOCK_BOTTOM = registerBlock(
                         "sandstone_window_stepped_block_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block LAPIS_WINDOW_STEPPED_BLOCK_BOTTOM = registerBlock(
                         "lapis_window_stepped_block_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_STEPPED_BLOCK_BOTTOM = registerBlock(
                         "lapis_stepped_block_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_STEPPED_BLOCK_BOTTOM_TOP = registerBlock(
                         "lapis_stepped_block_bottom_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block SANDSTONE_EXTENDED_BLOCK = registerBlock(
                         "sandstone_extended_block",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block SANDSTONE_EXTENDED_FULL_BLOCK = registerBlock(
                         "sandstone_extended_full_block",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_BANDED_EXTENDED_BLOCK = registerBlock(
                         "lapis_banded_extended_block",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_EXTENDED_BLOCK = registerBlock(
                         "lapis_extended_block",
@@ -296,77 +302,77 @@ public class ModBlocks {
         public static Block SANDSTONE_STEPPED_BOTTOM_CORNER_TOP = registerBlock(
                         "sandstone_stepped_bottom_corner_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BOTTOM_CORNER = registerBlock(
                         "sandstone_stepped_bottom_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BOTTOM_CORNER_SHADOW = registerBlock(
                         "sandstone_stepped_bottom_corner_shadow",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block CHISELED_SANDSTONE_STEPPED_BOTTOM_CORNER = registerBlock(
                         "chiseled_sandstone_stepped_bottom_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block LAPIS_STEPPED_BOTTOM_CORNER = registerBlock(
                         "lapis_stepped_bottom_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_STEPPED_BOTTOM_CORNER_TOP = registerBlock(
                         "lapis_stepped_bottom_corner_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block SANDSTONE_EXTENDED_BLOCK_CORNER = registerBlock(
                         "sandstone_extended_block_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block EXTENDED_CORNER = registerBlock(
                         "extended_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_BANDED_EXTENDED_BLOCK_CORNER = registerBlock(
                         "lapis_banded_extended_block_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_EXTENDED_BLOCK_CORNER = registerBlock(
                         "lapis_extended_block_corner",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         // Diagonal tower shit
         public static Block SANDSTONE_DIAGONAL_WALL = registerBlock(
                         "sandstone_diagonal_wall",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_DIAGONAL_WALL_MUDDY_TOP = registerBlock(
                         "sandstone_diagonal_wall_muddy_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_DIAGONAL_WALL_MUDDY_BOTTOM = registerBlock(
                         "sandstone_diagonal_wall_muddy_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_DIAGONAL_WALL_SHADOWED = registerBlock(
                         "sandstone_diagonal_wall_shadowed",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_PEAK_DIAGONAL = registerBlock("sandstone_peak_diagonal",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block GRASS_TWO = registerBlock("grass_two",
                         new ModGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
@@ -400,57 +406,57 @@ public class ModBlocks {
         public static Block SANDSTONE_PEAK_CORNER_DIAGONAL = registerBlock(
                         "sandstone_peak_corner_diagonal",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL = registerBlock(
                         "sandstone_stepped_block_bottom_diagonal",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL_SHADOWED = registerBlock(
                         "sandstone_stepped_block_bottom_diagonal_shadowed",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_EXTENDED_BLOCK_DIAGONAL = registerBlock(
                         "sandstone_extended_block_diagonal",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BOTTOM_CORNER_DIAGONAL = registerBlock(
                         "sandstone_stepped_bottom_corner_diagonal",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_EXTENDED_BLOCK_CORNER_DIAGONAL = registerBlock(
                         "sandstone_extended_block_corner_diagonal",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_ROUND_WINDOW = registerBlock(
                         "sandstone_round_window",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_ROUND_WINDOW_EXTENDED = registerBlock(
                         "sandstone_round_window_extended",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block LAPIS_ROUND_WINDOW = registerBlock(
                         "lapis_round_window",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_ROUND_WINDOW_EXTENDED = registerBlock(
                         "lapis_round_window_extended",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block SANDSTONE_WINDOW_RECTANGLE = registerBlock(
                         "sandstone_window_rectangle",
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS).nonOpaque()));
 
         public static Block SANDSTONE_WINDOW_RECTANGLE_STEPPED = registerBlock(
                         "sandstone_window_rectangle_stepped",
@@ -460,22 +466,22 @@ public class ModBlocks {
         public static Block POLISHED_SANDSTONE_FENCE = registerBlock(
                         "polished_sandstone_fence",
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
         public static Block POLISHED_SANDSTONE_FENCE_SMALL = registerBlock(
                         "polished_sandstone_fence_small",
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
         public static Block POLISHED_SANDSTONE_FENCE_SHORT = registerBlock(
                         "polished_sandstone_fence_short",
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
         public static Block POLISHED_SANDSTONE_FENCE_SHORT_SMALL = registerBlock(
                         "polished_sandstone_fence_short_small",
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
         public static Block LIME_GYPSUM_PLASTER_FENCE = registerBlock(
                         "lime_gypsum_plaster_fence",
@@ -553,41 +559,54 @@ public class ModBlocks {
                                         FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)));
 
         public static Block PALM_SAPLING = registerBlock("palm_sapling",
-                        new ModSaplingBlock(new PalmTreeGrower(null, null, SizeType.MEDIUM),
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                        new ModSaplingBlock(new PalmSaplingGenerator(),
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
 
         public static Block PALM_SAPLING_LARGE = registerBlock("palm_sapling_large",
-                        new ModSaplingBlock(new PalmTreeGrower(null, null, SizeType.LARGE),
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                        new SaplingBlock(new PalmSaplingGenerator(),
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
 
         public static Block PALM_SAPLING_SMALL = registerBlock("palm_sapling_small",
-                        new ModSaplingBlock(new PalmTreeGrower(null, null, SizeType.SMALL),
+                        new ModSaplingBlock(new PalmSaplingGenerator(),
                                         FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
+        // public static final Block DRIFTWOOD_SAPLING =
+        // registerBlock("driftwood_sapling",
+        // new ModSaplingBlock(new DriftwoodSaplingGenerator(),
+        // FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
+
+        public static final Block CHESTNUT_SAPLING = registerBlock("chestnut_sapling",
+                        new ModSaplingBlock(new ChestnutSaplingGenerator(),
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
+        // public static final Block PALM_SAPLING = registerBlock("palm_sapling",
+        // new ModSaplingBlock(new PalmSaplingGenerator(),
+        // FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
         public static Block SANDSTONE_BRIDGE_BACK_RIGHT = registerBlock(
                         "sandstone_bridge_back_right",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_BACK_LEFT = registerBlock(
                         "sandstone_bridge_back_left",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_CENTER = registerBlock(
                         "sandstone_bridge_front_center",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_RIGHT = registerBlock(
                         "sandstone_bridge_front_right",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_LEFT = registerBlock(
                         "sandstone_bridge_front_left",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block MARKET_STALL = registerBlock(
                         "market_stall",
@@ -604,52 +623,52 @@ public class ModBlocks {
         public static Block SANDSTONE_BRIDGE_BACK_RIGHT_MUDDY_BOTTOM = registerBlock(
                         "sandstone_bridge_back_right_muddy_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_BACK_LEFT_MUDDY_BOTTOM = registerBlock(
                         "sandstone_bridge_back_left_muddy_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_CENTER_MUDDY_BOTTOM = registerBlock(
                         "sandstone_bridge_front_center_muddy_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_RIGHT_MUDDY_BOTTOM = registerBlock(
                         "sandstone_bridge_front_right_muddy_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_LEFT_MUDDY_BOTTOM = registerBlock(
                         "sandstone_bridge_front_left_muddy_bottom",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_BACK_RIGHT_MUDDY_TOP = registerBlock(
                         "sandstone_bridge_back_right_muddy_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_BACK_LEFT_MUDDY_TOP = registerBlock(
                         "sandstone_bridge_back_left_muddy_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_CENTER_MUDDY_TOP = registerBlock(
                         "sandstone_bridge_front_center_muddy_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_RIGHT_MUDDY_TOP = registerBlock(
                         "sandstone_bridge_front_right_muddy_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block SANDSTONE_BRIDGE_FRONT_LEFT_MUDDY_TOP = registerBlock(
                         "sandstone_bridge_front_left_muddy_top",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block LAMASSU = registerBlock(
                         "lamassu",

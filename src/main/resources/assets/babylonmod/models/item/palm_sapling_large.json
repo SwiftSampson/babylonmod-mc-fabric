@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "babylonmod:block/palm_sapling_large"
+  }
+}

@@ -4,6 +4,9 @@ import com.mojang.logging.LogUtils;
 import com.palana.babylonmod.block.ModBlocks;
 import com.palana.babylonmod.item.ModItemGroup;
 import com.palana.babylonmod.item.ModItems;
+import com.palana.babylonmod.world.gen.ModWorldGeneration;
+import com.palana.babylonmod.world.tree.ModFoliagePlacerTypes;
+import com.palana.babylonmod.world.tree.ModTrunkPlacerTypes;
 
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -17,6 +20,9 @@ public class BabylonMod implements ModInitializer {
         ModItemGroup.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModWorldGeneration.generateModWorldGen();
+        ModTrunkPlacerTypes.register();
+        ModFoliagePlacerTypes.register();
 
     }
 
