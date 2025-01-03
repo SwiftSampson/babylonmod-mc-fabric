@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/items/square_barrel_angled",
+      "y": 360
+    },
+    "facing=west": {
+      "model": "babylonmod:block/items/square_barrel_angled",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "babylonmod:block/items/square_barrel_angled",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "babylonmod:block/items/square_barrel_angled",
+      "y": 90
+    }
+  }
+}

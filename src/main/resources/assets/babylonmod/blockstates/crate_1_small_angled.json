@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/items/crate_1_small_angled",
+      "y": 360
+    },
+    "facing=west": {
+      "model": "babylonmod:block/items/crate_1_small_angled",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "babylonmod:block/items/crate_1_small_angled",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "babylonmod:block/items/crate_1_small_angled",
+      "y": 90
+    }
+  }
+}

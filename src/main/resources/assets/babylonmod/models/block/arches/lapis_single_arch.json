@@ -1,8 +1,6 @@
 {
   "credit": "Made with Blockbench",
   "parent": "minecraft:block/stairs",
-  "ambientocclusion": false,
-  "render_type": "translucent",
   "texture_size": [64, 64],
   "textures": {
     "0": "babylonmod:block/lapis_brick_match_sandstone",

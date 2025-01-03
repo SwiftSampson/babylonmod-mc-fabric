@@ -1,0 +1,10 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/nature/mud_three"},
+      { "model": "babylonmod:block/nature/mud_three1"},
+      { "model": "babylonmod:block/nature/mud_three2"}
+    ]
+  }
+}

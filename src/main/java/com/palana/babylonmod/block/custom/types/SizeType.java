@@ -3,6 +3,7 @@ package com.palana.babylonmod.block.custom.types;
 import net.minecraft.util.StringIdentifiable;
 
 public enum SizeType implements StringIdentifiable {
+    XSMALL("xsmall"),
     SMALL("small"),
     MEDIUM("medium"),
     LARGE("large"),

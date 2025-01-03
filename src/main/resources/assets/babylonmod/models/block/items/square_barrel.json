@@ -1,0 +1,12 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "ambientocclusion": true,
+  "render_type": "translucent",
+  "parent": "special-model-loader:builtin/obj",
+  "model": "babylonmod:models/block/items/square_barrel.obj",
+  "textures": {
+    "particle": "minecraft:block/oak_planks"
+  }
+}

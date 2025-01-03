@@ -23,9 +23,15 @@ public class PalmTrunkPlacer extends TrunkPlacer {
     public static final Codec<PalmTrunkPlacer> CODEC = RecordCodecBuilder
             .create(objectInstance -> fillTrunkPlacerFields(objectInstance)
                     .apply(objectInstance, PalmTrunkPlacer::new));
+    protected final int baseHeight;
+    protected final int firstRandomHeight;
+    protected final int secondRandomHeight;
 
     public PalmTrunkPlacer(int baseHeight, int firstRandomHeight, int secondRandomHeight) {
         super(baseHeight, firstRandomHeight, secondRandomHeight);
+        this.baseHeight = baseHeight;
+        this.firstRandomHeight = firstRandomHeight;
+        this.secondRandomHeight = secondRandomHeight;
     }
 
     @Override
@@ -40,30 +46,29 @@ public class PalmTrunkPlacer extends TrunkPlacer {
 
         // int height = pFreeTreeHeight + pRandom.nextInt(firstRandomHeight,
         // firstRandomHeight + 1)
-        int random1 = pRandom.nextBetween(firstRandomHeight, secondRandomHeight);
-        int random2 = pRandom.nextBetween(secondRandomHeight - 1, secondRandomHeight + 1);
 
         // create random object
         // Random ran = new Random();
 
         // Print next int value
         // Returns number between 0-9
-        int nxt = pRandom.nextBetween(secondRandomHeight - firstRandomHeight + 1, firstRandomHeight);
-        int someheight = nxt;
-        System.out.println("TOTAL HEIGHT=" + someheight + "between" + firstRandomHeight + "and" + secondRandomHeight);
+        int avgHeight = pRandom.nextBetween(firstRandomHeight, secondRandomHeight);
+        // int someheight = nxt;
+        System.out.println(
+                "TOTAL HEIGHT=" + "between" + firstRandomHeight + "and" + secondRandomHeight + "actual:" + avgHeight);
 
         // + pRandom.nextInt(secondRandomHeight - 1, secondRandomHeight + 1);
 
         EnumProperty<SizeType> SIZE = EnumProperty.of("size", SizeType.class);
-        for (int i = 0; i < height; i++) {
+        for (int i = 0; i < avgHeight; i++) {
             BlockState blockstate = pConfig.trunkProvider.get(pRandom, pPos.up(i));
 
             replacer.accept(pPos.up(i), blockstate.with(SIZE, SizeType.MEDIUM));
 
         }
 
-        return ImmutableList.of(new FoliagePlacer.TreeNode(pPos.up(height), 0, false));// add
-                                                                                       // different
+        return ImmutableList.of(new FoliagePlacer.TreeNode(pPos.up(avgHeight), 0, false));// add
+                                                                                          // different
         // foliage options,
         // eg for top, sides
         // etc

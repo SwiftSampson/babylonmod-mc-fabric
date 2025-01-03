@@ -2,9 +2,9 @@
   "__comment": "Add the following line on the same level as a 'model' declaration.",
   "loader": "forge:obj",
   "flip_v": true,
-  "ambientocclusion": true,
   "backfaceculling": true,
-  "render_type": "translucent",
+  "ambientocclusion": true,
+  "render_type": "cutout",
   "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/nature/cypress_large.obj",
   "textures": {

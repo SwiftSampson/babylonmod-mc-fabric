@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "babylonmod:block/items/crate_2_offset",
+      "y": 360
+    },
+    "facing=west": {
+      "model": "babylonmod:block/items/crate_2_offset",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "babylonmod:block/items/crate_2_offset",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "babylonmod:block/items/crate_2_offset",
+      "y": 90
+    }
+  }
+}

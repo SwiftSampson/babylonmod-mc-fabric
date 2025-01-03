@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryBuilder;
 
+import com.palana.babylonmod.datagen.ModBlockTagProvider;
 import com.palana.babylonmod.datagen.ModModelProvider;
 import com.palana.babylonmod.datagen.ModWorldGenerator;
 import com.palana.babylonmod.world.ModConfiguredFeatures;
@@ -16,7 +17,7 @@ public class BabylonModDataGenerator implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-        // pack.addProvider(ModBlockTagProvider::new);
+        pack.addProvider(ModBlockTagProvider::new);
         // pack.addProvider(ModItemTagProvider::new);
         // pack.addProvider(ModLootTableProvider::new);
         pack.addProvider(ModModelProvider::new);

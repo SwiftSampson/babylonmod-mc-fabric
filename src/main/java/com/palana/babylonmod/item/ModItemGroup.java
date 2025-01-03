@@ -18,7 +18,6 @@ public class ModItemGroup {
             new Identifier(BabylonMod.MOD_ID, "babylon_tab"),
             FabricItemGroup.builder().displayName(Text.translatable("Babylon Blocks"))
                     .icon(() -> new ItemStack(Blocks.SANDSTONE)).entries((displayContext, entries) -> {
-
                         entries.add(ModBlocks.LAPIS_STEPPED_PEAK);
                         entries.add(ModBlocks.LAPIS_STEPPED_PEAK_CORNER);
                         entries.add(ModBlocks.LAPIS_PEAK);
@@ -131,6 +130,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.ISHTAR_GATE_DRAGON_GOLD_RIGHT);
                         entries.add(ModBlocks.ISHTAR_GATE_DRAGON_WHITE_RIGHT);
 
+                        entries.add(ModBlocks.PALM_SAPLING_XSMALL);
                         entries.add(ModBlocks.PALM_SAPLING_SMALL);
                         entries.add(ModBlocks.PALM_SAPLING);
                         entries.add(ModBlocks.PALM_SAPLING_LARGE);
@@ -170,6 +170,14 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CYPRES_SMALL);
                         entries.add(ModBlocks.CYPRESS);
                         entries.add(ModBlocks.CYPRESS_LARGE);
+                        entries.add(ModBlocks.MUD);
+                        entries.add(ModBlocks.MUD_ONE);
+                        entries.add(ModBlocks.MUD_TWO);
+                        entries.add(ModBlocks.MUD_THREE);
+
+                        entries.add(ModBlocks.SANDSTONE_DIAGONAL_SINGLE_ARCH);
+                        entries.add(ModBlocks.SANDSTONE_DIAGONAL_RECTANGLE_WINDOW);
+                        entries.add(ModBlocks.SANDSTONE_DIAGONAL_ROUND_WINDOW);
 
                     }).build());
 
@@ -275,6 +283,23 @@ public class ModItemGroup {
                         entries.add(ModBlocks.TALL_VASE);
                         entries.add(ModBlocks.BARREL_PLANTER_SMALL);
                         entries.add(ModBlocks.BARREL_PLANTER);
+                        entries.add(ModItems.BABYLON_WHEAT_SEEDS);
+                        entries.add(ModBlocks.CRATE_1);
+                        entries.add(ModBlocks.CRATE_1_ANGLED);
+                        entries.add(ModBlocks.CRATE_1_OFFSET);
+                        entries.add(ModBlocks.CRATE_1_SMALL);
+                        entries.add(ModBlocks.CRATE_1_SMALL_ANGLED);
+                        entries.add(ModBlocks.CRATE_1_SMALL_OFFSET);
+                        entries.add(ModBlocks.CRATE_1_SMALL_GROUP);
+                        entries.add(ModBlocks.CRATE_2);
+                        entries.add(ModBlocks.CRATE_2_ANGLED);
+                        entries.add(ModBlocks.CRATE_2_OFFSET);
+                        entries.add(ModBlocks.CRATE_2_SMALL);
+                        entries.add(ModBlocks.CRATE_2_SMALL_ANGLED);
+                        entries.add(ModBlocks.CRATE_2_SMALL_OFFSET);
+                        entries.add(ModBlocks.SQUARE_BARREL);
+                        entries.add(ModBlocks.SQUARE_BARREL_ANGLED);
+                        entries.add(ModBlocks.SQUARE_BARREL_OFFSET);
 
                     }).build());
 
