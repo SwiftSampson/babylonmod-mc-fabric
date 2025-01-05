@@ -283,6 +283,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.TALL_VASE);
                         entries.add(ModBlocks.BARREL_PLANTER_SMALL);
                         entries.add(ModBlocks.BARREL_PLANTER);
+                        entries.add(ModBlocks.PLANTABLE_BARREL_PLANTER);
+                        entries.add(ModBlocks.LARGE_PLANTABLE_BARREL_PLANTER);
                         entries.add(ModItems.BABYLON_WHEAT_SEEDS);
                         entries.add(ModBlocks.CRATE_1);
                         entries.add(ModBlocks.CRATE_1_ANGLED);

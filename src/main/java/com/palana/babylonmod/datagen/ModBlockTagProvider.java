@@ -24,7 +24,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.DIRT)
                 .add(ModBlocks.GRASS_TWO)
-                .forceAddTag(BlockTags.DIRT);
+                .add(ModBlocks.PLANTABLE_BARREL_PLANTER)
+                .add(ModBlocks.LARGE_PLANTABLE_BARREL_PLANTER);
 
     }
 }

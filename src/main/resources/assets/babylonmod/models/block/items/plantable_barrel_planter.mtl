@@ -1,5 +1,5 @@
-# Blender MTL File: 'Objects.blend'
-# Material Count: 3
+# Blender 4.3.2 MTL File: 'Objects.blend'
+# www.blender.org
 
 newmtl Barrel_Fill
 map_Kd minecraft:block/rooted_dirt

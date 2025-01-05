@@ -3,6 +3,7 @@ package com.palana.babylonmod.block;
 import com.palana.babylonmod.BabylonMod;
 import com.palana.babylonmod.block.custom.DirectionalPalmLeaves;
 import com.palana.babylonmod.block.custom.ModConnectedBlock;
+import com.palana.babylonmod.block.custom.ModDiagonalBlock;
 import com.palana.babylonmod.block.custom.ModDirectionalBlock;
 import com.palana.babylonmod.block.custom.ModDirectionalSlabBlock;
 import com.palana.babylonmod.block.custom.ModDynamicSandBlock;
@@ -353,26 +354,26 @@ public class ModBlocks {
         // Diagonal tower shit
         public static Block SANDSTONE_DIAGONAL_WALL = registerBlock(
                         "sandstone_diagonal_wall",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_DIAGONAL_WALL_MUDDY_TOP = registerBlock(
                         "sandstone_diagonal_wall_muddy_top",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_DIAGONAL_WALL_MUDDY_BOTTOM = registerBlock(
                         "sandstone_diagonal_wall_muddy_bottom",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_DIAGONAL_WALL_SHADOWED = registerBlock(
                         "sandstone_diagonal_wall_shadowed",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL).nonOpaque()));
 
         public static Block SANDSTONE_PEAK_DIAGONAL = registerBlock("sandstone_peak_diagonal",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block GRASS_TWO = registerBlock("grass_two",
@@ -402,36 +403,36 @@ public class ModBlocks {
         public static Block LIME_GYPSUM_PLASTER_RECESS = registerBlock(
                         "lime_gypsum_plaster_recess",
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS)));
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
         public static Block SANDSTONE_PEAK_CORNER_DIAGONAL = registerBlock(
                         "sandstone_peak_corner_diagonal",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL = registerBlock(
                         "sandstone_stepped_block_bottom_diagonal",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL_SHADOWED = registerBlock(
                         "sandstone_stepped_block_bottom_diagonal_shadowed",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_EXTENDED_BLOCK_DIAGONAL = registerBlock(
                         "sandstone_extended_block_diagonal",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_STEPPED_BOTTOM_CORNER_DIAGONAL = registerBlock(
                         "sandstone_stepped_bottom_corner_diagonal",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_EXTENDED_BLOCK_CORNER_DIAGONAL = registerBlock(
                         "sandstone_extended_block_corner_diagonal",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_ROUND_WINDOW = registerBlock(
@@ -783,6 +784,14 @@ public class ModBlocks {
                         "barrel_planter",
                         new Block(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
+        public static Block PLANTABLE_BARREL_PLANTER = registerBlock(
+                        "plantable_barrel_planter",
+                        new Block(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
+        public static Block LARGE_PLANTABLE_BARREL_PLANTER = registerBlock(
+                        "large_plantable_barrel_planter",
+                        new Block(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
         public static Block CYPRESS = registerBlock("cypress",
                         new Block(FabricBlockSettings.copyOf(Blocks.FERN)));
 
@@ -813,15 +822,15 @@ public class ModBlocks {
 
         public static Block SANDSTONE_DIAGONAL_SINGLE_ARCH = registerBlock(
                         "sandstone_diagonal_single_arch",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
         public static Block SANDSTONE_DIAGONAL_RECTANGLE_WINDOW = registerBlock(
                         "sandstone_diagonal_rectangle_window",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
         public static Block SANDSTONE_DIAGONAL_ROUND_WINDOW = registerBlock(
                         "sandstone_diagonal_single_window",
-                        new ModDirectionalBlock(
+                        new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
 
         public static Block CRATE_1 = registerBlock(
