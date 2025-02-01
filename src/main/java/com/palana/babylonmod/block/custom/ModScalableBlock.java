@@ -5,12 +5,15 @@ import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
 
+
+
 import org.jetbrains.annotations.Nullable;
 
 import com.palana.babylonmod.block.custom.types.SizeType;
 
-public class ModScalableBlock extends HorizontalFacingBlock {
+public class ModScalableBlock extends Block {
     public static EnumProperty<SizeType> SIZE = EnumProperty.of("size", SizeType.class);
+
 
     public ModScalableBlock(Settings settings) {
         super(settings);

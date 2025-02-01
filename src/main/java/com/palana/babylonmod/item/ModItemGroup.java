@@ -75,10 +75,22 @@ public class ModItemGroup {
                         entries.add(ModBlocks.POLISHED_SANDSTONE_FENCE_SHORT);
                         entries.add(ModBlocks.POLISHED_SANDSTONE_FENCE_SHORT_SMALL);
 
+                        entries.add(ModBlocks.LAPIS_FENCE);
+                        entries.add(ModBlocks.LAPIS_FENCE_SMALL);
+                        entries.add(ModBlocks.LAPIS_FENCE_SHORT);
+                        entries.add(ModBlocks.LAPIS_FENCE_SHORT_SMALL);
+
                         entries.add(ModBlocks.LIME_GYPSUM_PLASTER_FENCE);
                         entries.add(ModBlocks.LIME_GYPSUM_PLASTER_FENCE_SMALL);
                         entries.add(ModBlocks.LIME_GYPSUM_PLASTER_FENCE_SHORT);
                         entries.add(ModBlocks.LIME_GYPSUM_PLASTER_FENCE_SHORT_SMALL);
+
+                        entries.add(ModBlocks.PLASTER_STEPPED_BLOCK_BOTTOM_TOP);
+                        entries.add(ModBlocks.PLASTER_STEPPED_BOTTOM_CORNER_TOP);
+                        entries.add(ModBlocks.PLASTER_MERLON);
+                        entries.add(ModBlocks.PLASTER_MERLON_CORNER);
+                        entries.add(ModBlocks.PLASTER_STEPPED_PEAK);
+                        entries.add(ModBlocks.PLASTER_STEPPED_PEAK_CORNER);
 
                         entries.add(ModBlocks.SANDSTONE_INSET_WINDOW);
                         entries.add(ModBlocks.SANDSTONE_SINGLE_ARCH);

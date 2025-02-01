@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"6": "babylonmod:block/lapis_brick"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 12],
+			"to": [12, 12, 16],
+			"faces": {
+				"north": {"uv": [8, 3, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#6"},
+				"south": {"uv": [0, 3, 12, 16], "texture": "#6"},
+				"west": {"uv": [0, 3, 4.5, 16], "texture": "#6"},
+				"up": {"uv": [0, 3, 12, 7], "texture": "#6"},
+				"down": {"uv": [0, 10.5, 12, 16], "texture": "#6"}
+			}
+		},
+		{
+			"from": [12, 0, 0],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 3, 4.5, 15.5], "texture": "#6"},
+				"east": {"uv": [0, 3, 16, 16], "texture": "#6"},
+				"south": {"uv": [12.5, 3, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 3, 16, 16], "texture": "#6"},
+				"up": {"uv": [1, 10.5, 16, 16], "rotation": 90, "texture": "#6"},
+				"down": {"uv": [0, 3, 16, 7], "rotation": 90, "texture": "#6"}
+			}
+		}
+	]
+}

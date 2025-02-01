@@ -101,6 +101,24 @@ public class ModBlocks {
                         new ModDirectionalBlock(
                                         FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
+        public static Block PLASTER_STEPPED_PEAK = registerBlock("plaster_stepped_peak",
+                                        new ModDirectionalBlock(
+                                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
+                
+        public static Block PLASTER_STEPPED_PEAK_CORNER = registerBlock(
+                                        "plaster_stepped_peak_corner",
+                                        new ModDirectionalBlock(
+                                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
+
+        public static Block PLASTER_MERLON = registerBlock("plaster_merlon",
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
+
+        public static Block PLASTER_MERLON_CORNER = registerBlock(
+                        "plaster_merlon_corner",
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
+
         public static Block SANDSTONE_INSET_WINDOW = registerBlock("sandstone_inset_window",
                         new ModDirectionalBlock(
                                         FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
@@ -246,6 +264,11 @@ public class ModBlocks {
                         new ModDirectionalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
+        public static Block PLASTER_STEPPED_BLOCK_BOTTOM_TOP = registerBlock(
+                        "plaster_stepped_block_bottom_top",
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
         public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM = registerBlock(
                         "sandstone_stepped_block_bottom",
                         new ModDirectionalBlock(
@@ -303,6 +326,11 @@ public class ModBlocks {
 
         public static Block SANDSTONE_STEPPED_BOTTOM_CORNER_TOP = registerBlock(
                         "sandstone_stepped_bottom_corner_top",
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+        public static Block PLASTER_STEPPED_BOTTOM_CORNER_TOP = registerBlock(
+                        "plaster_stepped_bottom_corner_top",
                         new ModDirectionalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
@@ -482,6 +510,27 @@ public class ModBlocks {
 
         public static Block POLISHED_SANDSTONE_FENCE_SHORT_SMALL = registerBlock(
                         "polished_sandstone_fence_short_small",
+                        new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
+
+        public static Block LAPIS_FENCE = registerBlock(
+                        "lapis_fence",
+                        new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
+        public static Block LAPIS_FENCE_SMALL = registerBlock(
+                        "lapis_fence_small",
+                        new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
+        public static Block LAPIS_FENCE_SHORT = registerBlock(
+                        "lapis_fence_short",
+                        new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
+        public static Block LAPIS_FENCE_SHORT_SMALL = registerBlock(
+                        "lapis_fence_short_small",
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
                                         FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 

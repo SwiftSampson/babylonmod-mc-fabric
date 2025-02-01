@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"ambientocclusion": false,
+	"render_type": "translucent",
+	"textures": {
+		"1": "babylonmod:block/bricks_floor",
+		"2": "babylonmod:block/lime_gypsum_plaster_top_dark1",
+		"particle": "babylonmod:block/lime_gypsum_plaster_top_dark1"
+	},
+	"elements": [
+		{
+			"from": [-2, 0, 0],
+			"to": [9, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [9, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8.5, 4.5], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 4.5], "texture": "#1"},
+				"south": {"uv": [8.5, 0, 16, 4.5], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 8.5], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 8.5], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "sandstone_stepped_block_bottom",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}

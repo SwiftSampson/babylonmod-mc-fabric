@@ -1,0 +1,92 @@
+{
+  "variants": {
+    "facing=east": [
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top",
+        "y": 360,
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top1",
+        "y": 360,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top2",
+        "y": 360,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top3",
+        "y": 360,
+        "weight": 15
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top1",
+        "y": 180,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top2",
+        "y": 180,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top3",
+        "y": 180,
+        "weight": 15
+      }
+    ],
+    "facing=north": [
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top1",
+        "y": 270,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top2",
+        "y": 270,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top3",
+        "y": 270,
+        "weight": 15
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top1",
+        "y": 90,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top2",
+        "y": 90,
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/plaster_stepped_block_bottom_top3",
+        "y": 90,
+        "weight": 15
+      }
+    ]
+  }
+}
