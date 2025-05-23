@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "babylonmod:block/glazed_bricks_animal_left_bottom1",
+    "top": "babylonmod:block/glazed_bricks_animal_left_top1",
+    "side": "babylonmod:block/glazed_bricks_animal_left4"
+  }
+}

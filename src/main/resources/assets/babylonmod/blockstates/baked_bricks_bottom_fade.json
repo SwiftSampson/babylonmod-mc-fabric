@@ -1,0 +1,35 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      {
+        "model": "babylonmod:block/walls/baked_bricks_bottom_fade",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_bottom_fade1",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_bottom_fade2",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_bottom_fade3",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_bottom_fade4",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_bottom_fade5",
+        "weight": 10
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_bottom_fade6",
+        "weight": 15
+      }
+    ]
+  }
+}

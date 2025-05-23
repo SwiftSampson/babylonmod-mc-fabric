@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "minecraft:block/cracked_deepslate_tiles_bottom",
+        "top": "minecraft:block/cracked_deepslate_tiles_top",
+        "side": "minecraft:block/cracked_deepslate_tiles3"
+    }
+}

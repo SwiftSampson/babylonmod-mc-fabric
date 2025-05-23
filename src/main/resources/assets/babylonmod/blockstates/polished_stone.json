@@ -1,0 +1,11 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/polished_stone", "weight": 1 },
+      { "model": "babylonmod:block/walls/polished_stone1", "weight": 1 },
+      { "model": "babylonmod:block/walls/polished_stone2", "weight": 1 },
+      { "model": "babylonmod:block/walls/polished_stone3", "weight": 1 }
+    ]
+  }
+}

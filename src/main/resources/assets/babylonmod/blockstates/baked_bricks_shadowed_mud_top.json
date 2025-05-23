@@ -1,0 +1,14 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/baked_bricks_shadowed_mud_top" },
+      { "model": "babylonmod:block/walls/baked_bricks_shadowed_mud_top1" },
+      { "model": "babylonmod:block/walls/baked_bricks_shadowed_mud_top2" },
+      { "model": "babylonmod:block/walls/baked_bricks_shadowed_mud_top3" },
+      { "model": "babylonmod:block/walls/baked_bricks_shadowed_mud_top4" },
+      { "model": "babylonmod:block/walls/baked_bricks_shadowed_mud_top5" },
+      { "model": "babylonmod:block/walls/baked_bricks_shadowed_mud_top6" }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "babylonmod:block/polished_stone2",
+    "side": "babylonmod:block/polished_stone_slab_side"
+  }
+}

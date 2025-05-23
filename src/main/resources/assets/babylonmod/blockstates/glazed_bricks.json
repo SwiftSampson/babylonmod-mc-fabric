@@ -1,0 +1,13 @@
+{
+  "__comment": "Jimnether_brickCraft - 2018",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/glazed_bricks", "weight": 30 },
+      { "model": "babylonmod:block/walls/glazed_bricks1", "weight": 10 },
+      { "model": "babylonmod:block/walls/glazed_bricks2", "weight": 10 },
+      { "model": "babylonmod:block/walls/glazed_bricks3", "weight": 15 },
+      { "model": "babylonmod:block/walls/glazed_bricks4", "weight": 25 },
+      { "model": "babylonmod:block/walls/glazed_bricks5", "weight": 10 }
+    ]
+  }
+}

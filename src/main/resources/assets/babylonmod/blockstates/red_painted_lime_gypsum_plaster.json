@@ -1,0 +1,23 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster",
+        "weight": 1
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster1",
+        "weight": 1
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster2",
+        "weight": 1
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster3",
+        "weight": 1
+      }
+    ]
+  }
+}

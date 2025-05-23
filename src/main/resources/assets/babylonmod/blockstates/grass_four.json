@@ -1,0 +1,47 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/nature/grass_four", "weight": 60 },
+      { "model": "babylonmod:block/nature/grass_four", "weight": 60, "y": 90 },
+      { "model": "babylonmod:block/nature/grass_four", "weight": 60, "y": 180 },
+      { "model": "babylonmod:block/nature/grass_four", "weight": 60, "y": 270 },
+      { "model": "babylonmod:block/nature/grass_four1", "weight": 5 },
+      { "model": "babylonmod:block/nature/grass_four1", "weight": 5, "y": 90 },
+      { "model": "babylonmod:block/nature/grass_four1", "weight": 5, "y": 180 },
+      { "model": "babylonmod:block/nature/grass_four1", "weight": 5, "y": 270 },
+      { "model": "babylonmod:block/nature/grass_four2", "weight": 10 },
+      { "model": "babylonmod:block/nature/grass_four2", "weight": 10, "y": 90 },
+      {
+        "model": "babylonmod:block/nature/grass_four2",
+        "weight": 10,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/grass_four2",
+        "weight": 10,
+        "y": 270
+      },
+      { "model": "babylonmod:block/nature/grass_four3", "weight": 15 },
+      { "model": "babylonmod:block/nature/grass_four3", "weight": 15, "y": 90 },
+      {
+        "model": "babylonmod:block/nature/grass_four3",
+        "weight": 15,
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/nature/grass_four3",
+        "weight": 15,
+        "y": 270
+      },
+      { "model": "babylonmod:block/nature/grass_four4", "weight": 10 },
+      { "model": "babylonmod:block/nature/grass_four4", "weight": 10, "y": 90 },
+      {
+        "model": "babylonmod:block/nature/grass_four4",
+        "weight": 10,
+        "y": 180
+      },
+      { "model": "babylonmod:block/nature/grass_four4", "weight": 10, "y": 270 }
+    ]
+  }
+}

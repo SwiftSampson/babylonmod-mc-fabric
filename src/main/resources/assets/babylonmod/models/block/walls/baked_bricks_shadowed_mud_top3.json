@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "babylonmod:block/baked_bricks_shadowed_mud_top_top3",
+    "top": "babylonmod:block/baked_bricks_shadowed_mud_top_top3",
+    "side": "babylonmod:block/baked_bricks_shadowed_mud_top3"
+  }
+}

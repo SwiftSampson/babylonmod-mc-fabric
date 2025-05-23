@@ -1,0 +1,31 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      {
+        "model": "babylonmod:block/walls/glazed_bricks_animal_left",
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/glazed_bricks_animal_left1",
+        "weight": 10
+      },
+      {
+        "model": "babylonmod:block/walls/glazed_bricks_animal_left2",
+        "weight": 10
+      },
+      {
+        "model": "babylonmod:block/walls/glazed_bricks_animal_left3",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/glazed_bricks_animal_left4",
+        "weight": 25
+      },
+      {
+        "model": "babylonmod:block/walls/glazed_bricks_animal_left5",
+        "weight": 10
+      }
+    ]
+  }
+}

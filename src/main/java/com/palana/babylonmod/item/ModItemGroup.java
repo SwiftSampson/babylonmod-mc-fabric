@@ -255,9 +255,11 @@ public class ModItemGroup {
                         entries.add(Blocks.POLISHED_ANDESITE);
                         entries.add(Blocks.POLISHED_ANDESITE_SLAB);
                         entries.add(Blocks.POLISHED_ANDESITE_STAIRS);
-                        entries.add(Blocks.POLISHED_DEEPSLATE);
-                        entries.add(Blocks.POLISHED_DEEPSLATE_SLAB);
-                        entries.add(Blocks.POLISHED_DEEPSLATE_STAIRS);
+
+                        // entries.add(Blocks.POLISHED_DEEPSLATE);
+                        // entries.add(Blocks.POLISHED_DEEPSLATE_SLAB);
+                        // entries.add(Blocks.POLISHED_DEEPSLATE_STAIRS);
+
                         entries.add(Blocks.CHERRY_STAIRS);
                         entries.add(Blocks.CHERRY_SLAB);
                         entries.add(Blocks.GRASS_BLOCK);
@@ -314,7 +316,73 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SQUARE_BARREL);
                         entries.add(ModBlocks.SQUARE_BARREL_ANGLED);
                         entries.add(ModBlocks.SQUARE_BARREL_OFFSET);
+                        entries.add(ModBlocks.LAMASSU);
 
+                    }).build());
+
+    public static final ItemGroup NEW_BLOCKS_TAB = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(BabylonMod.MOD_ID, "new_blocks"),
+            FabricItemGroup.builder().displayName(Text.translatable("New Blocks"))
+                    .icon(() -> new ItemStack(ModBlocks.BAKED_BRICK_FLOOR_EASTWEST))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.RUBY_FENCE);
+
+                        entries.add(ModBlocks.BAKED_BRICK_FLOOR_EASTWEST);
+                        entries.add(ModBlocks.BAKED_BRICK_FLOOR_EASTWEST_SLAB);
+                        entries.add(ModBlocks.BAKED_BRICK_FLOOR_EASTWEST_STAIRS);
+                        entries.add(ModBlocks.BAKED_BRICK_FLOOR_NORTHSOUTH);
+                        entries.add(ModBlocks.BAKED_BRICK_FLOOR_NORTHSOUTH_SLAB);
+                        entries.add(ModBlocks.BAKED_BRICK_FLOOR_NORTHSOUTH_STAIRS);
+                        entries.add(ModBlocks.BAKED_BRICK_PILLAR_TOP);
+                        entries.add(ModBlocks.BAKED_BRICKS_BOTTOM_DARK);
+                        entries.add(ModBlocks.BAKED_BRICKS_BOTTOM_FADE);
+                        entries.add(ModBlocks.BAKED_BRICKS_MERLON);
+                        entries.add(ModBlocks.BAKED_BRICKS_MERLON_CORNER);
+                        entries.add(ModBlocks.BAKED_BRICKS_SHADOWED_MUD_TOP);
+                        entries.add(ModBlocks.BAKED_BRICKS_SHADOWED_STONE_TOP);
+                        entries.add(ModBlocks.BAKED_BRICKS_TOP_FADE_MUD_TOP);
+                        entries.add(ModBlocks.BAKED_BRICKS_TOP_FADE_STONE_TOP);
+                        entries.add(ModBlocks.BRECCIA_BRIGHT);
+                        entries.add(ModBlocks.BRECCIA_BRIGHT_WALL);
+                        entries.add(ModBlocks.BRECCIA_BRIGHT_SLAB);
+                        entries.add(ModBlocks.BRECCIA_BRIGHT_STAIRS);
+                        entries.add(ModBlocks.BRECCIA_DULL);
+                        entries.add(ModBlocks.BRECCIA_DULL_SLAB);
+                        entries.add(ModBlocks.BRECCIA_DULL_STAIRS);
+                        entries.add(ModBlocks.CHISELED_STONE);
+                        entries.add(ModBlocks.GLAZED_BRICK_WALL);
+                        entries.add(ModBlocks.GLAZED_BRICK_SLAB);
+                        entries.add(ModBlocks.GLAZED_BRICK_STAIRS);
+                        entries.add(ModBlocks.GLAZED_BRICKS);
+                        entries.add(ModBlocks.GLAZED_BRICKS_ANIMAL_WALL);
+                        entries.add(ModBlocks.GLAZED_BRICKS_ANIMAL_LEFT);
+                        entries.add(ModBlocks.GLAZED_BRICKS_ANIMAL_RIGHT);
+                        entries.add(ModBlocks.GLAZED_BRICKS_BANDED);
+                        entries.add(ModBlocks.GLAZED_BRICKS_BANDED_VERTICAL);
+                        // entries.add(ModBlocks.GLAZED_BRICKS_CONNECTED);
+                        entries.add(ModBlocks.GLAZED_BRICKS_FLOWER);
+                        entries.add(ModBlocks.GLAZED_BRICKS_FLOWER_FENCE);
+                        entries.add(ModBlocks.GLAZED_BRICKS_MERLON);
+                        entries.add(ModBlocks.GLAZED_BRICKS_MERLON_CORNER);
+                        entries.add(ModBlocks.GRASS_FOUR);
+                        entries.add(ModBlocks.GRASS_ONE);
+                        entries.add(ModBlocks.GRASS_THREE);
+                        entries.add(ModBlocks.LIMESTONE_BRICK_SLAB);
+                        entries.add(ModBlocks.LIMESTONE_BRICK_STAIRS);
+                        entries.add(ModBlocks.LIMESTONE_BRICKS);
+                        entries.add(ModBlocks.MUD_STAIRS);
+                        entries.add(ModBlocks.POLISHED_STONE);
+
+                        entries.add(ModBlocks.POLISHED_STONE_FENCE);
+                        entries.add(ModBlocks.POLISHED_STONE_SLAB);
+                        entries.add(ModBlocks.POLISHED_STONE_STAIRS);
+                        // entries.add(ModBlocks.SANDSTONE_DARK_CONNECTED);
+                        // entries.add(ModBlocks.SANDSTONE_LIGHT_CONNECTED);
+                        // entries.add(ModBlocks.STONE_TRAPDOOR);
+                        // entries.add(ModBlocks.STONE_TRAPDOOR_TILES);
+                        entries.add(ModBlocks.RED_PAINTED_LIME_GYPSUM_PLASTER);
+                        entries.add(ModBlocks.RED_PAINTED_LIME_GYPSUM_PLASTER_WALL);
+                        entries.add(ModBlocks.TILED_GLAZED_BRICK_STAIRS);
                     }).build());
 
     public static void registerItemGroups() {

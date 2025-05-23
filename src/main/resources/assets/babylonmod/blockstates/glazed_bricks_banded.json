@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/glazed_bricks_banded" },
+      { "model": "babylonmod:block/walls/glazed_bricks_banded1" }
+    ]
+  }
+}

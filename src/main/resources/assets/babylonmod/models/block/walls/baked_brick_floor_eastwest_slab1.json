@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "babylonmod:block/baked_brick_floor_eastwest1",
+    "top": "babylonmod:block/baked_brick_floor_eastwest1",
+    "side": "babylonmod:block/baked_brick_floor_eastwest_slab_side"
+  }
+}

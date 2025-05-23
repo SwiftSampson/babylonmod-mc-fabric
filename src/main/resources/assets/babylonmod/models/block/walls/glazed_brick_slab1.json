@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "babylonmod:block/glazed_brick_slab_bottom",
+    "top": "babylonmod:block/glazed_bricks_top1",
+    "side": "babylonmod:block/glazed_brick_slab_side"
+  }
+}

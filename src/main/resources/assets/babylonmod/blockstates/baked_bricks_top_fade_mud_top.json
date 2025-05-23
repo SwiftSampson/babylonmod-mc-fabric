@@ -1,0 +1,59 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top" },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top",
+        "y": 270
+      },
+      { "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top1" },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top1",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top1",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top1",
+        "y": 270
+      },
+      { "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top2" },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top2",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top2",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top2",
+        "y": 270
+      },
+      { "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top3" },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top3",
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top3",
+        "y": 180
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_top_fade_mud_top3",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -23,7 +23,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
         getOrCreateTagBuilder(BlockTags.DIRT)
+                .add(ModBlocks.GRASS_ONE)
                 .add(ModBlocks.GRASS_TWO)
+                .add(ModBlocks.GRASS_THREE)
+                .add(ModBlocks.GRASS_FOUR)
                 .add(ModBlocks.PLANTABLE_BARREL_PLANTER)
                 .add(ModBlocks.LARGE_PLANTABLE_BARREL_PLANTER);
 

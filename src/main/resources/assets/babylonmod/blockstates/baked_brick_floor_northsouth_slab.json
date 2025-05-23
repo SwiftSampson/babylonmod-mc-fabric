@@ -1,0 +1,39 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "type=bottom": [
+      { "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab" },
+      { "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab1" },
+      { "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab2" },
+      { "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab3" }
+    ],
+    "type=top": [
+      {
+        "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab_top"
+      },
+      {
+        "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab_top1"
+      },
+      {
+        "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab_top2"
+      },
+      {
+        "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab_top3"
+      }
+    ],
+    "type=double": [
+      {
+        "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab_double"
+      },
+      {
+        "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab_double1"
+      },
+      {
+        "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab_double2"
+      },
+      {
+        "model": "babylonmod:block/walls/baked_brick_floor_northsouth_slab_double3"
+      }
+    ]
+  }
+}

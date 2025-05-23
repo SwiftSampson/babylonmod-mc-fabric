@@ -1,0 +1,7 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "babylonmod:block/glazed_bricks_animal"
+  }
+}

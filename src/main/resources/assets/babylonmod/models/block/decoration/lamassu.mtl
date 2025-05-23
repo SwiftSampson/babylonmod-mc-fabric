@@ -1,5 +1,8 @@
-# Blender MTL File: 'Lamassu.blend'
-# Material Count: 1
+# Blender 4.3.2 MTL File: 'Lamassu1.blend'
+# www.blender.org
 
-newmtl Material.001
-map_Kd babylonmod:block/polished_sandstone
+newmtl Lamassu_test
+map_Kd babylonmod:block/lamassu_512
+
+newmtl Polished_Sandstone
+map_Kd babylonmod:block/polished_sandstone.png

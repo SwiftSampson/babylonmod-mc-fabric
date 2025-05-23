@@ -1,0 +1,8 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "babylonmod:block/chiseled_stone_top",
+    "side": "babylonmod:block/chiseled_stone2"
+  }
+}

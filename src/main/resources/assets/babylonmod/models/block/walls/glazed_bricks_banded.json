@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "babylonmod:block/glazed_bricks_banded_bottom",
+    "top": "babylonmod:block/glazed_bricks_banded_top",
+    "side": "babylonmod:block/glazed_bricks_banded"
+  }
+}

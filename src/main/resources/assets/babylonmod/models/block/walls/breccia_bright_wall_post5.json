@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/custom_template_wall_post",
+  "textures": {
+    "wall": "babylonmod:block/breccia_bright5",
+    "top": "babylonmod:block/breccia_bright_top5",
+    "bottom": "babylonmod:block/breccia_bright_bottom5"
+  }
+}

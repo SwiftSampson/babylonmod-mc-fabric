@@ -1,0 +1,8 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "babylonmod:block/baked_bricks_shadowed_stone_top_top2",
+    "side": "babylonmod:block/baked_bricks_shadowed_stone_top2"
+  }
+}

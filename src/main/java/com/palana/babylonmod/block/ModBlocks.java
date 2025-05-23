@@ -102,13 +102,13 @@ public class ModBlocks {
                                         FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block PLASTER_STEPPED_PEAK = registerBlock("plaster_stepped_peak",
-                                        new ModDirectionalBlock(
-                                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
-                
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
+
         public static Block PLASTER_STEPPED_PEAK_CORNER = registerBlock(
-                                        "plaster_stepped_peak_corner",
-                                        new ModDirectionalBlock(
-                                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
+                        "plaster_stepped_peak_corner",
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
         public static Block PLASTER_MERLON = registerBlock("plaster_merlon",
                         new ModDirectionalBlock(
@@ -513,7 +513,6 @@ public class ModBlocks {
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
                                         FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
-
         public static Block LAPIS_FENCE = registerBlock(
                         "lapis_fence",
                         new StairsBlock(ModBlocks.LAPIS_BRICK.getDefaultState(),
@@ -807,6 +806,10 @@ public class ModBlocks {
                         new ModRugBlock(
                                         FabricBlockSettings.copyOf(Blocks.RED_WOOL)));
 
+        public static final Block RUBY_FENCE = registerBlock("ruby_fence",
+                        new WallBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+
         public static Block WHEAT_SACK = registerBlock(
                         "wheat_sack",
                         new ModDirectionalBlock(
@@ -934,6 +937,114 @@ public class ModBlocks {
         public static Block BABYLON_WHEAT_CROP = registerBlock("babylon_wheat_crop",
                         new ModWheatBlock(
                                         FabricBlockSettings.copyOf(Blocks.WHEAT).noCollision()));
+
+        public static Block BAKED_BRICK_FLOOR_EASTWEST = registerBlock("baked_brick_floor_eastwest",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block BAKED_BRICK_FLOOR_EASTWEST_SLAB = registerBlock("baked_brick_floor_eastwest_slab",
+                        new SlabBlock(
+                                        FabricBlockSettings.copyOf(Blocks.POLISHED_DEEPSLATE_SLAB)));
+
+        public static Block BAKED_BRICK_FLOOR_EASTWEST_STAIRS = registerBlock("baked_brick_floor_eastwest_stairs",
+                        new StairsBlock(Blocks.POLISHED_DEEPSLATE_STAIRS.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.POLISHED_DEEPSLATE_STAIRS)));
+
+        public static Block BAKED_BRICKS_BOTTOM_DARK = registerBlock("baked_bricks_bottom_dark",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BAKED_BRICKS_BOTTOM_FADE = registerBlock("baked_bricks_bottom_fade",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BAKED_BRICKS_SHADOWED_MUD_TOP = registerBlock("baked_bricks_shadowed_mud_top",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BAKED_BRICKS_SHADOWED_STONE_TOP = registerBlock("baked_bricks_shadowed_stone_top",
+                        new PillarBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BAKED_BRICKS_TOP_FADE_STONE_TOP = registerBlock("baked_bricks_top_fade_stone_top",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BAKED_BRICKS_TOP_FADE_MUD_TOP = registerBlock("baked_bricks_top_fade_mud_top",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS_ANIMAL_RIGHT = registerBlock("glazed_bricks_animal_right",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS_ANIMAL_LEFT = registerBlock("glazed_bricks_animal_left",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS_BANDED = registerBlock("glazed_bricks_banded",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS = registerBlock("glazed_bricks",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block POLISHED_STONE = registerBlock("polished_stone",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS_FLOWER = registerBlock("glazed_bricks_flower",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS_BANDED_VERTICAL = registerBlock("glazed_bricks_banded_vertical",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block CHISELED_STONE = registerBlock("chiseled_stone",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BRECCIA_BRIGHT = registerBlock("breccia_bright",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BRECCIA_DULL = registerBlock("breccia_dull",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block LIMESTONE_BRICKS = registerBlock("limestone_bricks",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block RED_PAINTED_LIME_GYPSUM_PLASTER = registerBlock("red_painted_lime_gypsum_plaster",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block RED_PAINTED_LIME_GYPSUM_PLASTER_WALL = registerBlock("red_painted_lime_gypsum_plaster_wall",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block GRASS_ONE = registerBlock("grass_one",
+                        new ModGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+        public static Block GRASS_THREE = registerBlock("grass_three",
+                        new ModGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+        public static Block GRASS_FOUR = registerBlock("grass_four",
+                        new ModGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+        public static Block BAKED_BRICK_FLOOR_NORTHSOUTH = registerBlock("baked_brick_floor_northsouth",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BAKED_BRICK_PILLAR_TOP = registerBlock("baked_brick_pillar_top",
+                        new HopperBlock(FabricBlockSettings.copyOf(Blocks.HOPPER)));
+        public static Block BAKED_BRICKS_MERLON_CORNER = registerBlock("baked_bricks_merlon_corner",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BAKED_BRICKS_MERLON = registerBlock("baked_bricks_merlon",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS_MERLON_CORNER = registerBlock("glazed_bricks_merlon_corner",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS_MERLON = registerBlock("glazed_bricks_merlon",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICKS_ANIMAL_WALL = registerBlock("glazed_bricks_animal_wall",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block GLAZED_BRICK_WALL = registerBlock("glazed_brick_wall",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block POLISHED_STONE_FENCE = registerBlock("polished_stone_fence",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block GLAZED_BRICKS_FLOWER_FENCE = registerBlock("glazed_bricks_flower_fence",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+        public static Block BRECCIA_BRIGHT_WALL = registerBlock("breccia_bright_wall",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block GLAZED_BRICK_SLAB = registerBlock("glazed_brick_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block POLISHED_STONE_SLAB = registerBlock("polished_stone_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block BRECCIA_BRIGHT_SLAB = registerBlock("breccia_bright_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block LIMESTONE_BRICK_SLAB = registerBlock("limestone_brick_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block BAKED_BRICK_FLOOR_NORTHSOUTH_SLAB = registerBlock("baked_brick_floor_northsouth_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block BRECCIA_DULL_SLAB = registerBlock("breccia_dull_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+        public static Block TILED_GLAZED_BRICK_STAIRS = registerBlock("tiled_glazed_brick_stairs", new StairsBlock(
+                        Blocks.SANDSTONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block GLAZED_BRICK_STAIRS = registerBlock("glazed_brick_stairs", new StairsBlock(
+                        Blocks.SANDSTONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block POLISHED_STONE_STAIRS = registerBlock("polished_stone_stairs", new StairsBlock(
+                        Blocks.SANDSTONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BRECCIA_BRIGHT_STAIRS = registerBlock("breccia_bright_stairs", new StairsBlock(
+                        Blocks.SANDSTONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block MUD_STAIRS = registerBlock("mud_stairs", new StairsBlock(
+                        Blocks.SANDSTONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block LIMESTONE_BRICK_STAIRS = registerBlock("limestone_brick_stairs", new StairsBlock(
+                        Blocks.SANDSTONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BAKED_BRICK_FLOOR_NORTHSOUTH_STAIRS = registerBlock("baked_brick_floor_northsouth_stairs",
+                        new StairsBlock(Blocks.SANDSTONE_STAIRS.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block BRECCIA_DULL_STAIRS = registerBlock("breccia_dull_stairs", new StairsBlock(
+                        Blocks.SANDSTONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
         private static Block registerBlock(String name, Block block) {
                 registerBlockItem(name, block);

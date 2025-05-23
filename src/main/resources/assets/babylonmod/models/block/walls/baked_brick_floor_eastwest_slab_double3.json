@@ -1,0 +1,8 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "babylonmod:block/baked_brick_floor_eastwest3",
+    "side": "babylonmod:block/baked_brick_floor_eastwest_slab_side"
+  }
+}

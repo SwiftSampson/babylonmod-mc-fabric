@@ -1,0 +1,101 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "variants": {
+    "axis=x": [
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top",
+        "weight": 50,
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top1",
+        "weight": 15,
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top2",
+        "weight": 15,
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top3",
+        "weight": 5,
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top4",
+        "weight": 10,
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top5",
+        "weight": 5,
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top",
+        "weight": 50
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top1",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top2",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top3",
+        "weight": 5
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top4",
+        "weight": 10
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top5",
+        "weight": 5
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top",
+        "weight": 50,
+        "x": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top1",
+        "weight": 15,
+        "x": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top2",
+        "weight": 15,
+        "x": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top3",
+        "weight": 5,
+        "x": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top4",
+        "weight": 10,
+        "x": 90
+      },
+      {
+        "model": "babylonmod:block/walls/baked_bricks_shadowed_stone_top5",
+        "weight": 5,
+        "x": 90
+      }
+    ]
+  }
+}
