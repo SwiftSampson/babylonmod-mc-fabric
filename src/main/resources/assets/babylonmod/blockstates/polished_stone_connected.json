@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "babylonmod:block/walls/polished_stone_connected"
+    }
+  }
+}

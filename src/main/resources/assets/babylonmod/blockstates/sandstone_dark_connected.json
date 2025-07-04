@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "babylonmod:block/walls/sandstone_light_connected"
+    }
+  }
+}

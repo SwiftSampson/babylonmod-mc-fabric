@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "babylonmod:block/walls/glazed_bricks_connected"
+    }
+  }
+}

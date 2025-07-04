@@ -447,9 +447,23 @@ public class ModBlocks {
                         "sandstone_stepped_block_bottom_diagonal_shadowed",
                         new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+        public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL_CORNER = registerBlock(
+                        "sandstone_stepped_block_bottom_diagonal_corner",
+                        new ModDiagonalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+        public static Block SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL_SHADOWED_CORNER = registerBlock(
+                        "sandstone_stepped_block_bottom_diagonal_shadowed_corner",
+                        new ModDiagonalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static Block SANDSTONE_EXTENDED_BLOCK_DIAGONAL = registerBlock(
                         "sandstone_extended_block_diagonal",
+                        new ModDiagonalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+        public static Block SANDSTONE_EXTENDED_BLOCK_DIAGONAL_CORNER = registerBlock(
+                        "sandstone_extended_block_diagonal_corner",
                         new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
@@ -876,6 +890,10 @@ public class ModBlocks {
                         "sandstone_diagonal_single_arch",
                         new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+        public static Block SANDSTONE_DIAGONAL_SINGLE_ARCH_STEPPED = registerBlock(
+                        "sandstone_diagonal_single_arch_stepped",
+                        new ModDiagonalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
         public static Block SANDSTONE_DIAGONAL_RECTANGLE_WINDOW = registerBlock(
                         "sandstone_diagonal_rectangle_window",
                         new ModDiagonalBlock(
@@ -936,7 +954,7 @@ public class ModBlocks {
 
         public static Block BABYLON_WHEAT_CROP = registerBlock("babylon_wheat_crop",
                         new ModWheatBlock(
-                                        FabricBlockSettings.copyOf(Blocks.WHEAT).noCollision()));
+                                        FabricBlockSettings.copyOf(Blocks.WHEAT).noCollision().nonOpaque()));
 
         public static Block BAKED_BRICK_FLOOR_EASTWEST = registerBlock("baked_brick_floor_eastwest",
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
@@ -1045,6 +1063,19 @@ public class ModBlocks {
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
         public static Block BRECCIA_DULL_STAIRS = registerBlock("breccia_dull_stairs", new StairsBlock(
                         Blocks.SANDSTONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block GLAZED_BRICKS_CONNECTED = registerBlock(
+                        "glazed_bricks_connected",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block POLISHED_STONE_CONNECTED = registerBlock(
+                        "polished_stone_connected",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block SANDSTONE_DARK_CONNECTED = registerBlock(
+                        "sandstone_dark_connected",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+        public static Block SANDSTONE_LIGHT_CONNECTED = registerBlock(
+                        "sandstone_light_connected",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
         private static Block registerBlock(String name, Block block) {
                 registerBlockItem(name, block);

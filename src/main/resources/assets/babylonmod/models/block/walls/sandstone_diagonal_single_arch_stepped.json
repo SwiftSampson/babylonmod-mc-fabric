@@ -1,0 +1,10 @@
+{
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "parent": "special-model-loader:builtin/obj",
+  "model": "babylonmod:models/block/walls/sandstone_diagonal_single_arch_stepped.obj",
+  "textures": {
+    "particle": "babylonmod:block/sandstone"
+  }
+}

@@ -59,7 +59,10 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SANDSTONE_DIAGONAL_WALL_SHADOWED);
                         entries.add(ModBlocks.SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL);
                         entries.add(ModBlocks.SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL_SHADOWED);
+                        entries.add(ModBlocks.SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL_CORNER);
+                        entries.add(ModBlocks.SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL_SHADOWED_CORNER);
                         entries.add(ModBlocks.SANDSTONE_EXTENDED_BLOCK_DIAGONAL);
+                        entries.add(ModBlocks.SANDSTONE_EXTENDED_BLOCK_DIAGONAL_CORNER);
                         entries.add(ModBlocks.SANDSTONE_PEAK_DIAGONAL);
                         entries.add(ModBlocks.SANDSTONE_PEAK_CORNER_DIAGONAL);
                         entries.add(ModBlocks.EXTENDED_CORNER);
@@ -189,6 +192,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.MUD_THREE);
 
                         entries.add(ModBlocks.SANDSTONE_DIAGONAL_SINGLE_ARCH);
+                        entries.add(ModBlocks.SANDSTONE_DIAGONAL_SINGLE_ARCH_STEPPED);
                         entries.add(ModBlocks.SANDSTONE_DIAGONAL_RECTANGLE_WINDOW);
                         entries.add(ModBlocks.SANDSTONE_DIAGONAL_ROUND_WINDOW);
 
@@ -384,6 +388,11 @@ public class ModItemGroup {
                         entries.add(ModBlocks.RED_PAINTED_LIME_GYPSUM_PLASTER);
                         entries.add(ModBlocks.RED_PAINTED_LIME_GYPSUM_PLASTER_WALL);
                         entries.add(ModBlocks.TILED_GLAZED_BRICK_STAIRS);
+
+                        entries.add(ModBlocks.GLAZED_BRICKS_CONNECTED);
+                        entries.add(ModBlocks.POLISHED_STONE_CONNECTED);
+                        entries.add(ModBlocks.SANDSTONE_DARK_CONNECTED);
+                        entries.add(ModBlocks.SANDSTONE_LIGHT_CONNECTED);
                     }).build());
 
     public static void registerItemGroups() {

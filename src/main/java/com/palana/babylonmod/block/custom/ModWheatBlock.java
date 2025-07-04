@@ -53,4 +53,14 @@ public class ModWheatBlock extends CropBlock {
     public boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
         return true;
     }
+
+    @Override
+    public boolean isTransparent(BlockState state, BlockView world, BlockPos pos) {
+        return true;
+    }
+
+    public boolean propagatesSkylightDown(BlockState state, BlockView world, BlockPos pos) {
+        return true;
+    }
+
 }
