@@ -61,6 +61,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SANDSTONE_STEPPED_BLOCK_BOTTOM_DIAGONAL_SHADOWED);
                         entries.add(ModBlocks.SANDSTONE_EXTENDED_BLOCK_DIAGONAL);
                         entries.add(ModBlocks.SANDSTONE_PEAK_DIAGONAL);
+                        entries.add(ModBlocks.SANDSTONE_PEAK_CORNER_DIAGONAL);
                         entries.add(ModBlocks.EXTENDED_CORNER);
 
                         entries.add(ModBlocks.SANDSTONE_ROUND_WINDOW);
