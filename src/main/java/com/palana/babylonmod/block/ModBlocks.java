@@ -894,10 +894,12 @@ public class ModBlocks {
                         "sandstone_diagonal_single_arch_stepped",
                         new ModDiagonalBlock(
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+
         public static Block SANDSTONE_DIAGONAL_RECTANGLE_WINDOW = registerBlock(
                         "sandstone_diagonal_rectangle_window",
-                        new ModDiagonalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+                        new ModPassableStairBlock(Blocks.SANDSTONE_STAIRS.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE_STAIRS).nonOpaque()));
+
         public static Block SANDSTONE_DIAGONAL_ROUND_WINDOW = registerBlock(
                         "sandstone_diagonal_single_window",
                         new ModDiagonalBlock(
@@ -971,7 +973,7 @@ public class ModBlocks {
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
         public static Block BAKED_BRICKS_BOTTOM_FADE = registerBlock("baked_bricks_bottom_fade",
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
-        public static Block BAKED_BRICKS_SHADOWED_MUD_TOP = registerBlock("baked_bricks_shadowed_mud_top",
+        public static Block BAKED_BRICKS_SHADOWED_TOP = registerBlock("baked_bricks_shadowed_top",
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
         public static Block BAKED_BRICKS_SHADOWED_STONE_TOP = registerBlock("baked_bricks_shadowed_stone_top",
                         new PillarBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));

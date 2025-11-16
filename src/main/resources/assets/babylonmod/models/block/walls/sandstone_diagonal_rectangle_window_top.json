@@ -4,7 +4,7 @@
   "flip_v": true,
   "ambientocclusion": false,
   "parent": "special-model-loader:builtin/obj",
-  "model": "babylonmod:models/block/walls/sandstone_diagonal_rectangle_window.obj",
+  "model": "babylonmod:models/block/walls/sandstone_diagonal_rectangle_window_top.obj",
   "textures": {
     "particle": "babylonmod:block/sandstone"
   }
