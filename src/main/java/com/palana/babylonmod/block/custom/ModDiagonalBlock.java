@@ -2,19 +2,24 @@ package com.palana.babylonmod.block.custom;
 
 import org.jetbrains.annotations.Nullable;
 
+import net.minecraft.block.*;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.DirectionProperty;
-import net.minecraft.block.*;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import net.minecraft.world.WorldAccess;
 
 public class ModDiagonalBlock extends HorizontalFacingBlock implements Waterloggable {
     public static DirectionProperty FACING = Properties.HORIZONTAL_FACING;
@@ -56,11 +61,20 @@ public class ModDiagonalBlock extends HorizontalFacingBlock implements Waterlogg
     }
 
     @Override
-    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block block, BlockPos fromPos,
-            boolean notify) {
-        super.neighborUpdate(state, world, pos, block, fromPos, notify);
+    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState,
+            WorldAccess world, BlockPos pos, BlockPos neighborPos) {
+        System.out.println("getStateForNeighborUpdate");
 
-        // Check all adjacent blocks for water
+        boolean shouldBeWaterlogged = isAdjacentToWater(world, pos);
+
+        // Update the WATERLOGGED property if necessary
+        return state.with(WATERLOGGED, shouldBeWaterlogged);
+    }
+
+    @Override
+    public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
+        super.onBlockAdded(state, world, pos, oldState, notify);
+
         boolean shouldBeWaterlogged = isAdjacentToWater(world, pos);
 
         // Update the WATERLOGGED property if necessary
@@ -69,16 +83,28 @@ public class ModDiagonalBlock extends HorizontalFacingBlock implements Waterlogg
         }
     }
 
-    /**
-     * Helper method to check if any adjacent block has still or flowing water.
-     */
-    private boolean isAdjacentToWater(World world, BlockPos pos) {
-        for (Direction direction : Direction.values()) { // Iterate through all six directions
-            FluidState fluidState = world.getFluidState(pos.offset(direction));
+    public static BlockState postProcessState(BlockState state, WorldAccess world, BlockPos pos) {
+
+        boolean shouldBeWaterlogged = isAdjacentToWater(world, pos);
+
+        // Update the WATERLOGGED property if necessary
+        return state.with(WATERLOGGED, shouldBeWaterlogged);
+    }
+
+    private static boolean isAdjacentToWater(WorldAccess world, BlockPos pos) {
+        System.out.println("isAdjacentToWater");
+
+        // Offset the position vertically down by 2
+        BlockPos belowPos = pos;
+
+        // Iterate through horizontal directions only (NORTH, SOUTH, EAST, WEST)
+        for (Direction direction : Direction.Type.HORIZONTAL) {
+            FluidState fluidState = world.getFluidState(belowPos.offset(direction));
             if (fluidState.getFluid() == Fluids.WATER || fluidState.getFluid() == Fluids.FLOWING_WATER) {
                 return true; // Return true if any adjacent block has water
             }
         }
         return false; // No adjacent block has water
     }
+
 }
