@@ -2,8 +2,8 @@
   "credit": "Made with Blockbench",
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "0": "babylonmod:block/cracked_deepslate_bricks4",
-    "particle": "babylonmod:block/cracked_deepslate_bricks4"
+    "0": "babylonmod:block/baked_bricks_shadowed_stone_top4",
+    "particle": "babylonmod:block/baked_bricks_shadowed_stone_top4"
   },
   "elements": [
     {

@@ -1,0 +1,132 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "babylonmod:block/sandstone_top_dark",
+		"1": "babylonmod:block/sandstone_stretched_top_dark",
+		"particle": "babylonmod:block/sandstone_top_dark"
+	},
+	"elements": [
+		{
+			"from": [-2, 0, 11],
+			"to": [11, 4, 18],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 4], "texture": "#1"},
+				"east": {"uv": [0, 8, 6, 12.5], "texture": "#1"},
+				"south": {"uv": [2.5, 12, 14, 16], "texture": "#1"},
+				"west": {"uv": [0, 4, 16, 8], "texture": "#missing"},
+				"up": {"uv": [0, 0, 6, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [-9, 0, 11],
+			"to": [-2, 4, 31],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [10, 4, 14, 8.5], "texture": "#1"},
+				"east": {"uv": [0, 8, 13, 12.5], "texture": "#1"},
+				"south": {"uv": [0, 0, 6, 4.5], "texture": "#1"},
+				"west": {"uv": [0, 8, 16, 12.5], "texture": "#1"},
+				"up": {"uv": [8, 0, 14, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [-2, 4, 11],
+			"to": [8, 8, 18],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 4, 8, 8.5], "texture": "#1"},
+				"east": {"uv": [8.5, 4, 2.5, 8.5], "texture": "#1"},
+				"south": {"uv": [8, 4, 14, 8.5], "texture": "#1"},
+				"west": {"uv": [4, 6.5, 16, 10.5], "texture": "#missing"},
+				"up": {"uv": [6, 0, 0, 11], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 4, 16, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [-9, 4, 11],
+			"to": [-2, 8, 28],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [1, 4, 12, 8.5], "texture": "#0"},
+				"east": {"uv": [14, 4, 4, 8.5], "texture": "#1"},
+				"south": {"uv": [5.5, 0, 11.5, 4.5], "texture": "#1"},
+				"west": {"uv": [0, 0, 14.5, 4.5], "texture": "#0"},
+				"up": {"uv": [8, 0, 2.5, 16], "texture": "#1"},
+				"down": {"uv": [0, 4, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-2, 8, 11],
+			"to": [4, 12, 18],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 4, 6, 8.5], "texture": "#0"},
+				"east": {"uv": [16, 0, 8, 4.5], "texture": "#0"},
+				"south": {"uv": [12, 4, 3.5, 8.5], "texture": "#0"},
+				"west": {"uv": [4.5, 7, 12.5, 11], "texture": "#0"},
+				"up": {"uv": [0, 0, 8.5, 6.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 5, 16, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-9, 8, 11],
+			"to": [-2, 12, 24],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [6.5, 4, 16, 8.5], "texture": "#0"},
+				"east": {"uv": [14, 4, 3.5, 8.5], "texture": "#1"},
+				"south": {"uv": [8.5, 4, 2.5, 8.5], "texture": "#1"},
+				"west": {"uv": [0, 12, 11.5, 16], "texture": "#0"},
+				"up": {"uv": [8, 3, 14, 16], "texture": "#1"},
+				"down": {"uv": [0, 6, 16, 14], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-2, 12, 11],
+			"to": [0, 16, 18],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 8.5, 4.5], "texture": "#0"},
+				"south": {"uv": [14, 4, 16, 8.5], "texture": "#0"},
+				"west": {"uv": [4.5, 4, 8.5, 8], "texture": "#0"},
+				"up": {"uv": [8, 12.5, 0, 11], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 5, 16, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-9, 12, 11],
+			"to": [-2, 16, 20],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [10, 0, 16, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 8.5, 4.5], "texture": "#0"},
+				"south": {"uv": [7.5, 8.5, 16, 12.5], "texture": "#0"},
+				"west": {"uv": [3.5, 4, 12, 8.5], "texture": "#0"},
+				"up": {"uv": [16, 8, 8, 12.5], "texture": "#0"},
+				"down": {"uv": [0, 5, 16, 9], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "sandstone_peak_corner_diagonal",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0, 1, 2, 3, 4, 5, 6, 7]
+				}
+			]
+		}
+	]
+}

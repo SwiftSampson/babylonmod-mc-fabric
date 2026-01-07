@@ -3,10 +3,10 @@
 	"parent": "minecraft:block/cube_all",
 	"render_type": "translucent",
 	"textures": {
-		"0": "babylonmod:block/chiseled_sandstone",
-		"2": "babylonmod:block/chiseled_sandstone_top",
+		"0": "babylonmod:block/chiseled_stone",
+		"2": "babylonmod:block/chiseled_stone_top",
 		"3": "babylonmod:block/sandstone_mid_dark",
-		"particle": "babylonmod:block/chiseled_sandstone"
+		"particle": "babylonmod:block/chiseled_stone"
 	},
 	"elements": [
 		{
@@ -17,7 +17,7 @@
 				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#2"},
 				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2"}
 			}
 		}
