@@ -343,7 +343,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.BAKED_BRICKS_BOTTOM_FADE);
                         entries.add(ModBlocks.BAKED_BRICKS_MERLON);
                         entries.add(ModBlocks.BAKED_BRICKS_MERLON_CORNER);
-                        entries.add(ModBlocks.BAKED_BRICKS_SHADOWED_MUD_TOP);
+                        entries.add(ModBlocks.BAKED_BRICKS_SHADOWED_TOP);
                         entries.add(ModBlocks.BAKED_BRICKS_SHADOWED_STONE_TOP);
                         entries.add(ModBlocks.BAKED_BRICKS_TOP_FADE_MUD_TOP);
                         entries.add(ModBlocks.BAKED_BRICKS_TOP_FADE_STONE_TOP);
