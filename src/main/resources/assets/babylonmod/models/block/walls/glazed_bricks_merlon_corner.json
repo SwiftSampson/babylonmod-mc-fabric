@@ -1,14 +1,16 @@
 {
   "credit": "Made with Blockbench",
-  "parent": "chipped_anvil",
+  "parent": "minecraft:block/cube_all",
+  "ambientocclusion": false,
+  "render_type": "translucent",
   "textures": {
-    "0": "minecraft:block/red_nether_bricks",
-    "1": "minecraft:block/red_nether_bricks1",
-    "2": "minecraft:block/red_nether_bricks2",
-    "3": "minecraft:block/red_nether_bricks3",
-    "4": "minecraft:block/red_nether_bricks4",
-    "5": "minecraft:block/red_nether_bricks5",
-    "particle": "minecraft:block/red_nether_bricks"
+    "0": "babylonmod:block/glazed_bricks",
+    "1": "babylonmod:block/glazed_bricks1",
+    "2": "babylonmod:block/glazed_bricks2",
+    "3": "babylonmod:block/glazed_bricks3",
+    "4": "babylonmod:block/glazed_bricks4",
+    "5": "babylonmod:block/glazed_bricks5",
+    "particle": "babylonmod:block/glazed_bricks"
   },
   "elements": [
     {

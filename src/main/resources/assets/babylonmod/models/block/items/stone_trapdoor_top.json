@@ -1,0 +1,50 @@
+{
+  "__comment": "JimStoneCraft - 2023",
+  "textures": {
+    "texture": "babylonmod:block/stone_trapdoor",
+    "edge": "babylonmod:block/stone_trapdoor_edge",
+    "particle": "babylonmod:block/stone_trapdoor"
+  },
+  "elements": [
+    {
+      "name": "Outer Edge",
+      "from": [0, 13, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {
+          "uv": [0, 13, 16, 16],
+          "texture": "#edge",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [0, 13, 16, 16],
+          "texture": "#edge",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [0, 13, 16, 16],
+          "texture": "#edge",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [0, 13, 16, 16],
+          "texture": "#edge",
+          "cullface": "west"
+        },
+        "up": { "uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "up" },
+        "down": { "uv": [0, 0, 16, 16], "texture": "#texture" }
+      }
+    },
+    {
+      "name": "Inner Edge",
+      "from": [13.025, 13, 3.475],
+      "to": [2.975, 16, 12.525],
+      "faces": {
+        "north": { "uv": [3, 9, 13, 12], "texture": "#edge" },
+        "east": { "uv": [3.5, 9, 12.5, 12], "texture": "#edge" },
+        "south": { "uv": [3, 9, 13, 12], "texture": "#edge" },
+        "west": { "uv": [3.5, 9, 12.5, 12], "texture": "#edge" }
+      }
+    }
+  ]
+}

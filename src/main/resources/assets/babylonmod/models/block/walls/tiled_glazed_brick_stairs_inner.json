@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "babylonmod:block/tiled_glazed_brick_stairs_bottom",
+    "top": "babylonmod:block/tiled_glazed_brick_stairs",
+    "side": "babylonmod:block/tiled_glazed_brick_stairs_side"
+  }
+}

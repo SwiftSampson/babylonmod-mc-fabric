@@ -1,0 +1,7 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "babylonmod:block/nature/grass_block",
+  "textures": {
+    "top": "babylonmod:block/grass_block_top2"
+  }
+}

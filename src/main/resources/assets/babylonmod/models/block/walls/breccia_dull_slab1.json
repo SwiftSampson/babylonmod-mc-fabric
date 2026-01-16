@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "babylonmod:block/breccia_dull_top1",
+    "top": "babylonmod:block/breccia_dull_top1",
+    "side": "babylonmod:block/breccia_dull1"
+  }
+}

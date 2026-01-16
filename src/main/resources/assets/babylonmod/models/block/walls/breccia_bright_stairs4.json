@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "babylonmod:block/breccia_bright_bottom4",
+    "top": "babylonmod:block/breccia_bright_top4",
+    "side": "babylonmod:block/breccia_bright4"
+  }
+}

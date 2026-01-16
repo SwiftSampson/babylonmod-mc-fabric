@@ -1,0 +1,905 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "variants": {
+    "facing=east,half=bottom,shape=straight": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs1"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs2"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs3"
+      }
+    ],
+    "facing=west,half=bottom,shape=straight": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs1",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs2",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs3",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=bottom,shape=straight": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs1",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs2",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs3",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=bottom,shape=straight": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs1",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs2",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs3",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=bottom,shape=outer_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3"
+      }
+    ],
+    "facing=west,half=bottom,shape=outer_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=bottom,shape=outer_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=bottom,shape=outer_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=bottom,shape=outer_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=bottom,shape=outer_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=bottom,shape=outer_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3"
+      }
+    ],
+    "facing=north,half=bottom,shape=outer_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=bottom,shape=inner_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3"
+      }
+    ],
+    "facing=west,half=bottom,shape=inner_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=bottom,shape=inner_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=bottom,shape=inner_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=bottom,shape=inner_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=bottom,shape=inner_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=bottom,shape=inner_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2"
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3"
+      }
+    ],
+    "facing=north,half=bottom,shape=inner_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=top,shape=straight": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs1",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs2",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs3",
+        "x": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=top,shape=straight": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs1",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs2",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs3",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=top,shape=straight": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs1",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs2",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs3",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=top,shape=straight": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs1",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs2",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs3",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=top,shape=outer_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=top,shape=outer_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=top,shape=outer_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=top,shape=outer_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "x": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=top,shape=outer_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "x": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=top,shape=outer_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=top,shape=outer_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=top,shape=outer_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer1",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer2",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_outer3",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=top,shape=inner_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=top,shape=inner_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=top,shape=inner_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=top,shape=inner_right": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "x": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=top,shape=inner_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "x": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=top,shape=inner_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=top,shape=inner_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=top,shape=inner_left": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner1",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner2",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_stairs_inner3",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+    ]
+  }
+}

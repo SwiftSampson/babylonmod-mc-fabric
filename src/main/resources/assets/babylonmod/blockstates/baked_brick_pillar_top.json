@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "babylonmod:block/walls/baked_brick_pillar_top"
+    }
+  }
+}

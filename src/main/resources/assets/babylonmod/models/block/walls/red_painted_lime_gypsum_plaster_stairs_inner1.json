@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "babylonmod:block/red_painted_lime_gypsum_plaster1",
+    "top": "babylonmod:block/red_painted_lime_gypsum_plaster1",
+    "side": "babylonmod:block/red_painted_lime_gypsum_plaster1"
+  }
+}

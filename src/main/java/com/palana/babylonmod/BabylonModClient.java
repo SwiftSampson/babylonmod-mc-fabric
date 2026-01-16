@@ -5,6 +5,7 @@ import com.palana.babylonmod.block.ModBlocks;
 import dev.felnull.specialmodelloader.api.event.SpecialModelLoaderEvents;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.render.ColorProviderRegistry;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.render.RenderLayer;
 
@@ -25,6 +26,9 @@ public class BabylonModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHESTNUT_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_SAPLING,
                 RenderLayer.getCutout());
+
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.GRASS_BLOCK);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.GRASS_BLOCK);
 
     }
 

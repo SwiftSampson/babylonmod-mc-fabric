@@ -1,0 +1,59 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "type=bottom": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_slab",
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_slab1",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_slab2",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_slab3",
+        "weight": 15
+      }
+    ],
+    "type=top": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_slab_top",
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_slab_top1",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_slab_top2",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster_slab_top3",
+        "weight": 15
+      }
+    ],
+    "type=double": [
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster",
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster1",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster2",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/red_painted_lime_gypsum_plaster3",
+        "weight": 15
+      }
+    ]
+  }
+}
