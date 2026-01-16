@@ -1,0 +1,13 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/baked_brick", "weight": 30 },
+      { "model": "babylonmod:block/walls/baked_brick1", "weight": 15 },
+      { "model": "babylonmod:block/walls/baked_brick2", "weight": 15 },
+      { "model": "babylonmod:block/walls/baked_brick3", "weight": 15 },
+      { "model": "babylonmod:block/walls/baked_brick4", "weight": 15 },
+      { "model": "babylonmod:block/walls/baked_brick5", "weight": 10 }
+    ]
+  }
+}

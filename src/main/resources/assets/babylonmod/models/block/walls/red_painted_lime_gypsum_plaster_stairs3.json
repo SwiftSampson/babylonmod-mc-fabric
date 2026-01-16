@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "babylonmod:block/red_painted_lime_gypsum_plaster3",
+    "top": "babylonmod:block/red_painted_lime_gypsum_plaster2",
+    "side": "babylonmod:block/red_painted_lime_gypsum_plaster3"
+  }
+}

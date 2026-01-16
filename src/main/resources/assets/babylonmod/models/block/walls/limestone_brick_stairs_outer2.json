@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "babylonmod:block/limestone_bricks2",
+    "top": "babylonmod:block/limestone_bricks2",
+    "side": "babylonmod:block/limestone_bricks2"
+  }
+}

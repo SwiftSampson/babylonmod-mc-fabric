@@ -1,0 +1,49 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "type=bottom": [
+      { "model": "babylonmod:block/walls/limestone_brick_slab", "weight": 30 },
+      { "model": "babylonmod:block/walls/limestone_brick_slab1", "weight": 15 },
+      { "model": "babylonmod:block/walls/limestone_brick_slab2", "weight": 15 },
+      { "model": "babylonmod:block/walls/limestone_brick_slab3", "weight": 15 },
+      { "model": "babylonmod:block/walls/limestone_brick_slab4", "weight": 15 },
+      { "model": "babylonmod:block/walls/limestone_brick_slab5", "weight": 10 }
+    ],
+    "type=top": [
+      {
+        "model": "babylonmod:block/walls/limestone_brick_slab_top",
+        "weight": 30
+      },
+      {
+        "model": "babylonmod:block/walls/limestone_brick_slab_top1",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/limestone_brick_slab_top2",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/limestone_brick_slab_top3",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/limestone_brick_slab_top4",
+        "weight": 15
+      },
+      {
+        "model": "babylonmod:block/walls/limestone_brick_slab_top5",
+        "weight": 10
+      }
+    ],
+    "type=double": [
+      { "model": "babylonmod:block/walls/limestone_bricks", "weight": 30 },
+      { "model": "babylonmod:block/walls/limestone_bricks1", "weight": 15 },
+      { "model": "babylonmod:block/walls/limestone_bricks2", "weight": 15 },
+      { "model": "babylonmod:block/walls/limestone_bricks3", "weight": 15 },
+      { "model": "babylonmod:block/walls/limestone_bricks4", "weight": 15 },
+      { "model": "babylonmod:block/walls/limestone_bricks5", "weight": 10 },
+      { "model": "babylonmod:block/walls/limestone_bricks6", "weight": 10 },
+      { "model": "babylonmod:block/walls/limestone_bricks7", "weight": 10 }
+    ]
+  }
+}

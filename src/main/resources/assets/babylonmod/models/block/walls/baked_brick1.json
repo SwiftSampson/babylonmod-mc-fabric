@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "babylonmod:block/sandstone_bottom1",
+    "top": "babylonmod:block/sandstone_top1",
+    "side": "babylonmod:block/sandstone1"
+  }
+}

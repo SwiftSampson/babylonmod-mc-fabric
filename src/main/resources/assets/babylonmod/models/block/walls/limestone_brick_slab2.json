@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "babylonmod:block/limestone_bricks2",
+    "top": "babylonmod:block/limestone_bricks2",
+    "side": "babylonmod:block/limestone_bricks2"
+  }
+}

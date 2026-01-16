@@ -1008,6 +1008,16 @@ public class ModBlocks {
 
         public static Block RED_PAINTED_LIME_GYPSUM_PLASTER_WALL = registerBlock("red_painted_lime_gypsum_plaster_wall",
                         new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+
+        public static Block RED_PAINTED_LIME_GYPSUM_PLASTER_STAIRS = registerBlock(
+                        "red_painted_lime_gypsum_plaster_stairs",
+                        new StairsBlock(
+                                        Blocks.SANDSTONE_STAIRS.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block RED_PAINTED_LIME_GYPSUM_PLASTER_SLAB = registerBlock("red_painted_lime_gypsum_plaster_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
+
         public static Block GRASS_ONE = registerBlock("grass_one",
                         new ModGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
         public static Block GRASS_THREE = registerBlock("grass_three",
@@ -1018,14 +1028,19 @@ public class ModBlocks {
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
         public static Block BAKED_BRICK_PILLAR_TOP = registerBlock("baked_brick_pillar_top",
                         new HopperBlock(FabricBlockSettings.copyOf(Blocks.HOPPER)));
+
         public static Block BAKED_BRICKS_MERLON_CORNER = registerBlock("baked_bricks_merlon_corner",
-                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
         public static Block BAKED_BRICKS_MERLON = registerBlock("baked_bricks_merlon",
-                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
         public static Block GLAZED_BRICKS_MERLON_CORNER = registerBlock("glazed_bricks_merlon_corner",
-                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
         public static Block GLAZED_BRICKS_MERLON = registerBlock("glazed_bricks_merlon",
-                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+                        new ModDirectionalBlock(
+                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
         public static Block GLAZED_BRICKS_ANIMAL_WALL = registerBlock("glazed_bricks_animal_wall",
                         new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE_SLAB)));
         public static Block GLAZED_BRICK_WALL = registerBlock("glazed_brick_wall",
@@ -1077,6 +1092,18 @@ public class ModBlocks {
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
         public static Block SANDSTONE_LIGHT_CONNECTED = registerBlock(
                         "sandstone_light_connected",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block GRASS_BLOCK = registerBlock(
+                        "grass_block",
+                        new ModGrassBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+
+        public static Block SAND = registerBlock(
+                        "sand",
+                        new Block(FabricBlockSettings.copyOf(Blocks.SAND)));
+
+        public static Block BAKED_BRICK = registerBlock(
+                        "baked_brick",
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
         private static Block registerBlock(String name, Block block) {

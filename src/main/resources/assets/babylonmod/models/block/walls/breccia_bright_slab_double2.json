@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2021",
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "babylonmod:block/breccia_bright2",
+    "side": "babylonmod:block/breccia_bright2",
+    "top": "babylonmod:block/breccia_bright_top2"
+  }
+}

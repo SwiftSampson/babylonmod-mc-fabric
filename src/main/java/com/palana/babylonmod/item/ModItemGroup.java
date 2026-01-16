@@ -127,7 +127,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.LAPIS_FIVE_ARCH_MID);
                         entries.add(ModBlocks.LAPIS_FIVE_ARCH_BOTTOM);
 
-                        entries.add(ModBlocks.GRASS_TWO);
                         entries.add(ModBlocks.SANDY_STONES);
                         entries.add(ModBlocks.LIME_GYPSUM_PLASTER);
                         entries.add(ModBlocks.LIME_GYPSUM_PLASTER_DARK);
@@ -267,9 +266,7 @@ public class ModItemGroup {
 
                         entries.add(Blocks.CHERRY_STAIRS);
                         entries.add(Blocks.CHERRY_SLAB);
-                        entries.add(Blocks.GRASS_BLOCK);
                         entries.add(Blocks.PODZOL);
-                        entries.add(ModBlocks.GRASS_TWO);
                         entries.add(Blocks.RED_SAND);
                         entries.add(Blocks.MYCELIUM);
                         entries.add(Blocks.SAND);
@@ -330,7 +327,16 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("New Blocks"))
                     .icon(() -> new ItemStack(ModBlocks.BAKED_BRICK_FLOOR_EASTWEST))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.RUBY_FENCE);
+
+                        entries.add(ModBlocks.GRASS_BLOCK);
+                        entries.add(ModBlocks.GRASS_ONE);
+                        entries.add(ModBlocks.GRASS_TWO);
+                        entries.add(ModBlocks.GRASS_THREE);
+                        entries.add(ModBlocks.GRASS_FOUR);
+                        entries.add(ModBlocks.SAND);
+                        entries.add(ModBlocks.BAKED_BRICK);
+
+                        // entries.add(ModBlocks.RUBY_FENCE);
 
                         entries.add(ModBlocks.BAKED_BRICK_FLOOR_EASTWEST);
                         entries.add(ModBlocks.BAKED_BRICK_FLOOR_EASTWEST_SLAB);
@@ -369,9 +375,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.GLAZED_BRICKS_FLOWER_FENCE);
                         entries.add(ModBlocks.GLAZED_BRICKS_MERLON);
                         entries.add(ModBlocks.GLAZED_BRICKS_MERLON_CORNER);
-                        entries.add(ModBlocks.GRASS_FOUR);
-                        entries.add(ModBlocks.GRASS_ONE);
-                        entries.add(ModBlocks.GRASS_THREE);
+
                         entries.add(ModBlocks.LIMESTONE_BRICK_SLAB);
                         entries.add(ModBlocks.LIMESTONE_BRICK_STAIRS);
                         entries.add(ModBlocks.LIMESTONE_BRICKS);
@@ -387,6 +391,8 @@ public class ModItemGroup {
                         // entries.add(ModBlocks.STONE_TRAPDOOR_TILES);
                         entries.add(ModBlocks.RED_PAINTED_LIME_GYPSUM_PLASTER);
                         entries.add(ModBlocks.RED_PAINTED_LIME_GYPSUM_PLASTER_WALL);
+                        entries.add(ModBlocks.RED_PAINTED_LIME_GYPSUM_PLASTER_STAIRS);
+                        entries.add(ModBlocks.RED_PAINTED_LIME_GYPSUM_PLASTER_SLAB);
                         entries.add(ModBlocks.TILED_GLAZED_BRICK_STAIRS);
 
                         entries.add(ModBlocks.GLAZED_BRICKS_CONNECTED);

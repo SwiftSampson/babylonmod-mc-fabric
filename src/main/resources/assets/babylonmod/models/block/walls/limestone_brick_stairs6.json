@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "babylonmod:block/limestone_bricks6",
+    "top": "babylonmod:block/limestone_bricks6",
+    "side": "babylonmod:block/limestone_bricks6"
+  }
+}

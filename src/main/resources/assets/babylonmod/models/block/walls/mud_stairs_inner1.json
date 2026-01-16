@@ -1,0 +1,9 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "babylonmod:block/mud_roof1",
+    "top": "babylonmod:block/mud_roof1",
+    "side": "babylonmod:block/mud_roof1"
+  }
+}
