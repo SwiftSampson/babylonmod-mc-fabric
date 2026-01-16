@@ -349,7 +349,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.BAKED_BRICKS_BOTTOM_FADE);
                         entries.add(ModBlocks.BAKED_BRICKS_MERLON);
                         entries.add(ModBlocks.BAKED_BRICKS_MERLON_CORNER);
-                        entries.add(ModBlocks.BAKED_BRICKS_SHADOWED_TOP);
+                        entries.add(ModBlocks.BAKED_BRICKS_SHADOWED_MUD_TOP);
                         entries.add(ModBlocks.BAKED_BRICKS_SHADOWED_STONE_TOP);
                         entries.add(ModBlocks.BAKED_BRICKS_TOP_FADE_MUD_TOP);
                         entries.add(ModBlocks.BAKED_BRICKS_TOP_FADE_STONE_TOP);
@@ -399,6 +399,19 @@ public class ModItemGroup {
                         entries.add(ModBlocks.POLISHED_STONE_CONNECTED);
                         entries.add(ModBlocks.SANDSTONE_DARK_CONNECTED);
                         entries.add(ModBlocks.SANDSTONE_LIGHT_CONNECTED);
+                        entries.add(ModBlocks.STONE_TRAPDOOR);
+                        entries.add(ModBlocks.STONE_TRAPDOOR_TILED);
+
+                        entries.add(ModBlocks.VERTICAL_GLAZED_FLOWERS_LEFT);
+                        entries.add(ModBlocks.VERTICAL_GLAZED_FLOWERS_RIGHT);
+                        entries.add(ModBlocks.HORIZONTAL_GLAZED_FLOWERS_ONE);
+                        entries.add(ModBlocks.HORIZONTAL_GLAZED_FLOWERS_TWO);
+                        entries.add(ModBlocks.GLAZED_PALM_TOP);
+                        entries.add(ModBlocks.GLAZED_PALM_TRUNK);
+                        entries.add(ModBlocks.ASPHALT_DECORATION_ONE);
+                        entries.add(ModBlocks.ASPHALT_DECORATION_TWO);
+                        entries.add(ModBlocks.ASPHALT_DECORATION_THREE);
+                        entries.add(ModBlocks.ASPHALT_DECORATION_FOUR);
                     }).build());
 
     public static void registerItemGroups() {

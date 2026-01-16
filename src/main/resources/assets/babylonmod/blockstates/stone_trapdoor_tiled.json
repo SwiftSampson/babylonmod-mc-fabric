@@ -1,0 +1,59 @@
+{
+  "__comment": "JimStoneCraft - 2020",
+  "variants": {
+    "facing=east,half=bottom,open=false": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_bottom"
+    },
+    "facing=east,half=bottom,open=true": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_open",
+      "y": 90
+    },
+    "facing=east,half=top,open=false": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_top"
+    },
+    "facing=east,half=top,open=true": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_open",
+      "y": 90
+    },
+    "facing=north,half=bottom,open=false": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_bottom"
+    },
+    "facing=north,half=bottom,open=true": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_open"
+    },
+    "facing=north,half=top,open=false": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_top"
+    },
+    "facing=north,half=top,open=true": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_open"
+    },
+    "facing=south,half=bottom,open=false": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_bottom"
+    },
+    "facing=south,half=bottom,open=true": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_open",
+      "y": 180
+    },
+    "facing=south,half=top,open=false": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_top"
+    },
+    "facing=south,half=top,open=true": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_open",
+      "y": 180
+    },
+    "facing=west,half=bottom,open=false": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_bottom"
+    },
+    "facing=west,half=bottom,open=true": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_open",
+      "y": 270
+    },
+    "facing=west,half=top,open=false": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_top"
+    },
+    "facing=west,half=top,open=true": {
+      "model": "babylonmod:block/items/stone_trapdoor_tiled_open",
+      "y": 270
+    }
+  }
+}

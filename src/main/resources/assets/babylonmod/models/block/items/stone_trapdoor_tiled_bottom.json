@@ -1,0 +1,55 @@
+{
+  "__comment": "JimStoneCraft - 2023",
+  "parent": "minecraft:block/thin_block",
+  "textures": {
+    "texture": "babylonmod:block/stone_trapdoor_tiled",
+    "edge": "babylonmod:block/stone_trapdoor_tiled_edge",
+    "particle": "babylonmod:block/stone_trapdoor_tiled"
+  },
+  "elements": [
+    {
+      "name": "Outer Edge",
+      "from": [0, 0, 0],
+      "to": [16, 3, 16],
+      "faces": {
+        "north": {
+          "uv": [0, 16, 16, 13],
+          "texture": "#edge",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [0, 16, 16, 13],
+          "texture": "#edge",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [0, 16, 16, 13],
+          "texture": "#edge",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [0, 16, 16, 13],
+          "texture": "#edge",
+          "cullface": "west"
+        },
+        "up": { "uv": [0, 0, 16, 16], "texture": "#texture" },
+        "down": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#texture",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Inner Edge",
+      "from": [13.025, 0, 3.475],
+      "to": [2.975, 3, 12.525],
+      "faces": {
+        "north": { "uv": [3, 12, 13, 9], "texture": "#edge" },
+        "east": { "uv": [3.5, 12, 12.5, 9], "texture": "#edge" },
+        "south": { "uv": [3, 12, 13, 9], "texture": "#edge" },
+        "west": { "uv": [3.5, 12, 12.5, 9], "texture": "#edge" }
+      }
+    }
+  ]
+}
