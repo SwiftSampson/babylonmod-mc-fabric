@@ -1,0 +1,8 @@
+{
+    "parent": "babylonmod:block/custom_template_wall_post",
+    "textures": {
+        "wall": "babylonmod:block/baked_brick_wall3",
+        "top": "babylonmod:block/baked_brick_wall_top3",
+        "bottom": "babylonmod:block/baked_brick_wall_bottom3"
+    }
+}

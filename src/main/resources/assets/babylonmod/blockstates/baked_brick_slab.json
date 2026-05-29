@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "type=bottom": [
+            { "model": "babylonmod:block/baked_brick_slab",  "weight": 40 },
+            { "model": "babylonmod:block/baked_brick_slab1", "weight": 15 },
+            { "model": "babylonmod:block/baked_brick_slab2", "weight": 15 },
+            { "model": "babylonmod:block/baked_brick_slab3", "weight": 10 },
+            { "model": "babylonmod:block/baked_brick_slab4", "weight": 10 },
+            { "model": "babylonmod:block/baked_brick_slab5", "weight": 10 }
+        ],
+        "type=top": [
+            { "model": "babylonmod:block/baked_brick_slab_top",  "weight": 40 },
+            { "model": "babylonmod:block/baked_brick_slab_top1", "weight": 15 },
+            { "model": "babylonmod:block/baked_brick_slab_top2", "weight": 15 },
+            { "model": "babylonmod:block/baked_brick_slab_top3", "weight": 10 },
+            { "model": "babylonmod:block/baked_brick_slab_top4", "weight": 10 },
+            { "model": "babylonmod:block/baked_brick_slab_top5", "weight": 10 }
+        ],
+        "type=double": [
+            { "model": "babylonmod:block/baked_brick_slab_double",  "weight": 40 },
+            { "model": "babylonmod:block/baked_brick_slab_double1", "weight": 15 },
+            { "model": "babylonmod:block/baked_brick_slab_double2", "weight": 15 },
+            { "model": "babylonmod:block/baked_brick_slab_double3", "weight": 10 },
+            { "model": "babylonmod:block/baked_brick_slab_double4", "weight": 10 },
+            { "model": "babylonmod:block/baked_brick_slab_double5", "weight": 10 }
+        ]
+    }
+}

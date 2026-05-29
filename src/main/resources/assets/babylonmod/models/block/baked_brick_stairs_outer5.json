@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "babylonmod:block/baked_brick_wall_bottom5",
+        "top": "babylonmod:block/baked_brick_wall_top5",
+        "side": "babylonmod:block/baked_brick_wall5"
+    }
+}

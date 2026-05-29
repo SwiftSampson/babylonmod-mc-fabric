@@ -1,0 +1,6 @@
+﻿{
+    "parent": "minecraft:block/wall_inventory",
+    "textures": {
+        "wall": "babylonmod:block/limestone_brick_wall"
+    }
+}

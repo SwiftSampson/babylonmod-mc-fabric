@@ -1094,6 +1094,16 @@ public class ModBlocks {
                         "baked_brick",
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
+        public static Block BAKED_BRICK_WALL = registerBlock("baked_brick_wall",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block BAKED_BRICK_SLAB = registerBlock("baked_brick_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block BAKED_BRICK_STAIRS = registerBlock("baked_brick_stairs",
+                        new StairsBlock(Blocks.SANDSTONE_STAIRS.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
         public static Block STONE_TRAPDOOR = registerBlock(
                         "stone_trapdoor",
                         new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_TRAPDOOR),
@@ -1143,6 +1153,9 @@ public class ModBlocks {
 
         public static Block GLAZED_LION_LARGE_LEFT = registerBlock("glazed_lion_large_left",
                         new ModConnectedLionBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block LIMESTONE_BRICK_WALL = registerBlock("limestone_brick_wall",
+                        new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
 
         private static Block registerBlock(String name, Block block) {
                 registerBlockItem(name, block);

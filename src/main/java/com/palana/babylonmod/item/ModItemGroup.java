@@ -335,6 +335,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.GRASS_FOUR);
                         entries.add(ModBlocks.SAND);
                         entries.add(ModBlocks.BAKED_BRICK);
+                        entries.add(ModBlocks.BAKED_BRICK_WALL);
+                        entries.add(ModBlocks.BAKED_BRICK_SLAB);
+                        entries.add(ModBlocks.BAKED_BRICK_STAIRS);
 
                         // entries.add(ModBlocks.RUBY_FENCE);
 
@@ -379,6 +382,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.LIMESTONE_BRICK_SLAB);
                         entries.add(ModBlocks.LIMESTONE_BRICK_STAIRS);
                         entries.add(ModBlocks.LIMESTONE_BRICKS);
+                        entries.add(ModBlocks.LIMESTONE_BRICK_WALL);
                         entries.add(ModBlocks.MUD_STAIRS);
                         entries.add(ModBlocks.POLISHED_STONE);
 
