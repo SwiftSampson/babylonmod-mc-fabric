@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "babylonmod:block/lapis_brick",
+    "south": "babylonmod:block/glazed_lion_right",
+    "east": "babylonmod:block/glazed_lion_left",
+    "west": "babylonmod:block/lapis_brick",
+    "up": "babylonmod:block/lapis_brick",
+    "down": "babylonmod:block/lapis_brick",
+    "particle": "babylonmod:block/lapis_brick"
+  }
+}

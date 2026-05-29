@@ -1104,6 +1104,15 @@ public class ModBlocks {
                         new StairsBlock(Blocks.SANDSTONE_STAIRS.getDefaultState(),
                                         FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
+        public static Block FOLIAGE_LIGHT = registerBlock("foliage_light",
+                        new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+
+        public static Block FOLIAGE_DARK = registerBlock("foliage_dark",
+                        new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+
+        public static Block FOLIAGE_FLOWERS = registerBlock("foliage_flowers",
+                        new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+
         public static Block STONE_TRAPDOOR = registerBlock(
                         "stone_trapdoor",
                         new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_TRAPDOOR),
@@ -1152,6 +1161,12 @@ public class ModBlocks {
                         new ModConnectedLionBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
         public static Block GLAZED_LION_LARGE_LEFT = registerBlock("glazed_lion_large_left",
+                        new ModConnectedLionBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block GLAZED_LION_LEFT = registerBlock("glazed_lion_left",
+                        new ModConnectedLionBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block GLAZED_LION_RIGHT = registerBlock("glazed_lion_right",
                         new ModConnectedLionBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
         public static Block LIMESTONE_BRICK_WALL = registerBlock("limestone_brick_wall",

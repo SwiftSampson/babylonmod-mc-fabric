@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "babylonmod:foliage_light",
+    "babylonmod:foliage_dark",
+    "babylonmod:foliage_flowers"
+  ]
+}

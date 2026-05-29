@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "": [
+            { "model": "babylonmod:block/foliage_light" },
+            { "model": "babylonmod:block/foliage_light", "x": 90 },
+            { "model": "babylonmod:block/foliage_light", "x": 180 },
+            { "model": "babylonmod:block/foliage_light", "x": 270 },
+            { "model": "babylonmod:block/foliage_light", "y": 90 },
+            { "model": "babylonmod:block/foliage_light", "y": 90, "x": 90 },
+            { "model": "babylonmod:block/foliage_light", "y": 90, "x": 180 },
+            { "model": "babylonmod:block/foliage_light", "y": 90, "x": 270 },
+            { "model": "babylonmod:block/foliage_light", "y": 180 },
+            { "model": "babylonmod:block/foliage_light", "y": 180, "x": 90 },
+            { "model": "babylonmod:block/foliage_light", "y": 180, "x": 180 },
+            { "model": "babylonmod:block/foliage_light", "y": 180, "x": 270 },
+            { "model": "babylonmod:block/foliage_light", "y": 270 },
+            { "model": "babylonmod:block/foliage_light", "y": 270, "x": 90 },
+            { "model": "babylonmod:block/foliage_light", "y": 270, "x": 180 },
+            { "model": "babylonmod:block/foliage_light", "y": 270, "x": 270 }
+        ]
+    }
+}

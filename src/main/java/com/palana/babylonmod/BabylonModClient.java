@@ -15,21 +15,25 @@ public class BabylonModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         SpecialModelLoaderEvents.LOAD_SCOPE.register(location -> BabylonMod.MOD_ID.equals(location.getNamespace()));
-        // BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DRIFTWOOD_SAPLING,
-        // RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(Blocks.OAK_LOG, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Blocks.OAK_LEAVES, RenderLayer.getCutout());
-        // BlockRenderLayerMap.INSTANCE.putBlock(BabylonMod.LAPIS_STEPPED_PEAK,
-        // RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHESTNUT_SAPLING, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_SAPLING,
-                RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_SAPLING, RenderLayer.getCutout());
 
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.GRASS_BLOCK);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.GRASS_BLOCK);
 
-    }
+        // Foliage Light — fixed colour sampled from BabylonCraft oak_leaves colormap
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FOLIAGE_LIGHT, RenderLayer.getCutout());
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0xAFB260, ModBlocks.FOLIAGE_LIGHT);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xAFB260, ModBlocks.FOLIAGE_LIGHT);
 
+        // Foliage Dark — untinted azalea leaves, texture colour is used as-is
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FOLIAGE_DARK, RenderLayer.getCutout());
+
+        // Foliage Flowers — untinted flowering azalea, texture colour is used as-is
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FOLIAGE_FLOWERS, RenderLayer.getCutout());
+    }
 }

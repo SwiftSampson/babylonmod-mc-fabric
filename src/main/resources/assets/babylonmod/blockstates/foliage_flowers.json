@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "": [
+            { "model": "babylonmod:block/foliage_flowers" },
+            { "model": "babylonmod:block/foliage_flowers", "x": 90 },
+            { "model": "babylonmod:block/foliage_flowers", "x": 180 },
+            { "model": "babylonmod:block/foliage_flowers", "x": 270 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 90 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 90, "x": 90 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 90, "x": 180 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 90, "x": 270 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 180 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 180, "x": 90 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 180, "x": 180 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 180, "x": 270 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 270 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 270, "x": 90 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 270, "x": 180 },
+            { "model": "babylonmod:block/foliage_flowers", "y": 270, "x": 270 }
+        ]
+    }
+}

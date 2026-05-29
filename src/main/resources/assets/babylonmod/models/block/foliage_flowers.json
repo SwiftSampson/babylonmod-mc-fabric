@@ -1,0 +1,8 @@
+{
+    "parent": "babylonmod:block/template_leaves_cross_untinted",
+    "textures": {
+        "all": "babylonmod:block/foliage_flowers",
+        "bushy_top": "babylonmod:block/foliage_flowers",
+        "bushy_bottom": "babylonmod:block/foliage_flowers"
+    }
+}

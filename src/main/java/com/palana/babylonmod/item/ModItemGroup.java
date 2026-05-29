@@ -338,6 +338,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.BAKED_BRICK_WALL);
                         entries.add(ModBlocks.BAKED_BRICK_SLAB);
                         entries.add(ModBlocks.BAKED_BRICK_STAIRS);
+                        entries.add(ModBlocks.FOLIAGE_LIGHT);
+                        entries.add(ModBlocks.FOLIAGE_DARK);
+                        entries.add(ModBlocks.FOLIAGE_FLOWERS);
 
                         // entries.add(ModBlocks.RUBY_FENCE);
 
@@ -419,6 +422,8 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.GLAZED_LION_LARGE_LEFT);
                         entries.add(ModBlocks.GLAZED_LION_LARGE_RIGHT);
+                        entries.add(ModBlocks.GLAZED_LION_LEFT);
+                        entries.add(ModBlocks.GLAZED_LION_RIGHT);
                     }).build());
 
     public static void registerItemGroups() {
