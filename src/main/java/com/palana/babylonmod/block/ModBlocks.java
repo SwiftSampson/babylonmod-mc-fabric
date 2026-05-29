@@ -3,6 +3,7 @@ package com.palana.babylonmod.block;
 import com.palana.babylonmod.BabylonMod;
 import com.palana.babylonmod.block.custom.DirectionalPalmLeaves;
 import com.palana.babylonmod.block.custom.ModConnectedBlock;
+import com.palana.babylonmod.block.custom.ModConnectedLionBlock;
 import com.palana.babylonmod.block.custom.ModDiagonalBlock;
 import com.palana.babylonmod.block.custom.ModDirectionalBlock;
 import com.palana.babylonmod.block.custom.ModDirectionalSlabBlock;
@@ -1136,6 +1137,12 @@ public class ModBlocks {
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
         public static Block SANDSTONE_LIGHT_CONNECTED = registerBlock("sandstone_light_connected",
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE_WALL)));
+
+        public static Block GLAZED_LION_LARGE_RIGHT = registerBlock("glazed_lion_large_right",
+                        new ModConnectedLionBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
+        public static Block GLAZED_LION_LARGE_LEFT = registerBlock("glazed_lion_large_left",
+                        new ModConnectedLionBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
         private static Block registerBlock(String name, Block block) {
                 registerBlockItem(name, block);

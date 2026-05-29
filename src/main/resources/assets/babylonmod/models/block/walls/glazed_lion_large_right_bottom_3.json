@@ -1,0 +1,25 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:block/cube_all",
+  "ambientocclusion": false,
+  "render_type": "translucent",
+  "textures": {
+    "1": "babylonmod:block/glazed_lion_large_right_bottom_3",
+    "2": "babylonmod:block/glazed_bricks",
+    "particle": "babylonmod:block/glazed_bricks"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#2" },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#2" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#2" },
+        "west": { "uv": [0, 0, 16, 16], "texture": "#1" },
+        "up": { "uv": [0, 0, 16, 16], "texture": "#2" },
+        "down": { "uv": [0, 0, 16, 16], "texture": "#2" }
+      }
+    }
+  ]
+}

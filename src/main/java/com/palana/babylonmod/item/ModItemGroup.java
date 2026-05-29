@@ -412,6 +412,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.ASPHALT_DECORATION_TWO);
                         entries.add(ModBlocks.ASPHALT_DECORATION_THREE);
                         entries.add(ModBlocks.ASPHALT_DECORATION_FOUR);
+
+                        entries.add(ModBlocks.GLAZED_LION_LARGE_LEFT);
+                        entries.add(ModBlocks.GLAZED_LION_LARGE_RIGHT);
                     }).build());
 
     public static void registerItemGroups() {

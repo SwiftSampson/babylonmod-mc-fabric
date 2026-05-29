@@ -5,7 +5,9 @@ import net.minecraft.util.StringIdentifiable;
 public enum LocationType implements StringIdentifiable {
     MIDDLE("middle"),
     LEFT("left"),
-    RIGHT("right");
+    RIGHT("right"),
+    TOP("top"),
+    BOTTOM("bottom");
 
     private final String name;
 
