@@ -1,4 +1,5 @@
 {
+    "__comment": "JimStoneCraft - 2020",
     "textures": {
         "particle": "#wall"
     },
@@ -7,7 +8,7 @@
             "to": [ 11, 16, 8 ],
             "faces": {
                 "down":  { "texture": "#bottom", "cullface": "down" },
-                "up":    { "texture": "#top", "cullface": "up" },
+                "up":    { "texture": "#top", "cullface": "up"},
                 "north": { "texture": "#wall", "cullface": "north" },
                 "west":  { "texture": "#wall" },
                 "east":  { "texture": "#wall" }

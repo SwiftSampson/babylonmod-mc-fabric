@@ -1,4 +1,5 @@
 {
+    "__comment": "JimStoneCraft - 2020",
     "textures": {
         "particle": "#wall"
     },
@@ -12,7 +13,8 @@
                 "south": { "texture": "#wall" },
                 "west":  { "texture": "#wall" },
                 "east":  { "texture": "#wall" }
-            }
+            },
+            "__comment": "Center post"
         }
     ]
 }

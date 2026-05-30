@@ -334,6 +334,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.GRASS_THREE);
                         entries.add(ModBlocks.GRASS_FOUR);
                         entries.add(ModBlocks.SAND);
+                        entries.add(ModBlocks.WOOD);
+                        entries.add(ModBlocks.WOOD_SLAB);
+                        entries.add(ModBlocks.WOOD_STAIRS);
                         entries.add(ModBlocks.BAKED_BRICK);
                         entries.add(ModBlocks.BAKED_BRICK_WALL);
                         entries.add(ModBlocks.BAKED_BRICK_SLAB);

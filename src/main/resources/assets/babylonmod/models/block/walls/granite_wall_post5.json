@@ -1,6 +1,6 @@
 ﻿{
     "__comment": "JimStoneCraft - 2022",
-    "parent": "minecraft:block/custom_template_wall_post",
+    "parent": "babylonmod:block/custom_template_wall_post",
     "textures": {
         "wall": "babylonmod:block/granite5",
         "top": "babylonmod:block/granite_wall_post_top5",

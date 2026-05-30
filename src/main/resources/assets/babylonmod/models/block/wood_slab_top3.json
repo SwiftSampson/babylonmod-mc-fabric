@@ -1,0 +1,4 @@
+﻿{
+  "parent": "minecraft:block/slab_top",
+  "textures": { "bottom": "babylonmod:block/wood3", "top": "babylonmod:block/wood3", "side": "babylonmod:block/wood3" }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "babylonmod:block/wood_slab",  "weight": 40 },
+      { "model": "babylonmod:block/wood_slab1", "weight": 20 },
+      { "model": "babylonmod:block/wood_slab2", "weight": 20 },
+      { "model": "babylonmod:block/wood_slab3", "weight": 20 }
+    ],
+    "type=top": [
+      { "model": "babylonmod:block/wood_slab_top",  "weight": 40 },
+      { "model": "babylonmod:block/wood_slab_top1", "weight": 20 },
+      { "model": "babylonmod:block/wood_slab_top2", "weight": 20 },
+      { "model": "babylonmod:block/wood_slab_top3", "weight": 20 }
+    ],
+    "type=double": [
+      { "model": "babylonmod:block/wood_slab_double",  "weight": 40 },
+      { "model": "babylonmod:block/wood_slab_double1", "weight": 20 },
+      { "model": "babylonmod:block/wood_slab_double2", "weight": 20 },
+      { "model": "babylonmod:block/wood_slab_double3", "weight": 20 }
+    ]
+  }
+}

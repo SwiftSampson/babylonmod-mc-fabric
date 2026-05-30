@@ -1,0 +1,4 @@
+﻿{
+  "parent": "minecraft:block/stairs",
+  "textures": { "bottom": "babylonmod:block/wood", "top": "babylonmod:block/wood", "side": "babylonmod:block/wood" }
+}

@@ -1090,6 +1090,14 @@ public class ModBlocks {
                         "sand",
                         new SandBlock(14406560, FabricBlockSettings.copyOf(Blocks.SAND)));
 
+        public static Block WOOD = registerBlock("wood",
+                        new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+        public static Block WOOD_SLAB = registerBlock("wood_slab",
+                        new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+        public static Block WOOD_STAIRS = registerBlock("wood_stairs",
+                        new StairsBlock(ModBlocks.WOOD.getDefaultState(),
+                                        FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
         public static Block BAKED_BRICK = registerBlock(
                         "baked_brick",
                         new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));

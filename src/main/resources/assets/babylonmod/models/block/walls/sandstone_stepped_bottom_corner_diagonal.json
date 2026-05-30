@@ -4,7 +4,7 @@
   "ambientocclusion": false,
   "render_type": "translucent",
   "textures": {
-    "0": "babylonmod:block/ndstone_stretched",
+    "0": "babylonmod:block/sandstone_stretched",
     "particle": "babylonmod:block/sandstone"
   },
   "elements": [

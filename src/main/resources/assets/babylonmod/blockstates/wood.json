@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "babylonmod:block/walls/wood",  "weight": 40 },
+      { "model": "babylonmod:block/walls/wood1", "weight": 20 },
+      { "model": "babylonmod:block/walls/wood2", "weight": 20 },
+      { "model": "babylonmod:block/walls/wood3", "weight": 20 }
+    ]
+  }
+}

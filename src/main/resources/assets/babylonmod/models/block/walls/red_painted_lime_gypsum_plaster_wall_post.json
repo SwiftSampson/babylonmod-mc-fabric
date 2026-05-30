@@ -1,6 +1,6 @@
-{
+﻿{
   "__comment": "JimStoneCraft - 2020",
-  "parent": "minecraft:block/custom_template_wall_post",
+  "parent": "babylonmod:block/custom_template_wall_post",
   "textures": {
     "wall": "babylonmod:block/red_painted_lime_gypsum_plaster",
     "top": "babylonmod:block/red_painted_lime_gypsum_plaster_top",
