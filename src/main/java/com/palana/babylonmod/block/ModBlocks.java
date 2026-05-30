@@ -75,7 +75,7 @@ public class ModBlocks {
         // Straight tower shit
         public static Block SANDSTONE_PEAK = registerBlock("sandstone_peak",
                         new ModDirectionalBlock(
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
+                                        FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS).nonOpaque()));
 
         public static Block LAPIS_PEAK = registerBlock("lapis_peak",
                         new ModDirectionalBlock(
@@ -1088,7 +1088,7 @@ public class ModBlocks {
 
         public static Block SAND = registerBlock(
                         "sand",
-                        new Block(FabricBlockSettings.copyOf(Blocks.SAND)));
+                        new SandBlock(14406560, FabricBlockSettings.copyOf(Blocks.SAND)));
 
         public static Block BAKED_BRICK = registerBlock(
                         "baked_brick",

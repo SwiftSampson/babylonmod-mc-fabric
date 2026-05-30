@@ -1,4 +1,4 @@
-{
+﻿{
   "credit": "Made with Blockbench",
   "ambientocclusion": false,
   "render_type": "translucent",
@@ -6,7 +6,7 @@
   "textures": {
     "0": "babylonmod:block/market_side",
     "1": "babylonmod:block/market_top",
-    "2": "minecraft:block/birch_fence",
+    "2": "babylonmod:block/stall_post",
     "particle": "babylonmod:block/market_side"
   },
   "elements": [

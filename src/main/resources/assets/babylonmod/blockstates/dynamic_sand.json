@@ -1,13 +1,5 @@
 {
   "variants": {
-    "sand_type=grass_block": {
-      "model": "minecraft:block/grass_block"
-    },
-    "sand_type=sand": {
-      "model": "minecraft:block/sand"
-    },
-    "sand_type=mycelium": {
-      "model": "minecraft:block/mycelium"
-    }
+    "": { "model": "babylonmod:block/nature/sand" }
   }
 }

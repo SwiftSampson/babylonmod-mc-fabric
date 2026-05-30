@@ -1,4 +1,4 @@
-{
+﻿{
   "__comment": "Add the following line on the same level as a 'model' declaration.",
   "loader": "forge:obj",
   "flip_v": true,
@@ -7,6 +7,6 @@
   "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/bridges/sandstone_bridge_back_right.obj",
   "textures": {
-    "particle": "minecraft:block/sandstone"
+    "particle": "babylonmod:block/sandstone"
   }
 }

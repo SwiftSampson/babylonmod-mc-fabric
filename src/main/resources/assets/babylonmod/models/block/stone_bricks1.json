@@ -1,0 +1,7 @@
+﻿{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "babylonmod:block/stone_bricks1"
+    }
+}

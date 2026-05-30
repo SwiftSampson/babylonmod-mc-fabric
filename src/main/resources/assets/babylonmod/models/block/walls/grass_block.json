@@ -1,12 +1,12 @@
-{
+﻿{
     "__comment": "JimStoneCraft - 2020",
     "parent": "minecraft:block/block",
     "textures": {
-        "particle": "minecraft:block/dirt",
-        "bottom": "minecraft:block/dirt",
-        "top": "minecraft:block/grass_block_top",
-        "side": "minecraft:block/grass_block_side",
-        "overlay": "minecraft:block/grass_block_side_overlay"
+        "particle": "babylonmod:block/dirt",
+        "bottom": "babylonmod:block/dirt",
+        "top": "babylonmod:block/grass_block_top",
+        "side": "babylonmod:block/grass_block_side",
+        "overlay": "babylonmod:block/grass_block_side_overlay"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

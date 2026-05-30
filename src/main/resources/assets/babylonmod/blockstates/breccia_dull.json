@@ -2,12 +2,12 @@
     "__comment": "JimStoneCraft - 2020",
     "variants": {
         "": [
-            { "model": "minecraft:block/cut_red_sandstone", "weight": 30 },
-            { "model": "minecraft:block/cut_red_sandstone1", "weight": 15 },
-            { "model": "minecraft:block/cut_red_sandstone2", "weight": 15 },
-            { "model": "minecraft:block/cut_red_sandstone3", "weight": 15 },
-            { "model": "minecraft:block/cut_red_sandstone4", "weight": 15 },
-            { "model": "minecraft:block/cut_red_sandstone5", "weight": 10 }
+            { "model": "babylonmod:block/walls/breccia_dull", "weight": 30 },
+            { "model": "babylonmod:block/walls/breccia_dull1", "weight": 15 },
+            { "model": "babylonmod:block/walls/breccia_dull2", "weight": 15 },
+            { "model": "babylonmod:block/walls/breccia_dull3", "weight": 15 },
+            { "model": "babylonmod:block/walls/breccia_dull4", "weight": 15 },
+            { "model": "babylonmod:block/walls/breccia_dull5", "weight": 10 }
         ]
     }
 }

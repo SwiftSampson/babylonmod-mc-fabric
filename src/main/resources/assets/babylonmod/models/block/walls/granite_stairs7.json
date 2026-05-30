@@ -1,9 +1,9 @@
-{
+﻿{
     "__comment": "JimStoneCraft - 2020",
     "parent": "minecraft:block/stairs",
     "textures": {
-        "bottom": "minecraft:block/granite7",
-        "top": "minecraft:block/granite7",
-        "side": "minecraft:block/granite7"
+        "bottom": "babylonmod:block/granite7",
+        "top": "babylonmod:block/granite7",
+        "side": "babylonmod:block/granite7"
     }
 }

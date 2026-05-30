@@ -1,10 +1,10 @@
-{
+﻿{
   "credit": "Made with Blockbench",
   "ambientocclusion": false,
   "render_type": "translucent",
   "textures": {
-    "0": "minecraft:block/sandstone",
-    "particle": "minecraft:block/sandstone"
+    "0": "babylonmod:block/sandstone",
+    "particle": "babylonmod:block/sandstone"
   },
   "elements": [
     {

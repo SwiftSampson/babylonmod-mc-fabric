@@ -1,7 +1,7 @@
-{
+﻿{
     "__comment": "JimStoneCraft - 2020",
     "parent": "minecraft:block/template_wall_side_tall",
     "textures": {
-        "wall": "minecraft:block/granite"
+        "wall": "babylonmod:block/granite"
     }
 }

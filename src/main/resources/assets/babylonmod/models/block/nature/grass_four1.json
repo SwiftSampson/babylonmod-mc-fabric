@@ -1,8 +1,8 @@
-{
+﻿{
   "__comment": "JimStoneCraft - 2020",
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "bottom": "minecraft:block/sand",
+    "bottom": "babylonmod:block/sand",
     "top": "babylonmod:block/grass_four_top1",
     "side": "babylonmod:block/grass_four_side"
   }

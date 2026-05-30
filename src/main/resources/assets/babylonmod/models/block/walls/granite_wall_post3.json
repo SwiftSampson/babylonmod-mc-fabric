@@ -1,9 +1,9 @@
-{
+﻿{
     "__comment": "JimStoneCraft - 2022",
     "parent": "minecraft:block/custom_template_wall_post",
     "textures": {
-        "wall": "minecraft:block/granite3",
-        "top": "minecraft:block/granite_wall_post_top3",
-        "bottom": "minecraft:block/granite3"
+        "wall": "babylonmod:block/granite3",
+        "top": "babylonmod:block/granite_wall_post_top3",
+        "bottom": "babylonmod:block/granite3"
     }
 }

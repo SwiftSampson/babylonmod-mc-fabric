@@ -1,9 +1,9 @@
-{
+﻿{
     "__comment": "JimStoneCraft - 2020",
     "parent": "minecraft:block/inner_stairs",
     "textures": {
-        "bottom": "minecraft:block/granite5",
-        "top": "minecraft:block/granite5",
-        "side": "minecraft:block/granite5"
+        "bottom": "babylonmod:block/granite5",
+        "top": "babylonmod:block/granite5",
+        "side": "babylonmod:block/granite5"
     }
 }

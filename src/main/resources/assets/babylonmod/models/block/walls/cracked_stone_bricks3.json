@@ -1,9 +1,9 @@
-{
+﻿{
     "__comment": "JimStoneCraft - 2020",
     "parent": "minecraft:block/cube_bottom_top",
     "textures": {
-        "bottom": "minecraft:block/cracked_stone_bricks_top3",
-        "top": "minecraft:block/cracked_stone_bricks_top3",
-        "side": "minecraft:block/cracked_stone_bricks3"
+        "bottom": "babylonmod:block/cracked_stone_bricks_top3",
+        "top": "babylonmod:block/cracked_stone_bricks_top3",
+        "side": "babylonmod:block/cracked_stone_bricks3"
     }
 }

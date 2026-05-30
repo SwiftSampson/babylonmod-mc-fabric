@@ -1,4 +1,4 @@
-{
+﻿{
   "__comment": "Add the following line on the same level as a 'model' declaration.",
   "loader": "forge:obj",
   "flip_v": true,
@@ -8,6 +8,6 @@
   "parent": "special-model-loader:builtin/obj",
   "model": "babylonmod:models/block/nature/cypress.obj",
   "textures": {
-    "particle": "minecraft:block/oak_leaves"
+    "particle": "babylonmod:block/tree_foliage"
   }
 }
