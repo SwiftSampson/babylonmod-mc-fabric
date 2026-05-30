@@ -17,7 +17,6 @@ import com.palana.babylonmod.block.custom.ModSaplingBlock;
 import com.palana.babylonmod.block.custom.ModScalableBlock;
 import com.palana.babylonmod.block.custom.ModWheatBlock;
 import com.palana.babylonmod.block.custom.types.SizeType;
-import com.palana.babylonmod.world.tree.ChestnutSaplingGenerator;
 import com.palana.babylonmod.world.tree.PalmSaplingGenerator;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -644,10 +643,6 @@ public class ModBlocks {
         // new ModSaplingBlock(new DriftwoodSaplingGenerator(),
         // FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
 
-        public static final Block CHESTNUT_SAPLING = registerBlock("chestnut_sapling",
-                        new ModSaplingBlock(new ChestnutSaplingGenerator(),
-                                        FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
-
         // public static final Block PALM_SAPLING = registerBlock("palm_sapling",
         // new ModSaplingBlock(new PalmSaplingGenerator(),
         // FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
@@ -865,7 +860,7 @@ public class ModBlocks {
         public static Block CYPRESS_LARGE = registerBlock("cypress_large",
                         new Block(FabricBlockSettings.copyOf(Blocks.FERN)));
 
-        public static Block CYPRES_SMALL = registerBlock("cypress_small",
+        public static Block CYPRESS_SMALL = registerBlock("cypress_small",
                         new Block(FabricBlockSettings.copyOf(Blocks.FERN)));
 
         public static Block CYPRESS_POT_SMALL = registerBlock("cypress_pot_small",

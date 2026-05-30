@@ -150,7 +150,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.PALM_SAPLING);
                         entries.add(ModBlocks.PALM_SAPLING_LARGE);
                         // entries.add(ModBlocks.DRIFTWOOD_SAPLING);
-                        entries.add(ModBlocks.CHESTNUT_SAPLING);
                         entries.add(ModBlocks.OAK_LOG_TWO);
 
                         entries.add(ModBlocks.SANDSTONE_COVER);
@@ -182,7 +181,7 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.CYPRESS_POT);
                         entries.add(ModBlocks.CYPRESS_POT_SMALL);
-                        entries.add(ModBlocks.CYPRES_SMALL);
+                        entries.add(ModBlocks.CYPRESS_SMALL);
                         entries.add(ModBlocks.CYPRESS);
                         entries.add(ModBlocks.CYPRESS_LARGE);
                         entries.add(ModBlocks.MUD);

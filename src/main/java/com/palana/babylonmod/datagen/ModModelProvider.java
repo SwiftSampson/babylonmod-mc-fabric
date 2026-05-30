@@ -18,9 +18,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerTintableCross(ModBlocks.CHESTNUT_SAPLING,
-                BlockStateModelGenerator.TintType.NOT_TINTED);
-
     }
 
     @Override

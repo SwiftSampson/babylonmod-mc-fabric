@@ -19,8 +19,24 @@ public class BabylonModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Blocks.OAK_LOG, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Blocks.OAK_LEAVES, RenderLayer.getCutout());
 
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHESTNUT_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_SAPLING_XSMALL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_SAPLING_SMALL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_SAPLING_LARGE, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALM_LEAVES_2, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYPRESS,
+                RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYPRESS_LARGE,
+                RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYPRESS_SMALL,
+                RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYPRESS_POT,
+                RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYPRESS_POT_SMALL,
+                RenderLayer.getCutout());
 
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.GRASS_BLOCK);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.GRASS_BLOCK);
