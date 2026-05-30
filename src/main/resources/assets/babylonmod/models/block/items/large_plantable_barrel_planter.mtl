@@ -1,11 +1,11 @@
-# Blender 4.3.2 MTL File: 'Objects.blend'
+﻿# Blender 4.3.2 MTL File: 'Objects.blend'
 # www.blender.org
 
 newmtl Barrel_Fill.001
-map_Kd minecraft:block/rooted_dirt
+map_Kd babylonmod:block/rooted_dirt
 
 newmtl Barrel_Side.001
-map_Kd minecraft:block/barrel_side
+map_Kd babylonmod:block/barrel_side
 
 newmtl Barrel_Top.001
-map_Kd minecraft:block/barrel_top
+map_Kd babylonmod:block/barrel_top

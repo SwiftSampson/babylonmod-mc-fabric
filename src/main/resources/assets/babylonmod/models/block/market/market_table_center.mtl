@@ -1,8 +1,8 @@
-# Blender MTL File: 'Objects.blend'
+﻿# Blender MTL File: 'Objects.blend'
 # Material Count: 1
 
 newmtl Oak
-map_Kd minecraft:block/oak_planks
+map_Kd babylonmod:block/market_wood
 
 newmtl Oak_Fence
-map_Kd minecraft:block/oak_fence
+map_Kd babylonmod:block/market_post
