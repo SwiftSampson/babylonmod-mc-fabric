@@ -15,9 +15,9 @@ This mod is designed around **ComplementaryShaders v4.7.2**. A patch is included
 
 1. Download **ComplementaryShaders_v4.7.2** from [shaderlabs.org](https://shaderlabs.org) or the official Complementary page.
 2. Place it in your shaderpacks folder (`.minecraft/shaderpacks/` or `run/shaderpacks/` in dev).
-3. Open `ComplementaryV4.7.2-DH-patch.zip` (included in this repo root).
-4. Copy the `shaders/` folder from the patch zip into `ComplementaryShaders_v4.7.2/shaders/` — merging, not replacing.
-   - If the shaderpack is still zipped, unzip it first, then re-zip after adding the files.
+3. Open the `ComplementaryV4.7.2-DH-patch/` folder in this repo root.
+4. Copy the 4 files from `ComplementaryV4.7.2-DH-patch/shaders/` into `ComplementaryShaders_v4.7.2/shaders/` — merging, not replacing.
+   - If the shaderpack is still zipped, unzip it first, then drop the files into the `shaders/` folder inside.
 5. The patch adds four files:
    - `dh_terrain.vsh` / `dh_terrain.fsh` — LOD terrain
    - `dh_water.vsh` / `dh_water.fsh` — LOD water
