@@ -19,7 +19,10 @@ build
 
 # other
 eclipse
-run
+run/*
+!run/shaderpacks/ComplementaryShaders_v4.7.2/shaders/*
+!ComplementaryV4.7.2-DH-patch/shaders/*
+!run/shaderpacks/ComplementaryShaders_v4.7.2/shaders/*
 
 # Files from Forge MDK
 forge*changelog.txt
