@@ -1,0 +1,24 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "babylonmod:cinzel-regular.ttf",
+      "size": 11,
+      "oversample": 4,
+      "shift": [0, 1],
+      "skip": ""
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/unifont"
+    }
+  ]
+}
