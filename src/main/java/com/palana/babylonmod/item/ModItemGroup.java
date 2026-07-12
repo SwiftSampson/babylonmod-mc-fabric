@@ -329,6 +329,11 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.GRASS_BLOCK);
                         entries.add(ModBlocks.GRASS_ONE);
+                        entries.add(ModBlocks.BABYLON_SHORT_GRASS);
+                        entries.add(ModBlocks.BABYLON_FERN);
+                        entries.add(ModBlocks.BABYLON_LARGE_FERN);
+                        entries.add(ModBlocks.BABYLON_HAY_BALE);
+                        entries.add(ModBlocks.BABYLON_BIRCH_FENCE);
                         entries.add(ModBlocks.GRASS_TWO);
                         entries.add(ModBlocks.GRASS_THREE);
                         entries.add(ModBlocks.GRASS_FOUR);

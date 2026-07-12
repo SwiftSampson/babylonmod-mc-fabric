@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "": [
+            { "model": "babylonmod:block/nature/short_grass" },
+            { "model": "babylonmod:block/nature/short_grass1" },
+            { "model": "babylonmod:block/nature/short_grass2" },
+            { "model": "babylonmod:block/nature/short_grass3" },
+            { "model": "babylonmod:block/nature/short_grass4" },
+            { "model": "babylonmod:block/nature/short_grass5" },
+            { "model": "babylonmod:block/nature/short_grass6" },
+            { "model": "babylonmod:block/nature/short_grass7" },
+            { "model": "babylonmod:block/nature/short_grass8" },
+            { "model": "babylonmod:block/nature/short_grass9" },
+            { "model": "babylonmod:block/nature/short_grass10" },
+            { "model": "babylonmod:block/nature/short_grass11" },
+            { "model": "babylonmod:block/nature/short_grass12" },
+            { "model": "babylonmod:block/nature/short_grass13" }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+﻿{
+    "parent": "minecraft:block/cube_column_horizontal",
+    "textures": {
+        "end": "babylonmod:block/hay_block_top",
+        "side": "babylonmod:block/hay_block_side"
+    }
+}

@@ -40,8 +40,37 @@ public class BabylonModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYPRESS_POT_SMALL,
                 RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASS_BLOCK, RenderLayer.getCutoutMipped());
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.GRASS_BLOCK);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.GRASS_BLOCK);
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASS_ONE, RenderLayer.getCutoutMipped());
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.GRASS_ONE);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.GRASS_ONE);
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASS_TWO, RenderLayer.getCutoutMipped());
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.GRASS_TWO);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.GRASS_TWO);
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASS_THREE, RenderLayer.getCutoutMipped());
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.GRASS_THREE);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.GRASS_THREE);
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRASS_FOUR, RenderLayer.getCutoutMipped());
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.GRASS_FOUR);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.GRASS_FOUR);
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BABYLON_SHORT_GRASS, RenderLayer.getCutout());
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.BABYLON_SHORT_GRASS);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.BABYLON_SHORT_GRASS);
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BABYLON_FERN, RenderLayer.getCutout());
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.BABYLON_FERN);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.BABYLON_FERN);
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BABYLON_LARGE_FERN, RenderLayer.getCutout());
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xbfb755, ModBlocks.BABYLON_LARGE_FERN);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xbfb755, ModBlocks.BABYLON_LARGE_FERN);
 
         // Foliage Light — fixed colour sampled from BabylonCraft oak_leaves colormap
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FOLIAGE_LIGHT, RenderLayer.getCutout());

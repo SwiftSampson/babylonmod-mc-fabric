@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=x": { "model": "babylonmod:block/nature/hay_bale_horizontal", "x": 90, "y": 90 },
+        "axis=y": { "model": "babylonmod:block/nature/hay_bale" },
+        "axis=z": { "model": "babylonmod:block/nature/hay_bale_horizontal", "x": 90 }
+    }
+}

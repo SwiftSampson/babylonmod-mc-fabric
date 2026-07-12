@@ -3,6 +3,9 @@
   "values": [
     "babylonmod:foliage_light",
     "babylonmod:foliage_dark",
-    "babylonmod:foliage_flowers"
+    "babylonmod:foliage_flowers",
+    "babylonmod:palm_leaves",
+    "babylonmod:palm_leaves_2",
+    "babylonmod:palm_top"
   ]
 }

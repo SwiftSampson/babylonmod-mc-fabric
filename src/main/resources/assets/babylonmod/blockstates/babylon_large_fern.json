@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "babylonmod:block/nature/large_fern_bottom" },
+        "half=upper": { "model": "babylonmod:block/nature/large_fern_top" }
+    }
+}

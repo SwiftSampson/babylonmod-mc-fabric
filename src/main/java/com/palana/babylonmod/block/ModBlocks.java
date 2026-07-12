@@ -1175,6 +1175,21 @@ public class ModBlocks {
         public static Block LIMESTONE_BRICK_WALL = registerBlock("limestone_brick_wall",
                         new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
 
+        public static Block BABYLON_SHORT_GRASS = registerBlock("babylon_short_grass",
+                        new PlantBlock(FabricBlockSettings.copyOf(Blocks.GRASS)));
+
+        public static Block BABYLON_FERN = registerBlock("babylon_fern",
+                        new FernBlock(FabricBlockSettings.copyOf(Blocks.FERN)));
+
+        public static Block BABYLON_LARGE_FERN = registerBlock("babylon_large_fern",
+                        new TallPlantBlock(FabricBlockSettings.copyOf(Blocks.LARGE_FERN)));
+
+        public static Block BABYLON_HAY_BALE = registerBlock("babylon_hay_bale",
+                        new PillarBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK)));
+
+        public static Block BABYLON_BIRCH_FENCE = registerBlock("babylon_birch_fence",
+                        new FenceBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_FENCE)));
+
         private static Block registerBlock(String name, Block block) {
                 registerBlockItem(name, block);
                 return Registry.register(Registries.BLOCK, new Identifier(BabylonMod.MOD_ID, name), block);

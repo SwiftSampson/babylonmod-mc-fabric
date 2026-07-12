@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "babylonmod:palm_sapling_xsmall",
+    "babylonmod:palm_sapling",
+    "babylonmod:palm_sapling_large",
+    "babylonmod:palm_sapling_small"
+  ]
+}

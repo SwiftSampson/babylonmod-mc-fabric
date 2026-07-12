@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "babylonmod:block/nature/babylon_fern", "weight": 50 },
+            { "model": "babylonmod:block/nature/babylon_fern1", "weight": 50 }
+        ]
+    }
+}
